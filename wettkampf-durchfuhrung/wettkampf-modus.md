@@ -2,8 +2,8 @@
 
 |||
 |-|-|
-| Aktivierung über das Pop-Up Menu (mit rechter Maustaste auf dem gewünschten Wettkampf) und dem Befehl &quot;`Wettkampf durchführen`&quot;|<img src="../assets/wettkampfmodus1.png" height="150em">|
-| oder noch einfacher via dem gut sichtbaren `Wettkampf-Modus` Schalter oben rechts im Fenster:|<img src="../assets/wettkampfmodus2-2.png" height="120em"><img src="../assets/wettkampfmodus2-1.png" height="120em">|
+| Aktivierung über das Pop-Up Menu (mit rechter Maustaste auf dem gewünschten Wettkampf) und dem Befehl &quot;`Wettkampf durchführen`&quot;|<img src="../assets/wettkampfmodus1.png">|
+| oder noch einfacher via dem gut sichtbaren `Wettkampf-Modus` Schalter oben rechts im Fenster:|<img src="../assets/wettkampfmodus2-2.png"><img src="../assets/wettkampfmodus2-1.png">|
 
 Dadurch werden alle während der Resultat-Erfassung nicht benötigten Funktionen deaktiviert:
 
