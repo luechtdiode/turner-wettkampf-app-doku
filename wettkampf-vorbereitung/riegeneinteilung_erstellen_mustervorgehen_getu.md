@@ -15,8 +15,9 @@ Danach kann es pro Kategorie mehrere Durchgänge geben:
 
 Diese können einzeln oder mit Multiselection auf mehreren Durchgängen neu verteilt werden:
 
+1|2
+:-:|:-:
 <img align="left" src="../assets/getu-durchgang-partial-replanning.png">|<img align="right" src="../assets/getu-durchgang-partial-replanning-options.png" >
--|-
 
 `Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
 Die nicht selektierten Durchgänge werden dabei nicht verändert.<br/>

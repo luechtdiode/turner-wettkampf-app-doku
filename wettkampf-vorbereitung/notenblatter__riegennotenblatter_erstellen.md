@@ -11,8 +11,7 @@ Wenn nicht gleich für alle aus der Kategorie ein Notenblatt gedruckt werden sol
 
 |||
 |-|-|
-|Generiertes Notenblatt: |<img src="../assets/notenblatt.png" height="300em">|
-|||
+|Generiertes Notenblatt: |<img src="../assets/notenblatt.png">|
 
 Für die Generierung von Riegennotenblätter muss auf den Tab &quot;`Riegeneinteilung`&quot; gewechselt werden. Vorausgesetzt wird eine fertige Riegeneinteilung, so dass die richtigen Turner zusammen auf die richtigen Blätter kommen.
 
