@@ -15,23 +15,18 @@ Danach kann es pro Kategorie mehrere Durchgänge geben:
 
 Diese können einzeln oder mit Multiselection auf mehreren Durchgängen neu verteilt werden:
 
-|||
-|-|-|
-|<img align="left" src="../assets/getu-durchgang-partial-replanning.png">|<img align="right" src="../assets/getu-durchgang-partial-replanning-options.png" >|
-|||
+<img align="left" src="../assets/getu-durchgang-partial-replanning.png">|<img align="right" src="../assets/getu-durchgang-partial-replanning-options.png" >
+-|-
 
-Es können dabei folgende Kriterien neu in die Berechnung mitgegeben werden:
-
-*   `Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
-    Die nicht selektierten Durchgänge werden dabei nicht verändert.<br/>
-    Im Dialog werden die neuen Parameter angegeben. Neben der Gruppengrösse können hier zusätzlich folgende Einteilungsparameter eintestellt werden:
-    | Funktion | Beschreibung |
-    |---------:|:-------------|
-    | Maximale Gruppengrösse | limitieren oder erweitern, was zu mehr oder weniger Durchgängen führen kann.|
-    | Geschlechter-Trennung | Bei `gemischte Geräterieten` werden geschlecht-gemischte Rigen erstellt<br/>Bei `gemischter Durchgang` werden Riegen ohne Geschlechts-Durchmischung erstellt, innerhalb eines Durchganges werden jedoch Riegen beider Geschlechter eingeteilt<br/>Bei `getrennte Durchgänge` werden Durchgänge ohne Geschlechts-Durchmischung erstellt<br/><br/>Die Aufteilung auf Geschlechts-Ebene kann helfen, die Turner in einen separaten Durchgang zu ziehen, in welchem dann z.B. auch Barren verwendet wird: ![Riegen & Durchgänge Einteilung nachbearbeiten 3](/assets/getu-durchgang-partial-replanning-barren.png)|
-    | Programme / Kategorien teilen | Wenn diese Option aktiviert ist, dann gibt es pro Programm/Kategorie eigene Durchgänge.<br/>Im deaktivierten Zustand können Programme/Kategorien in einem Durchgang gemischt werden. |
-    | Verteilung auf Diszipline | Einzelne `Geräte` im Durchgang `ausschliessen` oder mit `einschliessen` (Barren), was zu grösseren oder kleineren Gruppen führt und dadurch ev. mehr oder weniger Durchgängen. |
-    |||
+`Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
+Die nicht selektierten Durchgänge werden dabei nicht verändert.<br/>
+Im Dialog werden die neuen Parameter angegeben. Neben der Gruppengrösse können hier zusätzlich folgende Einteilungsparameter eintestellt werden:
+Funktion | Beschreibung 
+---------:|:-------------
+Maximale Gruppengrösse | limitieren oder erweitern, was zu mehr oder weniger Durchgängen führen kann.
+Geschlechter-Trennung | Bei `gemischte Geräterieten` werden geschlecht-gemischte Rigen erstellt<br/>Bei `gemischter Durchgang` werden Riegen ohne Geschlechts-Durchmischung erstellt, innerhalb eines Durchganges werden jedoch Riegen beider Geschlechter eingeteilt<br/>Bei `getrennte Durchgänge` werden Durchgänge ohne Geschlechts-Durchmischung erstellt<br/><br/>Die Aufteilung auf Geschlechts-Ebene kann helfen, die Turner in einen separaten Durchgang zu ziehen, in welchem dann z.B. auch Barren verwendet wird: ![Riegen & Durchgänge Einteilung nachbearbeiten 3](/assets/getu-durchgang-partial-replanning-barren.png)
+Programme / Kategorien teilen | Wenn diese Option aktiviert ist, dann gibt es pro Programm/Kategorie eigene Durchgänge.<br/>Im deaktivierten Zustand können Programme/Kategorien in einem Durchgang gemischt werden.
+Verteilung auf Diszipline | Einzelne `Geräte` im Durchgang `ausschliessen` oder mit `einschliessen` (Barren), was zu grösseren oder kleineren Gruppen führt und dadurch ev. mehr oder weniger Durchgängen.
 
 Zum Schluss können einzelne Einteilungen von Hand verschoben werden: 
 
@@ -41,11 +36,10 @@ Im GeTu ist es bei geschlechts-gemischten Durchgängen üblich, dass die Barren-
 Durchgang durchgeführt wird. Diese Einteilung lässt sich mit folgendem Trick erreichen:
 
 |||
-|-|-|
-|Schritt 1: Markieren aller Turner-Riegen (alle mit einem M am Riegen-Namensanfang):|![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren.png)|
-|Danach den &quot;`2. Riege`&quot; -Button benutzen:|![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren-zweite-riege.png)|
-|und schliesslich die Barren-Riege benennen:|![Riegen & Durchgänge Einteilung Barren](/assets/zweite-riege-rename.png)|
-|||
+-|-
+Schritt 1: Markieren aller Turner-Riegen (alle mit einem M am Riegen-Namensanfang): | ![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren.png)
+Danach den &quot;`2. Riege`&quot; -Button benutzen:|![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren-zweite-riege.png)
+und schliesslich die Barren-Riege benennen:|![Riegen & Durchgänge Einteilung Barren](/assets/zweite-riege-rename.png)
 
 In der Riegeneinteilung wird nun diese Barren K1 Riege mit aufgelistet. Jetzt muss nur noch der Durchgang ...
 

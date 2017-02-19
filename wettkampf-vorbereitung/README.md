@@ -20,6 +20,7 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
   * [Wettkampf anlegen](wettkampf_anlegen.md)
   * [Turneranmeldungen verarbeiten](turneranmeldungen_verarbeiten.md)
   * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
+    * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
     * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
     * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
     * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
