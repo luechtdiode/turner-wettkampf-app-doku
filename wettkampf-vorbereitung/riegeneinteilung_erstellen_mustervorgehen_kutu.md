@@ -17,7 +17,7 @@ Diese können mit folgenden Kriterien einzeln oder mit Multiselection auf mehrer
 |||
 |-|-|
 |![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/kutu-durchgang-partial-replanning.png)|![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/kutu-durchgang-partial-replanning-options.png)|
-|||
+
 
 *   `Maximale Gruppengrösse` limitieren, was zu mehr oder weniger Durchgängen führen kann.
 *   `Programme zusammenfassen` (indem sie nicht aufgeteilt werden).
