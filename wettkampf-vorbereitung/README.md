@@ -3,7 +3,9 @@
 Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit, die auch mit der App nicht zum Kinderspiel wird.
 
 In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieben:
+
 ![Wettkampf vorbereiten - Übersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
+
 1.  Athlet/Innen aus der Datenbank auswählen, in den Wettkampf aufnehmen und in eine Kategorie einteilen.
 2.  Gruppen von angemeldeten Turner/Innen aus einem Excel-Sheet kopieren und im Wettkampf einfügen.
 3.  Bereits in eine Kategorie eingeteilte Turner in eine andere Kategorie umteilen.
@@ -17,14 +19,15 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 11.  Resultate erfassen / kontrollieren.
 
 ## Weiterführende Kapitel
-  * [Wettkampf anlegen](wettkampf_anlegen.md)
-  * [Turneranmeldungen verarbeiten](turneranmeldungen_verarbeiten.md)
-  * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
-    * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
-    * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
-    * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
-    * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
-    * [Ausnahmen und Limitationen](riegeneinteilung_erstellen.md#ausnahmen-limitationen)
-  * [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
-  * [Notenblätter / Riegennotenblätter erstellen](notenblatter__riegennotenblatter_erstellen.md)
-  * [Teilnehmerlisten erstellen](teilnehmerlisten_erstellen.md)
+
+* [Wettkampf anlegen](wettkampf_anlegen.md)
+* [Turneranmeldungen verarbeiten](turneranmeldungen_verarbeiten.md)
+* [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
+  * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
+  * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
+  * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
+  * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
+  * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
+* [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
+* [Notenblätter / Riegennotenblätter erstellen](notenblatter__riegennotenblatter_erstellen.md)
+* [Teilnehmerlisten erstellen](teilnehmerlisten_erstellen.md)
