@@ -9,9 +9,10 @@ Für die Erstellung der Notenblätter wird die **pro Kategorie** wählbare Funkt
 
 Wenn nicht gleich für alle aus der Kategorie ein Notenblatt gedruckt werden soll, kann dies mit allen möglichen Filter eingeschränkt werden.
 
-Generiertes Notenblatt:
-
-![](/assets/notenblatt.png)
+|||
+|-|-|
+|Generiertes Notenblatt: |<img src="../assets/notenblatt.png" height="300em">|
+|||
 
 Für die Generierung von Riegennotenblätter muss auf den Tab &quot;`Riegeneinteilung`&quot; gewechselt werden. Vorausgesetzt wird eine fertige Riegeneinteilung, so dass die richtigen Turner zusammen auf die richtigen Blätter kommen.
 

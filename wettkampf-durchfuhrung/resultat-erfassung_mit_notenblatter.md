@@ -1,12 +1,16 @@
 ## Resultat-Erfassung mit Notenblätter {#resultat-erfassung-mit-notenbl-tter}
 
+### Suchfunktion - Positionierung auf Turner/-In und Gerät
+
 Bei der Erfassung mit den Notenblätter pro Turner/In macht es Sinn, den/die Turner/In via Suchfunktion in der Kategorie zu suchen (siehe Punkt 1 in der Grafik).
 
 ![](/assets/erfassung-nach-notenblatt.png)
 
 Die Suchfunktion kann mit mehreren Suchbegriffen umgehen. So z.B. mit ein paar Zeichen des Vornamens und ein paar Zeichen des Nachnamens lässt sich innert kürzester Zeit der Turner lokalisieren, zu dem die Resultate erfasst werden müssen.
 
-![](/assets/resultat-erfassung.png)
+### Erfassung
+
+<img align="right" src="../assets/resultat-erfassung.png">
 
 Für die Erfassung können dann von links nach rechts für alle auf dem Notenblatt eingetragenen Geräte-Wertungen die Resultate übertragen werden.
 
