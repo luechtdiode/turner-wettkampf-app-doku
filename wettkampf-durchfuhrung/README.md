@@ -2,6 +2,7 @@
 
 Für die Durchführung eines Wettkampfes werden folgende Funktionsbereiche unterstützt:
 
+* [Wettkampf-Modus einschalten](wettkampf-modus.md)
 * [Resultat-Erfassung mit Notenblätter](resultat-erfassung_mit_notenblatter.md)
 * [Resultat-Erfassung mit Riegen-Notenblätter](resultat-erfassung_mit_riegen-notenblatter.md)
 * [Besten-Listen für die Durchsage nach Gerätewechsel](besten-listen_fur_die_durchsage_nach_geratewechsel.md)
