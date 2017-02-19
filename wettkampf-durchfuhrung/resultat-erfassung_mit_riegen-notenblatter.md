@@ -1,6 +1,9 @@
 ## Resultat-Erfassung mit Riegen-Notenblätter {#resultat-erfassung-mit-riegen-notenbl-tter}
 
-»Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen: Ausnahmen, Limitationen, Seite 22
+»**Achtung** - Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen,
+siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/riegeneinteilung_erstellen.md#ausnahmen-limitationen)
+
+![](/assets/erfassung-nach-notenblatt.png)
 
 Die Turner/Innen, die nach einem Gerätewechsel pro Gerät zur Erfassung der Resultate angezeigt werden müssen, werden mit dem Filter eingestellt.
 
@@ -10,7 +13,11 @@ Es wird in diesem Filtermodus nur noch das Gerät zur Resultateingabe angezeigt,
 
 Aktivierung über das Pop-Up Menu (mit rechter Maustaste auf dem gewünschten Wettkampf) und dem Befehl &quot;Wettkampf durchführen&quot;
 
+![](/assets/wettkampfmodus1.png)
+
 oder noch einfacher via dem gut sichtbaren Wettkampf-Modus Schalter oben rechts im Fenster:
+
+![](/assets/wettkampfmodus2-1.png)![](/assets/wettkampfmodus2-2.png)
 
 Dadurch werden alle während der Resultat-Erfassung nicht benötigten Funktionen deaktiviert:
 

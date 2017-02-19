@@ -16,7 +16,7 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 10.  Turner zu Riege Zuteilung bearbeiten, Riegennamen vergeben, umbenennen, zurücksetzen.
 11.  Resultate erfassen / kontrollieren.
 
-## Weiterführnede Kapitel
+## Weiterführende Kapitel
   * [Wettkampf anlegen](wettkampf_anlegen.md)
   * [Turneranmeldungen verarbeiten](turneranmeldungen_verarbeiten.md)
   * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
