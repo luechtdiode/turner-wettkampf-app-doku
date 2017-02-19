@@ -21,6 +21,7 @@ Diese können einzeln oder mit Multiselection auf mehreren Durchgängen neu vert
 `Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
 Die nicht selektierten Durchgänge werden dabei nicht verändert.<br/>
 Im Dialog werden die neuen Parameter angegeben. Neben der Gruppengrösse können hier zusätzlich folgende Einteilungsparameter eintestellt werden:
+
 Funktion | Beschreibung 
 ---------:|:-------------
 Maximale Gruppengrösse | limitieren oder erweitern, was zu mehr oder weniger Durchgängen führen kann.
@@ -35,7 +36,7 @@ Zum Schluss können einzelne Einteilungen von Hand verschoben werden:
 Im GeTu ist es bei geschlechts-gemischten Durchgängen üblich, dass die Barren-Station am Ende eines Durchgangs für alle Turner aus dem 
 Durchgang durchgeführt wird. Diese Einteilung lässt sich mit folgendem Trick erreichen:
 
-|||
+Beschreibung | Illustration
 -|-
 Schritt 1: Markieren aller Turner-Riegen (alle mit einem M am Riegen-Namensanfang): | ![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren.png)
 Danach den &quot;`2. Riege`&quot; -Button benutzen:|![Riegen & Durchgänge Einteilung Barren](/assets/getu-planning-barren-zweite-riege.png)

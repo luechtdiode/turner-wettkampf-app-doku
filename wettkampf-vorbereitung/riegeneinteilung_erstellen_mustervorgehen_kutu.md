@@ -13,6 +13,7 @@ Danach kann es pro Programm mehrere Durchgänge geben:
 ![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/kutu-planning-edit.png)
 
 Diese können mit folgenden Kriterien einzeln oder mit Multiselection auf mehreren Durchgängen neu verteilt werden:
+
 |||
 |-|-|
 |![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/kutu-durchgang-partial-replanning.png)|![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/kutu-durchgang-partial-replanning-options.png)|
