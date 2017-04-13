@@ -9,14 +9,16 @@ Für die Erstellung der Notenblätter wird die **pro Kategorie** wählbare Funkt
 
 Wenn nicht gleich für alle aus der Kategorie ein Notenblatt gedruckt werden soll, kann dies mit allen möglichen Filter eingeschränkt werden.
 
-|||
-|-|-|
-|Generiertes Notenblatt: |<img src="../assets/notenblatt.png">|
+**Generiertes Notenblatt:**
 
-Für die Generierung von Riegennotenblätter muss auf den Tab &quot;`Riegeneinteilung`&quot; gewechselt werden. Vorausgesetzt wird eine fertige Riegeneinteilung, so dass die richtigen Turner zusammen auf die richtigen Blätter kommen.
+![](/assets/notenblatt.png)
+
+Für die Generierung aller Riegennotenblätter muss auf den Tab &quot;`Riegeneinteilung`&quot; gewechselt werden. Vorausgesetzt wird eine fertige Riegeneinteilung, so dass die richtigen Turner zusammen auf die richtigen Blätter kommen.
 
 ![](/assets/print-riegenblaetter.png)
 
-Beispiel eines Wettkampf-Durchgangs für eine Geräteriege mit den dazugehörigen Riegennotenblätter:
+Die Turner rotieren bei jedem Gerätewechsel (jeweils der 1. wird hinten angestellt).
+
+**Generiertes Riegennotenblatt:**
 
 ![](/assets/riegenblaetter.png)
