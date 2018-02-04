@@ -39,3 +39,6 @@
   * [Wettkampf anlegen](stammdatenpflege/wettkampf_anlegen.md)
   * [Wettkampf bearbeiten](stammdatenpflege/wettkampf_bearbeiten.md)
   * [Wettkampf löschen](stammdatenpflege/wettkampf_loschen.md)
+
+
+
