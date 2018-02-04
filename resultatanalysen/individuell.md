@@ -1,3 +1,3 @@
 ## Individuelle Auswertung:
 
-![](assets/resultat-analyse-2.png)
+![](/assets/resultat-analyse-2.png)
