@@ -7,14 +7,7 @@ mit den jeweiligen Turner/Innen Listen:
 
 ![](assets/resultat-analyse-1.png)
 
-## Individuelle Auswertung:
-
-![](assets/resultat-analyse-2.png)
-
-## Auswertung auf Turner-Ebene:
-
-![](assets/resultat-analyse-3.png)
-
-## Auswertung auf Geräte-Ebene:
-
-![](assets/resultat-analyse-4.png)
+  * [Individuelle Auswertungen](individuell.md)
+  * [Qualifikationswettkampf Auswertung](qualifikationswettkampf.md)
+  * [Auswertung auf Turner/-In -Ebene](turner-ebene.md)
+  * [Auswertung auf Geräte -Ebene](geraete-ebene.md)
