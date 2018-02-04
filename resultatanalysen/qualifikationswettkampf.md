@@ -1,4 +1,4 @@
-## Qualifikationswettkampf Auswertung
+## Qualifikationswettkampf Auswertung {#qualifikationswettkampf-auswertung}
 
 Die Mehrfach-Auswahl bei den Filter-Auswahllisten ermöglicht die Aktivierung der gewünschten Daten in der Rangliste.
 - Wenn nichts angewählt ist, werden die Daten lediglich gruppiert. Alle Daten werden ungefiltert aufbereitet.
