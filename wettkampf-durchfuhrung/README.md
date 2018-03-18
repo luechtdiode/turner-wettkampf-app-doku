@@ -1,7 +1,7 @@
 # Wettkampf-Durchführung {#wettkampf-durchf-hrung}
 
 Für die Durchführung eines Wettkampfes werden folgende Funktionsbereiche unterstützt:
-
+* [Wettkampf im Netz bereitstellen](wettkampf-netzwerk.md)
 * [Wettkampf-Modus einschalten](wettkampf-modus.md)
 * [Resultat-Erfassung mit Notenblätter](resultat-erfassung_mit_notenblatter.md)
 * [Resultat-Erfassung mit Riegen-Notenblätter](resultat-erfassung_mit_riegen-notenblatter.md)

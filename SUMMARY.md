@@ -19,6 +19,7 @@
   * [Notenblätter / Riegennotenblätter erstellen](wettkampf-vorbereitung/notenblatter__riegennotenblatter_erstellen.md)
   * [Teilnehmerlisten erstellen](wettkampf-vorbereitung/teilnehmerlisten_erstellen.md)
 * [Wettkampf-Durchführung](wettkampf-durchfuhrung/README.md)
+  * [Wettkampf im Netz bereitstellen](wettkampf-durchfuhrung/wettkampf-netzwerk.md)
   * [Wettkampf-Modus einschalten](wettkampf-durchfuhrung/wettkampf-modus.md)
   * [Resultat-Erfassung mit Notenblätter](wettkampf-durchfuhrung/resultat-erfassung_mit_notenblatter.md)
   * [Resultat-Erfassung mit Riegen-Notenblätter](wettkampf-durchfuhrung/resultat-erfassung_mit_riegen-notenblatter.md)
