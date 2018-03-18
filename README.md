@@ -2,7 +2,7 @@
 
 ## Benutzeranleitung
 
-*für die Version 1.2 der Turner Wettkampf App*
+*für die Version 2.0 der Turner Wettkampf App*
 
 | Format  | Download-Link |
 |--------:|:--------------|
