@@ -21,7 +21,7 @@ Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffe
 * Lese-Zugriff auf die zentral bereitgestellten Daten wird jedem gewährt.
 * Ein neuer Wettkampf darf jeder hochladen, sofern dieser Wettkampf eindeutig ist. Heruntergeladene Wettkämpfe können nicht wieder hochgeladen werden (Ausnahme siehe nächstes Kapitel).
 * Die Mutation von Daten an einem im Netzwerk zur Verfügung gestellten Wettkampf ist nur mit einer gültigen Authentifizierung und Authorisierung möglich. Die Authorisierung gilt für maximal 24 Stunden.
-* Die Authentifizierung/Authorisierung kann nur mit dem QR-Code erstellt werden, der von dem Gerät stammt, von dem der Wettkampf im Netzwerk bereitgestellt wurde. Es liegt in der Verantwortung des Wettkampf-Erstellers, wem dieser QR-Code zugänglich gemacht wird.
+* Die Authentifizierung/Authorisierung kann nur mit dem Link durchgeführt werden, der von dem Gerät stammt, von dem der Wettkampf im Netzwerk bereitgestellt wurde. Der Link kann via QR-Code, Browser-Link oder Link via EMail-Einladung verteilt werden. Es liegt in der Verantwortung des Wettkampf-Erstellers, wem dieser Link zugänglich gemacht wird.
 
 ### Wettkampf im Netz bereitstellen
 
@@ -44,13 +44,24 @@ Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wer
 
 ### Kampfrichter Mobile register ...
 
-Diese Funktion erlaubt es, die Personen auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code angezeigt. Dieser QR-Code muss von jedem Mobile-Device, von wo Resultate erfasst werden sollen, gescannt werden.<br>![](/assets/mobile-register.png)<br>
+Diese Funktion erlaubt es, die Personen auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code angezeigt. Dieser QR-Code muss von jedem Mobile-Device, von wo Resultate erfasst werden sollen, gescannt werden.
+Alternativ kann auch ein `Browser-Link` geöffnet werden oder ein `EMail` mit dem Link an die Kampfrichter versendet werden.
+Die Registrierung kann ab Herausgabe während 24 Stunden benutzt werden.<br>![](/assets/mobile-register.png)<br>
 ![](/assets/resultcatcher-home.png)
 
 ### Kampfrichter initialisiert sein Mobile-Device an seiner Station mit QR-Code
 
 Bei jedem Gerät sollen die [QR-Codes ausgedruckt vorliegen](#qrcode-printouts), die an dem Gerät pro Durchgang verwendet werden sollen. Mit dem Scan des jeweiligen QR-Codes kann eine URL im Browser des Mobile-Devices geöffnet werden. Dort wird die Erfassungs-App genau an der Stelle gestartet, wo der Kampfrichter die Resultate erfassen soll (beim richtigen Wettkampf, beim richtigen Gerät und beim richtigen Durchgang).<br>
 ![](/assets/resultcatcher-initialized.png)
+
+### Freischalten eines Durchganges für die Resultat-Erfassung über das Netzwerk
+
+In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf.
+In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist.
+Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
+In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
+Wenn alle Resultate eines Durchganges erfasst sind, soll er `beendet` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.
+Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jeweiligen Durchgang zugänglich und sind nur dann wählbar, wenn der Netzwerk-Modus eingeschaltet ist.
 
 ### Kampfrichter erfasst Wettkampf-Resultate
 
