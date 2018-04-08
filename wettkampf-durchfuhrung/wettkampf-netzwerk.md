@@ -58,9 +58,15 @@ Bei jedem Gerät sollen die [QR-Codes ausgedruckt vorliegen](#qrcode-printouts),
 
 In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf.
 In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist.
-Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
-In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
-Wenn alle Resultate eines Durchganges erfasst sind, soll er `beendet` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.
+Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.<br>
+![](/assets/durchgang-starten.png)
+
+In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.<br>
+![](/assets/resultaterfassen-gestartet1.png)![](/assets/resultaterfassen-gestartet2.png)
+Wenn alle Resultate eines Durchganges erfasst sind, soll er `beendet` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.<br>
+![](/assets/durchgang-abgeschlossen.png)
+![](/assets/resultaterfassen-gesperrt.png)
+
 Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jeweiligen Durchgang zugänglich und sind nur dann wählbar, wenn der Netzwerk-Modus eingeschaltet ist.
 
 ### Kampfrichter erfasst Wettkampf-Resultate
