@@ -31,7 +31,7 @@ Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmel
 Gleichzeitig wird der Button `Verbindung stoppen` wählbar.
 Für eine schnelle Kontrolle dient der Status-Button oben rechts im Fenster. Mit der Status-Lampe wird mit `grün` eine aktive und mit `grau` eine nicht aktive Verbindung angezeigt. Die Verbindung kann auch über diesen Status-Button ein- und ausgeschaltet werden.<br>
 
-3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen:<br>  ![](/assets/download-competitions.png)<br> ![](/assets/list-download-competitions.png)<br>
+3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen:<br>![](/assets/download-competitions.png)<br> ![](/assets/list-download-competitions.png)<br>
 Nachdem ein Wettkampf heruntergeladen wurde, kann zwar lokal alles mit dem Wettkampf gemacht werden. Allerdings kann man sich nicht zu dem Wettkampf im Netzwerk verbinden und es können auch keine Daten mit dem Wettkampf im Netzwerk synchronisiert werden. Hierzu muss zunächst die volle Kontrolle über den Wettkampf erlangt werden.<br>
 Es gibt zwei mögliche Verfahren, um die volle Kontrolle über den Wettkampf von einem Gerät auf das Andere zu übertragen:
     * Vom Gerät, auf dem der Wettkampf hochgeladen wurde, muss der Wettkampf wie bisher via `Import-`/`Export`-Funktion als Zip-Datei auf das zusätzliche Gerät kopiert werden. Die Datei enthält den Sicherheits-Schlüssel für den Vollzugriff auf diesen Wettkampf:<br>
@@ -41,33 +41,44 @@ Es gibt zwei mögliche Verfahren, um die volle Kontrolle über den Wettkampf von
 
 ### Pro Gerät und Durchgang einen QR-Code für die Einstellung im Mobile-Device der Wertungsrichter erstellen {#qrcode-printouts}
 
-Bevor der Wettkampf beginnt, sollten pro Gerät eine Liste der QR-Codes erstellt werden, die die Konfiguration des Mobile-Devices der Wertungsrichter sicherstellt.<br>![](/assets/prepare-station-qrcodes.png)<br>![](/assets/station-initialization-qrcode.png)<br>
+Bevor der Wettkampf beginnt, sollten pro Gerät eine Liste der QR-Codes erstellt werden, die die Konfiguration des Mobile-Devices der Wertungsrichter sicherstellt.
+
+![](/assets/prepare-station-qrcodes.png)
+
+![](/assets/station-initialization-qrcode.png)
+
 Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wertungs-Eingabemasken gedacht und stellen kein Sicherheitselement bezüglich Zugriffsberechtigung dar. Sie können deshalb problemlos auf dem Wettkampf-Platz offen auf den Tischen der Wertungsrichter aufgelegt werden. Auch ein Versand per EMail an die Wertungsrichter wäre unproblematisch.
 
 ### Wertungsrichter Mobile register ...
 
 Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code angezeigt. Dieser QR-Code muss von jedem Mobile-Device, von wo Resultate erfasst werden sollen, gescannt werden.
 Alternativ kann auch ein `Browser-Link` geöffnet werden oder ein `EMail` mit dem Link an die Wertungsrichter versendet werden.
-Die Registrierung kann ab Herausgabe während 24 Stunden benutzt werden.<br>![](/assets/mobile-register.png)<br>
+Die Registrierung kann ab Herausgabe während 24 Stunden benutzt werden.
+
+![](/assets/mobile-register.png)
 
 ### Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit QR-Code
 
-Bei jedem Gerät sollen die [QR-Codes ausgedruckt vorliegen](#qrcode-printouts), die an dem Gerät pro Durchgang verwendet werden sollen. Mit dem Scan des jeweiligen QR-Codes kann eine URL im Browser des Mobile-Devices geöffnet werden. Dort wird die Erfassungs-App genau an der Stelle gestartet, wo der Wertungsrichter die Resultate erfassen soll (beim richtigen Wettkampf, beim richtigen Gerät und beim richtigen Durchgang).<br>
+Bei jedem Gerät sollen die [QR-Codes ausgedruckt vorliegen](#qrcode-printouts), die an dem Gerät pro Durchgang verwendet werden sollen. Mit dem Scan des jeweiligen QR-Codes kann eine URL im Browser des Mobile-Devices geöffnet werden. Dort wird die Erfassungs-App genau an der Stelle gestartet, wo der Wertungsrichter die Resultate erfassen soll (beim richtigen Wettkampf, beim richtigen Gerät und beim richtigen Durchgang).
+
 ![](/assets/resultcatcher-initialized.png)
 
 ### Freischalten eines Durchganges für die Resultat-Erfassung über das Netzwerk
 
 In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf.
 In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist.
-Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.<br>
+Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
+
 ![](/assets/durchgang-starten.png)
 
-In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.<br>
+In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
+
 ![](/assets/resultcatcher-running.png)
 
 Wenn alle Resultate einer Riege an einem Gerät erfasst sind, soll die Resultaterfassung für diese Riege an diesem Gerät abgeschlossen werden. Dies wird mittels `Eingabe abschliessen` gemacht und bewirkt zusätzlich, dass die nächste Riege für die Resultaterfassung geladen wird.
 
-Wenn alle Resultate eines Durchganges erfasst sind, soll der `Durchgang abgeschlossen` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.<br>
+Wenn alle Resultate eines Durchganges erfasst sind, soll der `Durchgang abgeschlossen` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.
+
 ![](/assets/durchgang-abschliessen.png)
 
 ![](/assets/durchgang-abgeschlossen.png)
@@ -78,7 +89,8 @@ Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jewe
 
 ### Wertungsrichter erfasst Wettkampf-Resultate
 
-Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen. 
+Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.
+
 1. Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.
 2. Mit einem Click auf die D-Note kann die entsprechene Schwierigkeits-Note (D wie Difficulty) erfasst/korrigiert werden. Diese Note wird nur bei Kunstturn-Wettkämpfen verwendet. Beim Geräteturnen wird nur die E-Note erfasst.
 3. Mit einem Click auf die E-Note kann die entsprechene Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.
