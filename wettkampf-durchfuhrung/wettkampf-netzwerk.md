@@ -98,6 +98,29 @@ Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, d
 
 ![](/assets/resultcatcher-results.png)
 
+
+### Aktuelle Wettkampf Resultate anzeigen
+
+Die gerade gewerteten Wettkampf-Übungen können über ein digitales Resultate-Display angezeigt werden:
+
+![](/assets/nav-resultat-display.png)
+
+![](/assets/resultat-display.png)
+
+Die Anzeige wird automatisch aktualisiert, wenn neue Resultate erfasst werden.
+
+### Letzte Top-Resultate anzeigen
+
+Wenn im `Wettkampf-Modus` und mit dem Netzwerk `verbunden` `(1)`, über die Funktion `Bestenliste (2)` ein Zusammenzug der besten Resultate der aktuellen Runde erstellt wird,
+
+![](/assets/top-resultat-trigger.png)
+
+ kann dieser über das entsprechende elektronische Display über die App angezeigt werden:
+
+![](/assets/nav-top-resultat-display.png)
+
+![](/assets/top-resultat-display.png)
+
 ### Wettkampf Resultate lokal aktualisieren
 
 Sollten bereits Daten über Mobile-Devices erfasst worden sein, bevor im Rechnungsbüro die zentrale Wettkampf-App mit dem Netzwerk verbunden war, können die lokalen Daten mit denjenigen aus dem Netzwerk überschrieben/ersetzt werden. Dies wirt mit der Aktion `Download` durchgeführt. Es wird eine Sicherheits-Abfrage angezeigt, wo noch einmal darauf hingewiesen wird, dass die lokal erfassten Daten allesamt mit denjenigen aus dem Netzwerk überschrieben werden.
