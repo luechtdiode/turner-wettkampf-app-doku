@@ -37,6 +37,7 @@
   * [Turner/-Innen zu einem Verein erfassen](stammdatenpflege/turner-innen_zu_einem_verein_erfassen.md)
   * [Turner/-Innen zu einem Verein bearbeiten](stammdatenpflege/turner-innen_zu_einem_verein_bearbeiten.md)
   * [Turner/-Innen zu einem Verein löschen](stammdatenpflege/turner-innen_zu_einem_verein_loschen.md)
+  * [Doppelt erfasste Turner/-Innen finden und bereinigen](stammdatenpflege/turner-innen_zusammenlegen.md)
   * [Wettkampf anlegen](stammdatenpflege/wettkampf_anlegen.md)
   * [Wettkampf bearbeiten](stammdatenpflege/wettkampf_bearbeiten.md)
   * [Wettkampf löschen](stammdatenpflege/wettkampf_loschen.md)
