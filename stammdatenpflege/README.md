@@ -12,3 +12,6 @@ Die Stammdatenpflege umfasst die Bearbeitung der Daten, die Wettkampf-übergreif
 * [Wettkampf anlegen](wettkampf_anlegen.md)
 * [Wettkampf bearbeiten](wettkampf_bearbeiten.md)
 * [Wettkampf löschen](wettkampf_loschen.md)
+
+
+
