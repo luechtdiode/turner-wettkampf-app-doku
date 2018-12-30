@@ -15,7 +15,7 @@ Die Zuteilung, welcher Athlet am Ende übrig bleiben soll, kann geändert werden
 (<em>Die Verwendung dieser Funktion speichert noch keine Daten</em>)
 
 Mit `OK, zusammenlegen` wird der gerade selektierte Eintrag verarbeitet und der Dialog wird geschlossen.<br>
-Mit `OK alle, zusammenlegen` werden alle angezeigten Einträge verarbeitet und der Dialog wird geschlossen.
+Mit `OK, alle zusammenlegen` werden alle angezeigten Einträge verarbeitet und der Dialog wird geschlossen.
 
 ### `ACHTUNG - eine Zusammenlegung kann nicht wieder rückgängig gemacht werden`.
 
