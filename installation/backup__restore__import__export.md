@@ -16,10 +16,11 @@ Ein solch exportierter Wettkampf beinhaltet folgende Daten:
 *   Alle Daten der dem Wettkampf zugeteilten Turner/-Innen.
 *   Alle Resultate, die im Wettkampf erfasst wurden.
 *   Alle Riegen- und Durchgangs-Einteilungen
+*   Die logo -Datei (logo.jpg, logo.png, logo.svg)
+*   Der Zugriffs-Schlüssel für die Administrations-Berechtigung auf dem Wettkampf, falls der Wettkampf in das Netzwerk hochgeladen wurde.
 
 Folgende Daten **werden nicht in den Export verpackt**:
 
-*   Die logo.jpg -Datei
 *   Gespeicherte Listen (Notenblätter, Rigennotenbläter, Ranglisten, Einteilung.csv etc.) und andere Dateien, die im Wettkampf-Verzeichnis abgelegt sind.
 
 Der Import dieser exportierten Daten kann auf jeder beliebigen anderen Turner-Wettkampf-App Installation erfolgen.
