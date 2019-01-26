@@ -1,7 +1,7 @@
-## Wettkampf über das Internet bereitstellen {#wettkampfnetzwerk}
+## Wettkampf im lokalen Netz bereitstellen {#wettkampfnetzwerklokal}
 
-Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die darüber erfassten Resultate werden zunächst auf einem zentralen Server gespeichert und dann an die übrigen beteiligten Rechner aus dem Rechnungsbüro weiterverteilt.
-Auf den Rechner im Rechnungsbüro kann dann die Erfassung gesteuert, kontrolliert und korrigiert werden.
+Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die darüber erfassten Resultate werden direkt auf dem im lokalen Netzwerk betriebenen Server gespeichert.<br>
+Auf dem Rechner im Rechnungsbüro, von wo aus der lokale Server betrieben wird, kann dann die Erfassung gesteuert, kontrolliert und korrigiert werden.
 
 ### Schmatische Darstellung:
 
@@ -9,35 +9,33 @@ Auf den Rechner im Rechnungsbüro kann dann die Erfassung gesteuert, kontrollier
 
 ### Technische Voraussetzungen
 
-* Jeder Teilnehmer muss auf seinem Gerät am Wettkampf-Platz einen Internet-Zugang haben.
+* Der Rechner, auf dem der lokale Server betrieben wird, muss eingehende TCP-Verbindungen auf dem Port 5757 akzeptieren (Konfiguration über Firewall/Defender des jeweiligen Betriebssystems).
+* Der Rechner, auf dem der lokale Server betrieben wird, muss im lokalen Netzwerk eingebunden sein, über welches die Wertungsrichter sich verbinden sollen.
+* Der Zugang zum lokalen Netzwerk wird idealerweise mit einem Zugangs-Schutz (Benutzer/Passwort etc.) geschützt.
+* Jeder Teilnehmer muss auf seinem Gerät am Wettkampf-Platz einen Zugang zum lokalen Netzwerk/WLAN haben.
 * Jeder Teilnehmer, der Resultate erfassen muss (Wertungsrichter) muss auf seinem Mobile-Device einen QR-Code Reader installiert haben. Leider gibt es zahlreiche gratis QR-Code scanner, welche z.B. Werbung einblenden oder Browser-Inhalte nicht im offiziellen Browser des Mobile-Devices öffnen. **Voraussetzung ist ein QR-Code Reader, der mit dem QR-Code den Standardbrowser auf dem Mobile-Device öffnen kann**, damit für die Erfassungs-App genügend Bildschirm-Fläche zur Verfügung steht.
 * Grundsätzlich reicht jedoch der Standard-Bildschirm eines normalen Mobile-Devices mit einer Auflösung 360 x 640.
-* Wenn der Internet-Zugang für die Wettkampf-App über einen **`Internet-Proxy`** erreichbar ist, muss vor der Verbindung in's Internet die Proxy-Einstellung konfiguriert werden:<br>![](/assets/internet-proxy-menu.png)<br>![](/assets/proxy-dialog.png)
 
 ### Sicherheits-Massnahmen
 
 Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffen worden:
-* Die Daten werden ausschliesslich über eine verschlüsselte Verbindung transferiert (HTTPS, SSL). Damit wird sichergestellt, dass die Daten unverfälscht übertragen werden und während der Übertragung von dritten nicht mitgelesen werden können.
-* Lese-Zugriff auf die zentral bereitgestellten Daten wird jedem gewährt.
-* Ein neuer Wettkampf darf jeder hochladen, sofern dieser Wettkampf eindeutig ist. Heruntergeladene Wettkämpfe können nicht wieder hochgeladen werden (Ausnahme siehe nächstes Kapitel).
+* Lese-Zugriff auf die zentral bereitgestellten Daten wird jedem gewährt, der Zugang zum lokalen Netzwerk hat.
+* Es können keine Wettkämpfe hoch- oder heruntergeladen werden.
+* Die Funktion `Wettkämpfe im Netzwerk entfernen` steht nicht zur Verfügung.
 * Die Mutation von Daten an einem im Netzwerk zur Verfügung gestellten Wettkampf ist nur mit einer gültigen Authentifizierung und Authorisierung möglich. Die Authorisierung gilt für maximal 24 Stunden.
 * Die Authentifizierung/Authorisierung kann nur mit dem Link durchgeführt werden, der von dem Gerät stammt, von dem der Wettkampf im Netzwerk bereitgestellt wurde. Der Link kann via QR-Code, Browser-Link oder Link via EMail-Einladung verteilt werden. Es liegt in der Verantwortung des Wettkampf-Erstellers, wem dieser Link zugänglich gemacht wird.
+* Im Unterschied zum Neztwerkbetrieb über das Internet findt die Datenübertragung im lokalen Netzwerkbetrieb standardmässig `nicht verschlüsselt` statt. Hierfür gibt es folgenden Grund: Ein lokal bereitgestellter Server mit SSL-Zertifikat, das von allen Endgeräten als sicher akzeptiert wird, erfordert das importieren des Server-Zertifikats auf alle Endgeräten. Dieser Vorgang ist komplex und Fehleranfällig. Bei Bedarf lässt sich die App jedoch entsprechend konfigurieren. Für diese Konfiguration ist Spezialisten-KnowHow erforderlich, weshalb dies hier nicht weiter beschrieben wird.
 
-### Wettkampf im Netz bereitstellen
+### Wettkampf im lokalen Netz bereitstellen
 
-1. Die Person, welche die Wettkampf-Planung wie unter [Wettkampf-Vorbereitung](wettkampf-vorbereitung/README.md) beschrieben erstellt hat, kann grundsätzlich darüber entscheiden, ob der Wettkampf im Netz geteilt wird. Ausgangslage ist der zunächst lokal erstellte Wettkampf mit einer Riegen- und Durchgangseinteilung.
-2. Anschliessend kann der Wettkampf auf dem `Netzwerk-Dashboard` im Netz für die dezentrale Resultat-Erfassung bereitgestellt werden <br>![](/assets/upload-competition.png)<br>
-Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmeldung angezeigt: ![](/assets/connect-and-share.png)<br>
+1. Mittels `Start local Server` im Netzwerk-Menu wird der Server im lokalen Netzwerk gestartet. ![](/assets/start-local-server.png)<br>Sobald der Server gestartet ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `localhost:5757` umgestellt.<br>![](/assets/display-local-server-offline.png).
+2. Anschliessend kann der Wettkampf im lokalen Netzwerk im `Netzwerk-Dashboard` für die dezentrale Resultat-Erfassung bereitgestellt werden <br>![](/assets/upload-competition.png)<br>
+Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmeldung angezeigt:<br>![](/assets/connect-and-share.png)<br>
 Gleichzeitig wird der Button `Verbindung stoppen` wählbar.
 Für eine schnelle Kontrolle dient der Status-Button oben rechts im Fenster. Mit der Status-Lampe wird mit `grün` eine aktive und mit `grau` eine nicht aktive Verbindung angezeigt. Die Verbindung kann auch über diesen Status-Button ein- und ausgeschaltet werden.<br>
-
-3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen:<br>![](/assets/download-competitions.png)<br> ![](/assets/list-download-competitions.png)<br>
-Nachdem ein Wettkampf heruntergeladen wurde, kann zwar lokal alles mit dem Wettkampf gemacht werden. Allerdings kann man sich nicht zu dem Wettkampf im Netzwerk verbinden und es können auch keine Daten mit dem Wettkampf im Netzwerk synchronisiert werden. Hierzu muss zunächst die volle Kontrolle über den Wettkampf erlangt werden.<br>
-Es gibt zwei mögliche Verfahren, um die volle Kontrolle über den Wettkampf von einem Gerät auf das Andere zu übertragen:
-    * Vom Gerät, auf dem der Wettkampf hochgeladen wurde, muss der Wettkampf wie bisher via `Import-`/`Export`-Funktion als Zip-Datei auf das zusätzliche Gerät kopiert werden. Die Datei enthält den Sicherheits-Schlüssel für den Vollzugriff auf diesen Wettkampf:<br>
-    ![](/assets/competition-share-secret.png)<br> Diese Datei ist für den Benutzer **unsichtbar**. Mit diesem Vorgehen können mehrere Geräte die volle Kontrolle über den Wettkampf erlangen.
-    * Nachdem der Wettkampf auf dem Ziel-Gerät heruntergeladen wurde, kann vom Gerät, wo er hochgeladen wurde der Wettkampf im Netzwerk entfernt werden (siehe [Wettkampf im Netzwerk entfernen](#wettkampfnetzwerk-entfernen)). Daraufhin kann der Wettkampf vom Ziel-Gerät frisch in's Netzwerk hochgeladen werden. Die Kontrolle des Wettkampfs liegt immer bei dem Gerät, von wo aus ein Wettkampf hochgeladen wurde. Mit diesem Verfahren liegt die volle Kontrolle über den Wettkampf immer nur bei einem Gerät.
-4. Solange eine aktive Verbindung besteht, werden die Resultate über den zentralen Server mit allen anderen an diesem Wettkampf verbundenen Stationen synchronisiert. So ist es denn auch möglich, mit mehr als einer Station im Rechnungsbüro zu arbeiten, um so die Ausfallsicherheit zu erhöhen.
+3. Solange eine aktive Verbindung besteht, werden die Resultate über den zentralen Server mit allen anderen an diesem Wettkampf verbundenen Stationen synchronisiert. Im Gegensatz zur Verbindung über das Internet ist es nicht möglich, mit mehr als einer Station im Rechnungsbüro zu arbeiten.
+4. Mittels `Stop local Server` im Netzwerk-Menu wir der Server im lokalen Netzwer wieder gestoppt.<br>![](/assets/stop-local-server.png)<br>Sobald der Server gestoppt ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `kutuapp.sharevic.net` umgestellt.<br>![](/assets/display-remote-server-offline.png)<br>
+Diese Adresse wird verwendet, wenn der Netzwerkmodus über das Internet betrieben wird.
 
 ### Pro Gerät und Durchgang einen QR-Code für die Einstellung im Mobile-Device der Wertungsrichter erstellen {#qrcode-printouts}
 
@@ -49,7 +47,6 @@ Bevor der Wettkampf beginnt, sollten pro Gerät eine Liste der QR-Codes erstellt
 
 Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wertungs-Eingabemasken gedacht und stellen kein Sicherheitselement bezüglich Zugriffsberechtigung dar. Sie können deshalb problemlos auf dem Wettkampf-Platz offen auf den Tischen der Wertungsrichter aufgelegt werden. Auch ein Versand per EMail an die Wertungsrichter wäre unproblematisch.
 
-
 ### Mobile App Connections ...
 
 ![](/assets/mobile-app-connections.png)
@@ -59,6 +56,7 @@ Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Dev
 2. `Letzte Resultate`,
 3. `Top Resultate`.
 
+Falls das Gerät, auf dem der Server betrieben wird, mehrere Netzwerkanschlüsse hat, wird für jeden Netzwerkanschluss ein separater Tab mit den entsprechenden Links angezeigt. Das Programm kann in diesem Fall nicht entscheiden, welcher Netzwerk-Anschluss mit dem für die Wertungsrichter bereitgestellten lokalen Netzwerk verknüpft ist. Es müssen somit die einzelnen Adressen `ausprobiert` werden, um die funktionierenden Links zu finden.
 ![](/assets/mobile-register.png)
 
 #### Mobile-App Link
@@ -138,20 +136,8 @@ Wenn im `Wettkampf-Modus` und mit dem Netzwerk `verbunden` `(1)`, über die Funk
 
 ![](/assets/top-resultat-display.png)
 
-### Wettkampf Resultate lokal aktualisieren
-
-Sollten bereits Daten über Mobile-Devices erfasst worden sein, bevor im Rechnungsbüro die zentrale Wettkampf-App mit dem Netzwerk verbunden war, können die lokalen Daten mit denjenigen aus dem Netzwerk überschrieben/ersetzt werden. Dies wirt mit der Aktion `Download` durchgeführt. Es wird eine Sicherheits-Abfrage angezeigt, wo noch einmal darauf hingewiesen wird, dass die lokal erfassten Daten allesamt mit denjenigen aus dem Netzwerk überschrieben werden.
-
-![](/assets/wettkampf-herunterladen.png)
-
 ### Netzwerkmodus stoppen
 
 Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resultate mehr zum oder vom Netzwerk synchronisiert.
 
 ![](/assets/network-disconnect.png)
-
-### Wettkampf im Netzwerk entfernen {#wettkampfnetzwerk-entfernen}
-
-Mit dieser Funktion wird der Wettkampf im Netzwerk entfernt und steht danach nicht mehr im Netzwerk zur Verfügung.
-
-![](/assets/network-remove.png)
