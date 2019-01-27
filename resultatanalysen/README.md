@@ -5,16 +5,9 @@ Mit dieser App lassen sich Auswertungen pro Turner, pro Verein etc. machen.
 Der Einstieg in diese übergreifenden Auswertungen geschieht über die Vereins-Ansichten 
 mit den jeweiligen Turner/Innen Listen:
 
-![](assets/resultat-analyse-1.png)
+![](/assets/resultat-analyse-1.png)
 
-## Individuelle Auswertung:
-
-![](assets/resultat-analyse-2.png)
-
-## Auswertung auf Turner-Ebene:
-
-![](assets/resultat-analyse-3.png)
-
-## Auswertung auf Geräte-Ebene:
-
-![](assets/resultat-analyse-4.png)
+  * [Individuelle Auswertungen](individuell.md)
+  * [Qualifikationswettkampf Auswertung](qualifikationswettkampf.md)
+  * [Auswertung auf Turner/-In -Ebene](turner-ebene.md)
+  * [Auswertung auf Geräte -Ebene](geraete-ebene.md)

@@ -4,8 +4,8 @@ Die initiale Riegenaufteilung wird mit dem Button `Riegen- & Durchgangs-Einteilu
 
 ![Riegen & Durchgänge frisch einteilen](/assets/suggest-riegen-planning.png)
 
-Die Getu Riegenverteilung verteilt standardmässig mit einer Gruppengrösse von maximal 11 Turner/-Innen pro Startgerät. Es werden alle 
-Geräte ausser dem Barren für die Verteilung verwendet:
+Die Getu Riegenverteilung verteilt standardmässig mit einer Gruppengrösse von maximal 11 Turner/-Innen pro Startgerät. Wenn als Maximale Gruppengrösse '0' eingetragen wird, dann wird automatisch die kleinstmögliche Gruppengrösse für ein Durchgang ermittelt und verwendet. 
+Es werden alle Geräte ausser dem Barren für die Verteilung verwendet:
 
 ![Riegen & Durchgänge frisch einteilen](/assets/riegen-einteilen-dlg.png)
 
@@ -34,8 +34,17 @@ Zum Schluss können einzelne Einteilungen von Hand verschoben werden:
 
 ![Riegen & Durchgänge Einteilung nachbearbeiten 4](/assets/getu-durchgang-partial-replanning-moves.png)
 
-Im GeTu ist es bei geschlechts-gemischten Durchgängen üblich, dass die Barren-Station am Ende eines Durchgangs für alle Turner aus dem 
-Durchgang durchgeführt wird. Diese Einteilung lässt sich mit folgendem Trick erreichen:
+Die Riegen können auch mittels Drag & Drop auf ein anderes Startgerät oder in einen anderen Durchgang verschoben werden:
+
+`Riege auf anderes Startgerät verschieben`
+
+![Riegen & Durchgänge Einteilung nachbearbeiten 5](/assets/drag-drop-startgeraetriege.gif)
+
+`Riege in anderen Durchgang verschieben`
+
+![Riegen & Durchgänge Einteilung nachbearbeiten 5](/assets/drag-drop-durchg.gif)
+
+Im GeTu ist es bei geschlechts-gemischten Durchgängen üblich, dass die Barren-Station am Ende eines Durchgangs für alle Turner aus dem Durchgang durchgeführt wird. Diese Einteilung lässt sich mit folgendem Trick erreichen:
 
 Beschreibung | Illustration
 -|-
