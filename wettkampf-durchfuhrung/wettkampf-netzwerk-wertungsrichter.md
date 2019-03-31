@@ -6,7 +6,9 @@ Im Falle von Störungen können die Resultate von hand ausgefüllt auf den Riege
 
 ### Vorbereitungsmassnahmen für jeden Wertungsrichter
 
-#### 1) Es muss ein geeigneter QR-Code Reader auf dem Mobil-Gerät installiert sein. Hierzu eignen sich solche, die den Link direkt im Browser öffnen können - also nicht innerhalb der QR-Code App, wo deswegen meist weniger Display-Fläche zur Verfügung steht.
+#### 1) QR-Code Reader auf dem Mobil-Gerät installiert
+
+Hierzu eignen sich solche, die den Link *direkt* im Browser öffnen können - also **nicht** innerhalb der QR-Code App, wo deswegen meist weniger Display-Fläche zur Verfügung steht.
 Der Markt solcher Apps ist sehr lebendig. Wir haben für iOS und für Android folgende Apps getestet, welche diesen Anforderungen genügen:
 
 |Device-OS|QR-Code Reader Empfehlung|
@@ -16,7 +18,11 @@ Der Markt solcher Apps ist sehr lebendig. Wir haben für iOS und für Android fo
 
 #### 2) Das Mobil-Gerät muss vollständig aufgeladen mitgebracht werden
 
-#### 3) In der Turnhalle muss ausreichend Signalstärke mit dem eigenen Mobilfunk-Anbieter existieren, oder es wird ein Wireless-Netzwerk bereitgestellt, in welches sich der Wertungsrichter einwählen kann und welches Internet-Zugang gewährt.
+Falls befürchtet wird, dass die Akkuladung nicht ausreichen wird, empfiehlt sich ein Akku-Pack oder ein Lade-Adapter mitzunehmen.
+
+#### 3) In der Turnhalle muss ausreichend Signalstärke mit dem eigenen Mobilfunk-Anbieter existieren
+
+Wenn dies nicht gegeben ist, wird möglicherweise in der Turnhalle ein Wireless-Netzwerk bereitgestellt, in welches sich der Wertungsrichter einwählen kann und welches Internet-Zugang gewährt.
 
 ### In der Turnhalle bei der Wertungsrichter-Instruktion
 

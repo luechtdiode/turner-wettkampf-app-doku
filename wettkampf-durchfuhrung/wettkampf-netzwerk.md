@@ -88,10 +88,11 @@ Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jewe
 ![](/assets/durchgang-starten.png)
 
 In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
-Solange Durchgänge gestartet und nicht gestoppt sind, werden die Änderungsmeldungen zu diesen Durchgängen zurückbehalten, so dass die Wettkampf-App im Rechnungsbüro nicht erhaltene Meldungen (z.B. wegen einem Verbindungs-Unterbruch) bei der nächsten Verbindung nachgeführen kann.
-
+Solange Durchgänge gestartet und nicht gestoppt sind, werden die Änderungsmeldungen zu diesen Durchgängen zurückbehalten, so dass die Wettkampf-App im Rechnungsbüro nicht erhaltene Meldungen (z.B. wegen einem Verbindungs-Unterbruch) bei der nächsten Verbindung nachführen kann.
 
 ![](/assets/resultcatcher-running.png)
+
+In der Mobile-App ist in der Kopfzeile der Resultaterfassung sichtbar, ob der Durchgang für die Erfassung freigegeben wurde. Zusätzlich erscheinen die gelben Buttons `Eingaben Abschliessen`, mit welchen die Erfassung einer Geräteriege abgeschlossen werden kann.
 
 ### Wertungsrichter erfasst Wettkampf-Resultate
 
