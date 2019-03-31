@@ -20,8 +20,23 @@ Der Markt solcher Apps ist sehr lebendig. Wir haben für iOS und für Android fo
 
 ### In der Turnhalle bei der Wertungsrichter-Instruktion
 
+<table>
+<tr><td valign="top">
 1. Zugang zum lokalen Wireless einrichten (sofern die eigene Verbindung nicht ausreichend funktioniert)
-2. QR-Code für die Berechtigung zur Resultaterfassung scannen. Hierzu wird vom Rechnungsbüro entweder ein QR-Code am Bildschirtm oder auf einem Ausdruck zur Verfügung gestellt:<br>![](/assets/mobile-register.png)
+</td><td valign="top" width="350px">
+<ul><li>Netzwerkname</li><li>Username</li><li>Passwort</li></ul>
+</td></tr>
+<tr><td valign="top">
+2. QR-Code für die Berechtigung zur Resultaterfassung scannen. Hierzu wird vom Rechnungsbüro entweder ein QR-Code am Bildschirtm oder auf einem Ausdruck zur Verfügung gestellt
+</td><td valign="top" width="350px">
+<img src="../assets/mobile-register.png">
+</td></tr>
+<tr><td valign="top">
+3. Das Mobilgerät soll gegen Ablenkungen durch Push-Nachrichten aus Chats etc in einen "Bitte nicht stören"-Modus versetzt werden.
+</td><td valign="top" width="350px">
+<img src="../assets/how-to-config-quiet-mode.png">
+</td></tr>
+</table>
 
 ### Am Wertungstisch
 
@@ -30,10 +45,12 @@ Auf den Riegenblätter ist ein QR-Code aufgedruckt, mit welchem ein Link bereitg
 ![](/assets/riegenblaetter.png)
 
 ### Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](#qrcode-printouts)
+<table><tr><td  valign="top"> 
 
 Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.
-
-![](/assets/resultaterfassen-gesperrt.png)
+<br>
+</td><td valign="top" width="280px"><img src="../assets/resultaterfassen-gesperrt.png"> </td></tr>
+</table>
 
 ### Wertungsrichter erfasst Wettkampf-Resultate
 
