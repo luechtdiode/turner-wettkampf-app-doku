@@ -33,8 +33,8 @@ Für eine schnelle Kontrolle dient der Status-Button oben rechts im Fenster. Mit
 
 3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen:<br>![](/assets/download-competitions.png)<br> ![](/assets/list-download-competitions.png)<br>
 Nachdem ein Wettkampf heruntergeladen wurde, können daran noch keine Änderungen gemacht werden. Man kann sich allerdings zu dem Wettkampf im Netzwerk verbinden und aktualisierte Resultate werden auf die lokale Kopie gemeldet. Um die volle Kontrolle über den Wettkampf von einem Gerät auf das Andere zu übertragen muss vom Gerät, auf dem der Wettkampf hochgeladen wurde, der Wettkampf wie bisher via `Import-`/`Export`-Funktion als Zip-Datei auf das zusätzliche Gerät kopiert werden. Die Datei enthält den Sicherheits-Schlüssel für den Vollzugriff auf diesen Wettkampf:<br>
-    ![](/assets/competition-share-secret.png)<br> Diese Datei ist für den Benutzer **unsichtbar**. Mit diesem Vorgehen können mehrere Geräte die volle Kontrolle über den Wettkampf erlangen.
-    * Nachdem der Wettkampf auf dem Ziel-Gerät heruntergeladen wurde, kann vom Gerät, wo er hochgeladen wurde der Wettkampf im Netzwerk entfernt werden (siehe [Wettkampf im Netzwerk entfernen](#wettkampfnetzwerk-entfernen)). Daraufhin kann der Wettkampf vom Ziel-Gerät frisch in's Netzwerk hochgeladen werden. Die Kontrolle des Wettkampfs liegt immer bei dem Gerät, von wo aus ein Wettkampf hochgeladen wurde. Mit diesem Verfahren liegt die volle Kontrolle über den Wettkampf immer nur bei einem Gerät.
+![](/assets/competition-share-secret.png)<br> Diese Datei ist für den Benutzer **unsichtbar**. Mit diesem Vorgehen können mehrere Geräte die volle Kontrolle über den Wettkampf erlangen.
+
 4. Solange eine aktive Verbindung besteht, werden die Resultate über den zentralen Server mit allen anderen an diesem Wettkampf verbundenen Stationen synchronisiert. So ist es denn auch möglich, mit mehr als einer Station im Rechnungsbüro zu arbeiten, um so die Ausfallsicherheit zu erhöhen.
 
 ### Riegenblätter mit QR-Code für Direkteinstieg in die Erfassungs-Maske der Mobile-App drucken {#qrcode-printouts}
@@ -88,6 +88,8 @@ Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jewe
 ![](/assets/durchgang-starten.png)
 
 In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
+Solange Durchgänge gestartet und nicht gestoppt sind, werden die Änderungsmeldungen zu diesen Durchgängen zurückbehalten, so dass die Wettkampf-App im Rechnungsbüro nicht erhaltene Meldungen (z.B. wegen einem Verbindungs-Unterbruch) bei der nächsten Verbindung nachgeführen kann.
+
 
 ![](/assets/resultcatcher-running.png)
 
@@ -149,9 +151,17 @@ Sollten bereits Daten über Mobile-Devices erfasst worden sein, bevor im Rechnun
 
 ![](/assets/wettkampf-herunterladen.png)
 
+### Wettkampf noch einmal in's Netzwerk hochladen
+
+Es kann vorkommen, dass nach Anpassungen z.B. an der Riegeneinteilung diese so auch wieder im Netzwerk bereitgestellt werden müssen. Es kann auch sein, dass lokal Wertungen erfasst wurden, ohne eine Verbindung mit dem Netzwerk gehabt zu haben. In diesem Fall sind die Wertungen nicht zum zentral im Netzwerk gespeicherten Wettkampf übertragen worden.
+Diese Situation kann gelöst werden, wenn über die `Upload`-Funktion der aktuelle Zustand des lokal gespeicherten Wettkampfes als ganzes wieder in das Netzwerk hochgeladen wird.
+Diese Funktion ist nur wählbar, wenn die Netzwerk-Verbindung aktiv ist und kein Durchgang gestartet und noch nicht gestoppt ist.
+Es wird eine Sicherheits-Abfrage angezeigt, wo noch einmal darauf hingewiesen wird, dass die im Netzwerk erfassten Daten allesamt mit denjenigen aus dem lokalen gespeicherten Wettkampf überschrieben werden.
+
 ### Netzwerkmodus stoppen
 
 Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resultate mehr zum oder vom Netzwerk synchronisiert.
+Solange jedoch noch Durchgänge gestartet und nicht gestoppt wurden, werden die pendenten Änderungsmeldungen bei der nächsten Verbindung nachgeführt.
 
 ![](/assets/network-disconnect.png)
 
