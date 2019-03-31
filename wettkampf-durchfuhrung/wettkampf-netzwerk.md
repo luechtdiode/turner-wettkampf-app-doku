@@ -101,9 +101,9 @@ Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.<br>
 </td><td valign="top" width="280px"><img src="../assets/resultaterfassen-gestartet2.png"> </td></tr>
 <tr><td valign="top"><p>
 Bei Kunstturn-Wettkämpfen kann hier auch eine D-Note erfasst werden.</p><p>
-Mit einem Click auf die E-Note (1) kann die entsprechene Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>
-Die Endnote wird beim `Speichern` oder beim `Speichern & Weiter` (2) vom Programm berechnet und aktualisiert, wenn die Aktion erfolgreich ausgeführt werden kann. Wenn z.B. die Berechtigung für die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, können keine Resultate erfasst/korrigiert werden. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettkämpfen wird die D-Note und die E-Note zusammengezählt.</p><p>
-<em>Achtung</em> Wenn die Nummer-Eingabetastatur, die für die Eingabe der Wertung eingeblendet wird, die Buttons überdeckt, muss für dessen Betätigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.
+Mit einem Click auf die E-Note (1) kann die entsprechende Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>
+Die Endnote wird beim `Speichern` oder beim `Speichern & Weiter` (2) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettkämpfen wird die D-Note und die E-Note zusammengezählt.</p><p>Es können auch Fehler gemeldet werden. Wenn z.B. die Berechtigung für die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, können keine Resultate erfasst/korrigiert werden.</p><p>
+<em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons überdeckt, muss für dessen Betätigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.
 </td><td width="280px"><img src="../assets/resultcatcher-wertung-erfassen.png"></td></tr>
 </table>
 
