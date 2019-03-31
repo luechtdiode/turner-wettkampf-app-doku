@@ -6,7 +6,7 @@ Mit der Funktion &quot;`Bestenliste erstellen`&quot; lässt sich diese Liste ers
 
 ![](/assets/bestenliste-erstellen.png)
 
-Sie beinhaltet alle Resultate ab dem Wert 8.7 in aufsteigender Reihenfolge.
+Sie beinhaltet alle Resultate ab dem Wert 9.0 in aufsteigender Reihenfolge.
 
 Der Output kann im Browser abgelesen werden, oder für den Speaker an einem anderen Standort ausgedruckt werden:
 

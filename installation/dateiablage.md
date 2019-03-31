@@ -4,7 +4,7 @@
 
 Die Programmdateien werden unter Windows in das Verzeichnis **`%programfiles%\TurnerWettkampf-App`** gespeichert.
 
-Sie beinhalten eine eigenständige Java Virtual Machine (JVM Version 8) sowie die notwendigen Programm-Dateien für die Ausführung der App.
+Sie beinhalten eine eigenständige Java Virtual Machine (JVM Version 11.0.2) sowie die notwendigen Programm-Dateien für die Ausführung der App.
 
 ### Daten {#daten}
 
