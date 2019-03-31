@@ -27,7 +27,7 @@ Der Markt solcher Apps ist sehr lebendig. Wir haben für iOS und für Android fo
 <ul><li>Netzwerkname</li><li>Username</li><li>Passwort</li></ul>
 </td></tr>
 <tr><td valign="top">
-2. QR-Code für die Berechtigung zur Resultaterfassung scannen. Hierzu wird vom Rechnungsbüro entweder ein QR-Code am Bildschirtm oder auf einem Ausdruck zur Verfügung gestellt
+2. QR-Code für die Berechtigung zur Resultaterfassung scannen. Hierzu wird vom Rechnungsbüro entweder ein QR-Code am Bildschirm oder auf einem Ausdruck zur Verfügung gestellt
 </td><td valign="top" width="350px">
 <img src="../assets/mobile-register.png">
 </td></tr>
