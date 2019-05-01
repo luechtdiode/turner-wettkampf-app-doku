@@ -12,10 +12,10 @@ siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/riegeneinteilung_er
 
 ### Durchgänge mit gemischten Kategorien/Programmen
 
-Vorallem bei den höheren Kategorien ist es üblich, dass mehrere Kategorien auf grund der geringen Teilnehmer-Zahl in einem Durchgang zusammengefasst werden.
+Vorallem bei den höheren Kategorien ist es üblich, dass mehrere Kategorien auf Grund der geringen Teilnehmer-Zahl in einem Durchgang zusammengefasst werden.
 
 Für solche Fälle bietet sich an, den Tab-Reiter "Alle" (-Kategorien) anzuwählen und dann mit der Filterliste zu arbeiten.
 
-Für eine schnelle Positionierung kann mit einem Click in die Filterliste und anschliessend dem Eingeben des Regencodes direkt die gewünschten Riege angezeigt werden:
+Für eine schnelle Positionierung kann mit einem Click in die Filterliste und anschliessend dem Eingeben des Riegencodes (hier z.B. mit `R0111`) direkt die gewünschten Riege angezeigt werden:
 
 ![](/assets/handle-riegencode.gif)
