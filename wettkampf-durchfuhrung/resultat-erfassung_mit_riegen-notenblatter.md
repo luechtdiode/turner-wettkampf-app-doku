@@ -8,7 +8,7 @@ Es wird in diesem Filtermodus nur noch das Gerät zur Resultateingabe angezeigt,
 Vollständig erfasste Riegen in der Kategorie werden mit einem grünen Symbol gekennzeichnet.
 
 »**Achtung** - Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen,
-siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/riegeneinteilung_erstellen.md#ausnahmen-limitationen)
+siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/ausnahmen-limitationen.md)
 
 ### Durchgänge mit gemischten Kategorien/Programmen
 
