@@ -33,16 +33,19 @@ Wenn in einem Durchgang nicht alle benötigten Geräte mit einer Riege als Start
 dann kann die App nicht erkennen, welche Geräte ausser den als Startgerät verknüpften im Durchgang wirklich geturnt werden sollen.
 Es macht also ein Turnus mit allen als Startgerät verknüpften Geräten (grün) und die restlichen (rot) werden ignoriert.
 
-##### Lösung mit Notenblätter (Riegenblätter werden nicht verwendet)
+#### Lösung mit Notenblätter (Riegenblätter werden nicht verwendet)
 In solchen Fällen wäre es besser, die Erfassung mit Notenblätter pro Turner durchzuführen, oder aber dass der Durchgang 
 mit weiteren Kategorien zusammengefasst wird, so dass es für alle notwendigen Geräte auch eine Start-Riege geben kann.
-<br/>![](/assets/not-all-startgeraete-assigned-issue.png)
 
-##### Lösung mit leeren Riegen auf dem Startgerät
+![](/assets/not-all-startgeraete-assigned-issue.png)
+
+#### Lösung mit leeren Riegen auf dem Startgerät
 Eine andere Möglichkeit ist, im Durchgang beim Stargerät, wo keine Riege zugeteilt ist, eine leere Riege explizit zu setzen:
-<br>![](/assets/durchgang-leere-startriege-fix.png) 
+
+![](/assets/durchgang-leere-startriege-fix.png) 
 
 Die Riegenbezeichnung `Leere Riege [Durchgang/Gerät] (0)` wird automatisch generiert, so dass es keine Namenskonflikte geben sollte, wenn z.B. mehrere solche leeren Riegen eingefügt werden müssten:
-<br>![](/assets/durchgang-leere-startriege-fixed.png)
+
+![](/assets/durchgang-leere-startriege-fixed.png)
 
 Mit dieser leeren Riege im Startgerät des Durchganges wird sichergestellt, dass auch dieses Gerät in der Durchgangs-Rotation berücksichtigt ist.
