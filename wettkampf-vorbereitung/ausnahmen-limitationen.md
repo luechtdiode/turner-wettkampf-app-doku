@@ -7,7 +7,7 @@
       Bei den Listen pro Kategorie/Programm kann es vorkommen, dass mit dem Riegenfilter <i>(hier K7)</i> nicht alle Turner-/Innen für die Erfassung zur Verfügung stehen <i>(hier fehlen die K6 Barrenturner)</i>.
     </td>
     <td>
-      <img align="right" src="../assets/gemischte-kategorien-issue2.png">
+      <img src="../assets/gemischte-kategorien-issue2.png">
     </td>
   <tr>
   <tr>
@@ -15,7 +15,7 @@
       Wenn in einem Durchgang Kategorien/Programme gemischt werden, sollte für die Erfassung der Resultate die ungefilterte Liste der Turner <em>(Alle)</em> verwendet werden. 
     </td>
     <td>
-      <img align="right" src="../assets/gemischte-kategorien-solution.png">
+      <img src="../assets/gemischte-kategorien-solution.png">
     </td>
   <tr>
   <tr>
@@ -23,7 +23,7 @@
       Zur Orientierung, dass es sich bei einer Riege um eine "gemischte" Riege handelt, werden auf den Riegen-Notenblätter pro Turner/-In jeweils dessen Kategorie-/Programmeinteilung aufgedruckt.
     </td>
     <td>
-        <img align="right" src="../assets/gemischte-kategorien-issue.png">
+        <img src="../assets/gemischte-kategorien-issue.png">
     </td>
   <tr>
 <table>
