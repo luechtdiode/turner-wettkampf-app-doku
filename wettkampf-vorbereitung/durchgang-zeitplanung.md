@@ -3,6 +3,7 @@
 Für die Planung der Durchgänge sind dessen Durchlaufzeiten entscheidend. Die App kann diese anhand vorgegebenen Zeit-Bestandteilen pro Programm/Kategorie und Gerät, sowie der momentan im Durchgang zugewiesenen Riegen-Grössen berechnen.
 
 Im `Planzeiten`-Tab (1) innerhalb der Riegeneinteilung lassen sich alle Zeitbestandteile auflisten und bearbeiten:
+
 ![](/assets/planzeiten.png)
 
 Zeit-Bestandteil | Beschreibung 
