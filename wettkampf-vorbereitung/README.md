@@ -26,6 +26,7 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
   * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
+  * [Durchgang-Zeitplanung](durchgang-zeitplanung.md)
   * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
   * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
   * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
