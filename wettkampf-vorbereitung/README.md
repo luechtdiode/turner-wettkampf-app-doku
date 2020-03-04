@@ -22,6 +22,7 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
 * [Turneranmeldungen verarbeiten](turneranmeldungen_verarbeiten.md)
+* [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
   * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)

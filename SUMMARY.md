@@ -9,6 +9,7 @@
 * [Wettkampf-Vorbereitung](wettkampf-vorbereitung/README.md)
   * [Wettkampf anlegen](wettkampf-vorbereitung/wettkampf_anlegen.md)
   * [Turneranmeldungen verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten.md)
+  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf-vorbereitung/wettkampf_uebersicht.md)
   * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen.md)
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/ausnahmen-limitationen.md)
