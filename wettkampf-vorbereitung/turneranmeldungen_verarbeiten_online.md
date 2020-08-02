@@ -41,8 +41,7 @@ Folgende Mutations-Aktionen werden unterstützt:
 |Aktion|Beschreibung|
 |-|-|
 |Verein importieren|Ein neuer Verein kann importiert werden. Um zu verhindern, dass sich Fake-Anmeldungen automatisch in der Datenbank einnisten, muss die initiale Übernahme vom Wettkampf-Administrator bestätigt werden.|
-|Athlet importieren|Analog wie beim Import mit Excel, wird zunächst vom Programm geprüft, ob ein Athlet bereits in der Datenbank bekannt ist. Falls nicht, muss dieser aufgenommen werden, um ihn danach im Wettkampf einteilen zu können|
-|Einteilen|Teilt den Athlet beim angegebenen Programm/Kategorie ein.|
+|Hinzufügen|Teilt den Athlet beim angegebenen Programm/Kategorie ein. Unter Import-Vorschlag wird angezeigt, ob der Athlet neu importiert wird, oder ob er in der Datenbank gefunden werden konnte und desshalb wiederverwendet werden kann.|
 |Umteilen|Verschieb den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie|
 |Entfernen|Entfernt den angegebenen Athlet aus dem Wettkampf. Die Entfernen-Aktion entfernt nicht den Athlet beim Verein.|
 
@@ -59,7 +58,6 @@ Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf be
 Siehe auch 
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
 * [Riegenzuteilung nachbearbeiten](riegzuteilung_nachbearbeiten.md)
-
 
 ### Abschliessen der Anmeldungs-Verarbeitung
 
