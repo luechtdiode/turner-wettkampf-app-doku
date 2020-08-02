@@ -1,6 +1,7 @@
 ### Ausnahmen, Limitationen {#ausnahmen-limitationen}
 
 #### Durchgang, in dem nicht jedes Gerät eine Startriege hat
+<<<<<<< HEAD
 
 **Problemstellung**<br>Wenn in einem Durchgang nicht alle benötigten Geräte mit einer Riege als Startgerät verknüpft werden (weil es z.B. nicht genügend Riegen gibt), dann kann die App nicht erkennen, welche Geräte ausser den als Startgerät verknüpften im Durchgang wirklich geturnt werden sollen.<br>Es macht also ein Turnus mit allen als Startgerät verknüpften Geräten (grün) und die restlichen (rot) werden ignoriert:
 
@@ -13,6 +14,13 @@ Wenn in einem Durchgang nicht alle benötigten Geräte mit einer Riege als Start
 dann kann die App nicht erkennen, welche Geräte ausser den als Startgerät verknüpften im Durchgang wirklich geturnt werden sollen.
 Es macht also ein Turnus mit allen als Startgerät verknüpften Geräten (grün) und die restlichen (rot) werden ignoriert.
 
+=======
+![](/assets/not-all-startgeraete-assigned-issue.png)
+Wenn in einem Durchgang nicht alle benötigten Geräte mit einer Riege als Startgerät verknüpft werden (weil es z.B. nicht genügend Riegen gibt), 
+dann kann die App nicht erkennen, welche Geräte ausser den als Startgerät verknüpften im Durchgang wirklich geturnt werden sollen.
+Es macht also ein Turnus mit allen als Startgerät verknüpften Geräten (grün) und die restlichen (rot) werden ignoriert.
+
+>>>>>>> 8ef22bd6b08a5fd99c573d75a8bd33dd56b52023
 #### Lösung mit leeren Riegen auf dem Startgerät
 Eine andere Möglichkeit ist, im Durchgang beim Stargerät, wo keine Riege zugeteilt ist, eine leere Riege explizit zu setzen:
 
@@ -29,8 +37,17 @@ Sofern es noch überschaubar bleibt (kleinerer Wettkampf), empfiehlt sich auch d
 
 #### Resultat-Erfassung bei Riegen mit gemischten Kategorien
 
+<<<<<<< HEAD
 |||
 |-|-|
 |**Problemstellung**<br>Bei den Listen pro Kategorie/Programm kann es vorkommen, dass mit dem Riegenfilter (hier K7) nicht alle Turner-/Innen für die Erfassung zur Verfügung stehen (hier fehlen die K6 Barrenturner).|![](/assets/gemischte-kategorien-issue2.png)|
 |**Hilfestellung**<br>Für die Erfassung der Resultate mit Riegen gemischter Kategorien, soll die **ungefilterte Liste** der Turner (Tab `Alle`) verwendet werden.|![](/assets/gemischte-kategorien-solution.png)|
 |Zur Orientierung, dass es sich bei einer Riege um eine "gemischte" Riege handelt, werden auf den Riegen-Notenblätter pro Turner/-In jeweils dessen Kategorie-/Programmeinteilung aufgedruckt.|![](/assets/gemischte-kategorien-issue.png)|
+=======
+Mit dieser leeren Riege im Startgerät des Durchganges wird sichergestellt, dass auch dieses Gerät in der Durchgangs-Rotation berücksichtigt ist.
+
+#### Lösung mit Notenblätter (Riegenblätter werden nicht verwendet)
+Da die Notenblätter pro Turner aufbereitet werden, und die Erfassung der Resultate dann nicht Riegen-orientiert sondern Turner-orientiert stattfindet, spielt die Durchgangsplanung keine Rolle.
+
+
+>>>>>>> 8ef22bd6b08a5fd99c573d75a8bd33dd56b52023

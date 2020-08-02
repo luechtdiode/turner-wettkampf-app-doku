@@ -8,9 +8,14 @@
   * [Backup / Restore / Import / Export](installation/backup__restore__import__export.md)
 * [Wettkampf-Vorbereitung](wettkampf-vorbereitung/README.md)
   * [Wettkampf anlegen](wettkampf-vorbereitung/wettkampf_anlegen.md)
+<<<<<<< HEAD
   * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf-vorbereitung/wettkampf_uebersicht.md)
   * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_offline.md)
   * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
+=======
+  * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_offline.md)
+* [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
+>>>>>>> 8ef22bd6b08a5fd99c573d75a8bd33dd56b52023
   * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen.md)
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/ausnahmen-limitationen.md)
