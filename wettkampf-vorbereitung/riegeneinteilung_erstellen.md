@@ -19,6 +19,18 @@ Wenn mindestens ein Durchgang (Multiselektion mittels `CTRL+linke Maustaste` ode
 4.  `In anderen Durchgang verschieben`: Wenn genau ein Durchgang selektiert ist, dann können zugeteilte Riegen in andere Durchgänge verschoben werden. Es klappt ein Untermenü mit allen Riegennamen aus dem Durchgang auf. Die kleinste Riege ist zu oberst, die grösste zu unterst. Wird eine Riege ausgewählt kann im weiteren Untermenü der Ziel-Durchgang ausgewählt werden.
 5.  `Auf anderes Startgerät verschieben`: Wenn genau ein Durchgang selektiert ist, dann können zugeteilte Riegen in eine andere Startgerät-Riege verschoben werden. Es klappt ein Untermenü mit allen Riegennamen aus dem Durchgang auf. Die kleinste Riege ist zu oberst, die grösste zu unterst. Wird eine Riege ausgewählt kann im weiteren Untermenü der Ziel-Startgeräteriege ausgewählt werden. Die Ziel-Startgeräteriegen sind mit ihrer aktuellen Grösse gekennzeichnet.
 
+## Zusammenfassen von Durchgängen zu einer Durchgang-Gruppe
+
+Bei der Wettkampfdurchführung können Durchgägne parallel durchgeführt werden. Mit dieser Funktion lassen sich solche parallel durchgeführten Durchgänge mit der funktion `Durchgänge in Gruppen zusammenfassen ...` zusammenfassen.
+Die Zeitangaben auf der Durchgang-Gruppe entspricht dann immer der Zeit, die beim "langsamsten" Durchgang in der Gruppe berechnet wurde.
+
+![Durchgang gruppieren](/assets/durchgang-gruppieren.png)
+
+![Durchganggruppe bezeichnen](/assets/name-durchganggruppe.png)
+
+![Gruppierte Durchgänge](/assets/gruppierte-durchgaenge.png)
+
+
 ## Drag & Drop Unterstützung bei der Durchgang-Planung
 
 Die Riegen können auch mittels Drag & Drop auf ein anderes Startgerät oder in einen anderen Durchgang verschoben werden:
@@ -30,6 +42,8 @@ Die Riegen können auch mittels Drag & Drop auf ein anderes Startgerät oder in 
 `Riege in anderen Durchgang verschieben`
 
 ![Riegen & Durchgänge Einteilung nachbearbeiten](/assets/drag-drop-durchg.gif)
+
+Mit gruppierten Durchgängen ist darauf zu achten, dass beim Fallenlassen (drop) der Riege die Durchgang-Gruppe aufgeklappt ist. Auf zugegklappte Durchgangs-Gruppen kann keine Riege zugeteilt werden.
 
 ### Export-Funktionen
 <img align="right" src="../assets/riegen-export-funktionen.png">
