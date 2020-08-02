@@ -7,16 +7,8 @@ Die Turner/Innen, die nach einem Gerätewechsel pro Gerät zur Erfassung der Res
 Es wird in diesem Filtermodus nur noch das Gerät zur Resultateingabe angezeigt, das zum Riegen-Notenblatt passt. Die Reihenfolge der Turner/-Innen ist identisch, so dass die Resultate zum betreffenden Gerät von Oben nach unten erfasst werden können.  
 Vollständig erfasste Riegen in der Kategorie werden mit einem grünen Symbol gekennzeichnet.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 »**Achtung** - Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen,
 siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/ausnahmen-limitationen.md)
-=======
-=======
->>>>>>> 8ef22bd6b08a5fd99c573d75a8bd33dd56b52023
-»**Achtung** - Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen,  
-siehe [Ausnahmen und Limitationen](../wettkampf-vorbereitung/riegeneinteilung_erstellen.md#ausnahmen-limitationen)
->>>>>>> Updates wettkampf-durchfuhrung/resultat-erfassung_mit_riegen-notenblatter.md
 
 ### Durchgänge mit gemischten Kategorien/Programmen
 
