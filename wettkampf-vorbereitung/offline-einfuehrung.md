@@ -1,8 +1,4 @@
-# Wettkampf-Vorbereitung {#wettkampf-vorbereitung}
-
-Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit, die auch mit der App nicht zum Kinderspiel wird.
-
-In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieben:
+# Offline Anmeldungen verarbeiten {#wettkampf-vorbereitung-offline-registrations}
 
 ![Wettkampf vorbereiten - Übersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
 
@@ -17,17 +13,3 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 9.  Statistik und Filter-Funktionen auf Riegen-Ebene, Riegen-Bezeichnungen bearbeiten und zu Durchgang und Startgerät verknüpfen.
 10.  Turner zu Riege Zuteilung bearbeiten, Riegennamen vergeben, umbenennen, zurücksetzen.
 11.  Resultate erfassen / kontrollieren.
-
-## Weiterführende Kapitel
-
-* [Wettkampf anlegen](wettkampf_anlegen.md)
-* [Turneranmeldungen offline verarbeiten](turneranmeldungen_verarbeiten_offline.md)
-* [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
-  * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
-  * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
-  * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
-  * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
-  * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
-* [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
-* [Notenblätter / Riegennotenblätter erstellen](notenblatter__riegennotenblatter_erstellen.md)
-* [Teilnehmerlisten erstellen](teilnehmerlisten_erstellen.md)

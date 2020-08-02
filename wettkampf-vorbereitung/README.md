@@ -24,8 +24,8 @@ Für den Workflow ohne Netzwerk (herkömmlich via EMail, Excel etc.) existiert e
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
 * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht.md)
-* [Turneranmeldungen offline verarbeiten](turneranmeldungen_verarbeiten_offline.md)
 * [Turneranmeldungen online verarbeiten](turneranmeldungen_verarbeiten_online.md)
+* [Turneranmeldungen offline verarbeiten](turneranmeldungen_verarbeiten_offline.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
   * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
