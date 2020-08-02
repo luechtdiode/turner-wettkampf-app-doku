@@ -1,32 +1,27 @@
 # Wettkampf-Vorbereitung {#wettkampf-vorbereitung}
 
-Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit. Mit der App sollen die wichtigsten / fehleranfälligsten Tätigkeiten so unterstzützt werden, dass sie möglichst medienbruchfrei und automatisiert ausgeführt werden können.
+Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit, die auch mit der App nicht zum Kinderspiel wird.
 
 In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieben:
 
 ![Wettkampf vorbereiten - Übersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
 
-1.  Angelegten Wettkampf im Netz bereitstellen.
-2.  Link auf Vereins-Anmeldeformular im Netz an die
-    Vereine versenden oder sonst wie publizieren.
-3.  Die Vereine registrieren sich online und melden ihre
-    Teilnehmer-/Innen.
-4.  Übernahme der Vereinsanmeldungen in den Wettkampf.
-5.  Einteilung im Wettkampf
-6.  Aktualisieren der Einteilung im Netz.
-7.  Medallienbedarf ablesen und für die Bestellung verwenden.
-8.  Zeitbedarf pro Durchgang ablesen und in die Zeitplanung aufnehmen.
-9.  Teilnehmerlisten erstellen.
-10. Notenblätter/Riegenblätter erstellen.
-11. Rangliste-Einstellungen abspeichern.
-
-Für den Workflow ohne Netzwerk (herkömmlich via EMail, Excel etc.) existiert eine [separate Beschreibung](offline-einfuehrung.md).
+1.  Athlet/Innen aus der Datenbank auswählen, in den Wettkampf aufnehmen und in eine Kategorie einteilen.
+2.  Gruppen von angemeldeten Turner/Innen aus einem Excel-Sheet kopieren und im Wettkampf einfügen.
+3.  Bereits in eine Kategorie eingeteilte Turner in eine andere Kategorie umteilen.
+4.  Teilnehmerlisten erstellen.
+5.  Notenblätter erstellen.
+6.  Eine(n) im Wettkampf eingeteilte(n) Turner/In entfernen (aus dem Wettkampf entfernen, nicht den/die Turner/In selbst löschen).
+7.  Die erfassten Resultate zu einem/einer Turner/In zurücksetzen (auf 0 zurückstellen).
+8.  Einen Turner, eine Turnerin in der Liste suchen mit (Bestandteilen aus Namen, Vornamen, Verein und Riege als Suchbegriffe).
+9.  Statistik und Filter-Funktionen auf Riegen-Ebene, Riegen-Bezeichnungen bearbeiten und zu Durchgang und Startgerät verknüpfen.
+10.  Turner zu Riege Zuteilung bearbeiten, Riegennamen vergeben, umbenennen, zurücksetzen.
+11.  Resultate erfassen / kontrollieren.
 
 ## Weiterführende Kapitel
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
 * [Turneranmeldungen offline verarbeiten](turneranmeldungen_verarbeiten_offline.md)
-* [Turneranmeldungen online verarbeiten](turneranmeldungen_verarbeiten_online.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
   * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
