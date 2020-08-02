@@ -11,7 +11,7 @@
   * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf-vorbereitung/wettkampf_uebersicht.md)
   * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
   * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_offline.md)
-* [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
+  * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
   * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen.md)
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/ausnahmen-limitationen.md)
