@@ -57,7 +57,7 @@ Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf be
 
 Siehe auch 
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen.md)
-* [Riegenzuteilung nachbearbeiten](riegzuteilung_nachbearbeiten.md)
+* [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
 
 ### Abschliessen der Anmeldungs-Verarbeitung
 
