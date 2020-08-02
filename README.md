@@ -2,6 +2,6 @@
 
 ## Benutzeranleitung
 
-*für die Version 2.1 der Turner Wettkampf App*
+*für die Version 2.2 der Turner Wettkampf App*
 
 [https://luechtdiode.gitbooks.io/turner-wettkampf-app/content/](https://luechtdiode.gitbooks.io/turner-wettkampf-app/content/)
