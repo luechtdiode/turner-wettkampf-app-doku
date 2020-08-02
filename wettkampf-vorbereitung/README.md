@@ -4,8 +4,6 @@ Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit. Mit der App solle
 
 In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieben:
 
-![Wettkampf vorbereiten - Übersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
-
 1.  Angelegten Wettkampf im Netz bereitstellen.
 2.  Link auf Vereins-Anmeldeformular im Netz an die
     Vereine versenden oder sonst wie publizieren.
