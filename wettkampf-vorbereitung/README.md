@@ -30,6 +30,7 @@ Für den Workflow ohne Netzwerk (herkömmlich via EMail, Excel etc.) existiert e
   * [Details zu Durchgang neu einteilen](durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](ausnahmen-limitationen.md)
   * [Durchgang-Zeitplanung](durchgang-zeitplanung.md)
+  * [Durchgang-Planung](durchgang-planung.md)
   * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_att.md)
   * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
   * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)

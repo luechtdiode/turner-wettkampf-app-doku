@@ -41,3 +41,5 @@ Nicht angegeben<br>(in Tot enthalten) | Zeitbedarf für den Gerätewechsel
 Die Plandauer eines Durchganges wird auch im Netzwerk-Dashboard angezeigt. Neben der Start-, Ende- und Dauer-Anzeige dient dies nicht zuletzt auch der Kontrolle, ob die Planzeiten korrekt eingeschätzt worden sind. Bei wiederholt grösseren Abweichungen sollten die Planzeiten justiert werden.
 
 ![](/assets/planzeiten-netzwerkdashboard.png)
+
+Siehe auch [Durchgang-Planung](durchgang-planung.md)

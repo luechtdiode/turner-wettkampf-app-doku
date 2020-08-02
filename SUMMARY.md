@@ -16,6 +16,7 @@
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/ausnahmen-limitationen.md)
     * [Durchgang-Zeitplanung](wettkampf-vorbereitung/durchgang-zeitplanung.md)
+    * [Durchgang-Planung](wettkampf-vorbereitung/durchgang-planung.md)
     * [Mustervorgehen für Athletiktest-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_att.md)
     * [Mustervorgehen für KuTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_kutu.md)
     * [Mustervorgehen für GeTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_getu.md)

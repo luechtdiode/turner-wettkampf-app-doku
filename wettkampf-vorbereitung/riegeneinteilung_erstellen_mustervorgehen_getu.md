@@ -44,6 +44,9 @@ Die Riegen können auch mittels Drag & Drop auf ein anderes Startgerät oder in 
 
 ![Riegen & Durchgänge Einteilung nachbearbeiten 5](/assets/drag-drop-durchg.gif)
 
+Mit gruppierten Durchgängen ist darauf zu achten, dass beim Fallenlassen (drop) der Riege die Durchgang-Gruppe aufgeklappt ist. Auf zugegklappte Durchgangs-Gruppen kann keine Riege zugeteilt werden.
+Siehe auch [Durchgang-Planung](durchgang-planung.md)
+
 Im GeTu ist es bei geschlechts-gemischten Durchgängen üblich, dass die Barren-Station am Ende eines Durchgangs für alle Turner aus dem Durchgang durchgeführt wird. Diese Einteilung lässt sich mit folgendem Trick erreichen:
 
 Beschreibung | Illustration
