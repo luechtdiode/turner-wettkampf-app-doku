@@ -83,7 +83,7 @@ Aus Datenschutz-Gründen ist es nicht jedem neu registrieten Verein erlaubt, dir
 Datenstamm der Vereinsturner/-Innen zuzugreifen. Der Schutz soll sicherstellen, dass nur dann Daten aus
 früheren Wettkämpfen kopiert werden können, wenn der neu registrierte Verein folgende Bedingungen erfüllt:
 
-1. Der Verein hat bereits in einem bisherigen Wettkampf teilgenommen.
+1. Der Verein hat bereits in einem bisherigen Wettkampf teilgenommen (mit Turner/-Innen im Wettkampf eingeteilt).
 2. Der Wettkampf, an dem der Verein bereits teilgenommen hat, muss im Internet publiziert sein (auf dem 
    Server hochgeladen). Reine Offline durchgeführte Wettkämpfe können nicht berücksichtigt werden.
 3. Der Verein muss in den folgenden Feldern identische Werte zu einer früheren Wettkampf-
