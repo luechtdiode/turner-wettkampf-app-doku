@@ -12,7 +12,8 @@ Jeder Verein, der sich an diesem Wettkampf anmelden möchte, muss sich über die
 
 ![Online-Registrierung](/assets/verein-registration-form.png)
 
-Anschliessend kann er seine Turnerinnen und Turner bei der entsprechenden Kategorie anmelden:
+Anschliessend kann er sowohl seine Turnerinnen und Turner bei der entsprechenden Kategorie als auch
+die Wertungrichter/-Innen in einer separaten Liste anmelden:
 
 ![Online-Turner-Registrierung](/assets/turner-registration-form.png)
 
@@ -21,6 +22,8 @@ Nach der Erfassung der Anmeldungen kann der Vereins-Verantwortliche in der Liste
 ![Status-Registrierung](/assets/status-registration.png)
 
 Solange das noch nicht der Fall ist, wird der Status `pending`angezeigt. Sobald die Anmeldung berücksichtigt wurde, wird der Status `in sync`angezeigt.
+
+Auf der Maske der Vereinsanmeldung ist auch im Detail ersichtlich, welche Mutationen noch pendent sind.
 
 ### Abgleich der Online-Anmeldungen mit den Wettkampf-Einteilungen {#sync-registrations}
 
@@ -34,7 +37,7 @@ Mit der Funktion `Online Anmeldungen importieren` (bei der Wettkampf-Übersicht)
 
 ![Synchronisierung Online-Anmeldungen](/assets/pending-sync-actions.png)
 
-Wenn ein Verein nicht bereits in der lokalen Datenbank gespeichert ist, wird auch dessen übernahme notwendig, weil sonst dessen Anmeldungen nicht verarbeitet werden. Bereits bestehende Vereine werden erkannt müssen nicht jedesmal neu importiert werden.
+Wenn ein Verein nicht bereits in der lokalen Datenbank gespeichert ist, wird auch dessen übernahme notwendig, weil sonst dessen Anmeldungen nicht verarbeitet werden. Bereits bestehende Vereine werden erkannt und müssen nicht jedesmal neu importiert werden.
 
 Folgende Mutations-Aktionen werden unterstützt:
 
@@ -49,7 +52,7 @@ Wenn die Mutationen erfolgreich durchgeführt werden konnten, wird dies mit folg
 
 ![Bestätigung Anmeldungen verarbeitet](/assets/bestaetigung-sync-actions.png)
 
-Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf bei den entspr. Programmen/Kategorien eingeteilt. Der Riegenname wird automatisch generiert. Sofern bereits eine Durchgangsplanung gemacht wurde, ist dort zu überprüfen, ob die Riege bereits eingeteilt ist.
+Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf bei den entspr. Programmen/Kategorien eingeteilt. Der Riegenname wird automatisch generiert. Sofern bereits eine Durchgangsplanung gemacht wurde, **ist dort zu überprüfen, ob die Riege bereits eingeteilt ist**.
 
 ![Kontrolle der Anmeldungen](/assets/auto-assigned-riege.png)
 
@@ -61,7 +64,7 @@ Siehe auch
 
 ### Abschliessen der Anmeldungs-Verarbeitung
 
-Nach der erfolgreiden Übernahme der Anmeldedaten (kann auch wiederholt gemacht werden), der überprüfung der korrekten Einteilung und der nachführung der Durchgangsplanung, **soll der Wettkampf wieder ins Netz aktualisiert werden**.
+Nach der erfolgreiden Übernahme der Anmeldedaten (dies kann auch wiederholt gemacht werden), der Überprüfung der korrekten Einteilung und der Nachführung der Durchgangsplanung, **soll der Wettkampf wieder ins Netz aktualisiert werden**.
 Erst dann ist die Anpassung für alle sichtbar, also auch für die Vereine, die ihre Anmeldungen auf dem Online-Formular überprüfen.
 
 ### Mutationen der Online-Anmeldungen nach dem Import im Wettkampf
@@ -72,4 +75,20 @@ Auf dem Online-Formular für die Vereine ist ersichtlich, wenn sie nachträglich
 
 Wenn sich ein Verein im Verlauf der Zeit an mehreren Wettkämpfen anmeldet, dann stehen ihm nach der Registrierung am Wettkampf alle bisher erfassten Turner/-Innen dieses Vereins zur Auswahl, so dass er dessen Daten nicht jedesmal komplett neu erfassen muss.
 
-Es ist angedacht, dass er komplette Anmeldungen von anderen Wettkämpfen kopieren kann, so dass er danach nur noch wenig Anpassungen daran vornehmen muss.
+Es ist unter dieser Bedingung auch möglich, dass eine komplette Anmeldung (mit allen Turnerinnen und Turner, sowie den Wertungsrichter/-Innen) von einem anderen Wettkampf kopiert werden kann, so dass danach nur noch wenig Anpassungen daran vorgenommen werden müssen.
+
+#### Spezifikation der Bedingung, wann bisherig erfasste Daten kopiert werden können
+
+Aus Datenschutz-Gründen ist es nicht jedem neu registrieten Verein erlaubt, direkt auf den bereits vorliegenden
+Datenstamm der Vereinsturner/-Innen zuzugreifen. Der Schutz soll sicherstellen, dass nur dann Daten aus
+früheren Wettkämpfen kopiert werden können, wenn der neu registrierte Verein folgende Bedingungen erfüllt:
+
+1. Der Verein hat bereits in einem bisherigen Wettkampf teilgenommen.
+2. Der Wettkampf, an dem der Verein bereits teilgenommen hat, muss im Internet publiziert sein (auf dem 
+   Server hochgeladen). Reine Offline durchgeführte Wettkämpfe können nicht berücksichtigt werden.
+3. Der Verein muss in den folgenden Feldern identische Werte zu einer früheren Wettkampf-
+   Anmeldung/Registrierung haben (Gross-/Kleinschreibung wird beachtet):
+    * Vereinsname
+    * Verband
+    * EMail-Adresse des Vereins/Vereinsverantwortlichen
+    * Passwort
