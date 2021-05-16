@@ -1,3 +1,4 @@
-## Auswertung auf Turner-Ebene: {#auswertung-auf-turner-ebene}
+# Auswertung auf Turner/-In -Ebene
 
-![](/assets/resultat-analyse-3.png)
+![](../.gitbook/assets/resultat-analyse-3.png)
+

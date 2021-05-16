@@ -1,4 +1,4 @@
-# Summary
+# Table of contents
 
 * [Turner Wettkampf App](README.md)
 * [Installation](installation/README.md)
@@ -9,17 +9,17 @@
 * [Wettkampf-Vorbereitung](wettkampf-vorbereitung/README.md)
   * [Offline Wettkampf-Anmeldungen verarbeiten](wettkampf-vorbereitung/offline-einfuehrung.md)
   * [Wettkampf anlegen](wettkampf-vorbereitung/wettkampf_anlegen.md)
-  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf-vorbereitung/wettkampf_uebersicht.md)
-    * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_online.md)
-    * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/turneranmeldungen_verarbeiten_offline.md)
-  * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen.md)
-    * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/durchgang-neu-einteilen.md)
-    * [Ausnahmen und Limitationen](wettkampf-vorbereitung/ausnahmen-limitationen.md)
-    * [Durchgang-Zeitplanung](wettkampf-vorbereitung/durchgang-zeitplanung.md)
-    * [Durchgang-Planung](wettkampf-vorbereitung/durchgang-planung.md)
-    * [Mustervorgehen für Athletiktest-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_att.md)
-    * [Mustervorgehen für KuTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_kutu.md)
-    * [Mustervorgehen für GeTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen_mustervorgehen_getu.md)
+  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf-vorbereitung/wettkampf_uebersicht/README.md)
+    * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
+    * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
+  * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen/README.md)
+    * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/riegeneinteilung_erstellen/durchgang-neu-einteilen.md)
+    * [Ausnahmen und Limitationen](wettkampf-vorbereitung/riegeneinteilung_erstellen/ausnahmen-limitationen.md)
+    * [Durchgang-Zeitplanung](wettkampf-vorbereitung/riegeneinteilung_erstellen/durchgang-zeitplanung.md)
+    * [Durchgang-Planung](wettkampf-vorbereitung/riegeneinteilung_erstellen/durchgang-planung.md)
+    * [Mustervorgehen für Athletiktest-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_att.md)
+    * [Mustervorgehen für KuTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_kutu.md)
+    * [Mustervorgehen für GeTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_getu.md)
   * [Riegenzuteilung nachbearbeiten](wettkampf-vorbereitung/riegenzuteilung_nachbearbeiten.md)
   * [Notenblätter / Riegennotenblätter erstellen](wettkampf-vorbereitung/notenblatter__riegennotenblatter_erstellen.md)
   * [Teilnehmerlisten erstellen](wettkampf-vorbereitung/teilnehmerlisten_erstellen.md)
@@ -48,6 +48,4 @@
   * [Wettkampf anlegen](stammdatenpflege/wettkampf_anlegen.md)
   * [Wettkampf bearbeiten](stammdatenpflege/wettkampf_bearbeiten.md)
   * [Wettkampf löschen](stammdatenpflege/wettkampf_loschen.md)
-
-
 
