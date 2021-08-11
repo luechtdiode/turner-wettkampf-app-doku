@@ -1,6 +1,7 @@
-# Wettkampf-Durchführung {#wettkampf-durchf-hrung}
+# Wettkampf-Durchführung
 
 Für die Durchführung eines Wettkampfes werden folgende Funktionsbereiche unterstützt:
+
 * [Wettkampf im Internet bereitstellen](wettkampf-netzwerk.md)
 * [Wettkampf im lokalen Netz bereitstellen](wettkampf-netzwerk-lokal.md)
 * [Wettkampf-Modus einschalten](wettkampf-modus.md)
@@ -9,3 +10,4 @@ Für die Durchführung eines Wettkampfes werden folgende Funktionsbereiche unter
 * [Resultat-Erfassung mit Mobile-App](wettkampf-netzwerk-wertungsrichter.md)
 * [Besten-Listen für die Durchsage nach Gerätewechsel](besten-listen_fur_die_durchsage_nach_geratewechsel.md)
 * [Ranglisten erstellen](ranglisten_erstellen.md)
+

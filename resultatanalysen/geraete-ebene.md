@@ -1,3 +1,4 @@
-## Auswertung auf Geräte-Ebene: {#auswertung-auf-geraete-ebene}
+# Auswertung auf Geräte -Ebene
 
-![](/assets/resultat-analyse-4.png)
+![](../.gitbook/assets/resultat-analyse-4.png)
+

@@ -1,11 +1,12 @@
-## Verein anlegen {#verein-anlegen}
+# Verein anlegen
 
-Rechte Maustaste auf dem &quot;`Athleten`&quot;-Knoten um einen neuen Verein anzulegen:
+Rechte Maustaste auf dem "`Athleten`"-Knoten um einen neuen Verein anzulegen:
 
-![](/assets/verein-anlegen.png)
+![](../.gitbook/assets/verein-anlegen.png)
 
 Dann öffnet sich der Dialog, in dem der Vereinsname und der zugehörige Verband erfasst werden können.
 
-![](/assets/verein-anlegen-dlg.png)
+![](../.gitbook/assets/verein-anlegen-dlg.png)
 
 Mit OK werden die Daten gespeichert.
+

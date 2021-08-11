@@ -1,12 +1,12 @@
-## Dateiablage {#dateiablage}
+# Dateiablage
 
-### Programminstallation {#programminstallation}
+## Programminstallation <a id="programminstallation"></a>
 
 Die Programmdateien werden unter Windows in das Verzeichnis **`%programfiles%\TurnerWettkampf-App`** gespeichert.
 
-Sie beinhalten eine eigenständige Java Virtual Machine (JVM Version 11.0.2) sowie die notwendigen Programm-Dateien für die Ausführung der App.
+Sie beinhalten eine eigenständige Java Virtual Machine \(JVM Version 11.0.2\) sowie die notwendigen Programm-Dateien für die Ausführung der App.
 
-### Daten {#daten}
+## Daten <a id="daten"></a>
 
 Die Datenbank wird automatisch angelegt. Sie befindet sich in folgendem Verzeichnis:
 
@@ -17,3 +17,4 @@ Darüber hinaus werden vom Programm Dateien angelegt, die für zum Drucken oder 
 Diese Dateien befinden sich alle im Verzeichnis: **`%userprofile%\kutuapp\data`** resp. den darunter liegenden Verzeichnissen.
 
 Pro Wettkampf wird von der App ein eigenes Verzeichnis darin angelegt und die dazu gehörenden Dateien werden darin abgelegt.
+

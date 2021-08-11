@@ -1,9 +1,10 @@
-## Turner/-Innen zu einem Verein löschen {#turner-innen-zu-einem-verein-l-schen}
+# Turner/-Innen zu einem Verein löschen
 
-Mit einem Click auf den Button &quot;`Athlet entfernen`&quot; ...
+Mit einem Click auf den Button "`Athlet entfernen`" ...
 
-![](/assets/turner-loeschen.png)
+![](../.gitbook/assets/turner-loeschen.png)
 
 wird sowohl der/die in der Liste selektierte Athlet / Athletin als auch dessen Wettkampfresultate gelöscht:
 
-![](/assets/turner-loeschen-sicherheitsabfrage.png)
+![](../.gitbook/assets/turner-loeschen-sicherheitsabfrage.png)
+

@@ -1,3 +1,4 @@
-## Individuelle Auswertung: {#individuelle-auswertung}
+# Individuelle Auswertungen
 
-![](/assets/resultat-analyse-2.png)
+![](../.gitbook/assets/resultat-analyse-2.png)
+
