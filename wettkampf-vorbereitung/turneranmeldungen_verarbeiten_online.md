@@ -10,20 +10,56 @@ Es wird im folgenden zwischen dem Wettkampf lokal gespeichert und dem Wettkampf 
 
 Jeder Verein, der sich an diesem Wettkampf anmelden möchte, muss sich über dieses Online-Formular registrieren, welches sich mit Hilfe des oben erwähnten Links öffnen lässt:
 
-![Online-Registrierung](/assets/verein-registration-form.png)
+![Online-Registrierung](/assets/verein-registration-form-verein-suggest.png)
 
-Anschliessend kann er sowohl seine Turnerinnen und Turner bei der entsprechenden Kategorie als auch
-die Wertungrichter/-Innen in einer separaten Liste anmelden:
+Es ist wichtig, dass der Vereins-Name exakt identisch erfasst wird, so wie er bisher in den vergangenen Wettkämpfen erfasst war.
+
+Um dies sicherzustellen, kann der Vereinsname und Verband über das Suchfeld gesucht und im Formular vorbelegt werden.
+
+Wenn ein neuer Vereinsname verwendet werden soll, ist die Vorbelegungsfunktion nicht relevant.
+
+#### Mutationen an Vereinsname/Verband
+Wenn nach der Registrierung der Vereinsname oder der Verband korrigiert werden, wid dem Wettkampf-Adinistrator die Mutation vorgelegt. Wenn diese angenommen wird, ist die Korrektur durchgägngig durchgeführt. 
+
+**Es ist zu bedenken, dass diese Funktion ausschliesslich als Korrektur-Funktion verstanden werden soll. Eine offizielle Vereins-Namensänderung resp. der Wechsel in einen anderen Verband sollte wie die Erfassung eines neuen Vereins abgewickelt werden.**
+
+![Online-Registrierung](/assets/verein-registration-form-verein.png)
+
+Anschliessend können sowohl die Turnerinnen und Turner bei der entsprechenden Kategorie als auch
+die Wertungrichter/-Innen in einer separaten Liste angemeldet werden:
+
+![Online-Registrierung - nächste Schritte](/assets/verein-registration-form-next-steps.png)
+
+
+Die möglichen Optionen sind:
+
+1) Athlet & Athletinnen erfassen.
+2) Wertungsrichter erfassen.
+3) Daten aus einer frühereren Anmeldung kopieren. Diese Option ist nur verfügbar, wenn der Verein bereits einmal online Anmeldungen getätigt hat und die aktuelle Registrierung vom Wettkampf-Administrator bestätigt wurde.
+4) Die Registrierung wird komplett gelöscht. Alle Daten zu den erfassten Athleten/-Innen und Wertungsrichter sind danach gelöscht.
+5) Abbrechen - Das Anmeldungen-Menü wird zugeklappt.
+
+#### Formular für die Anmeldung von Turner/-Innen
 
 ![Online-Turner-Registrierung](/assets/turner-registration-form.png)
+
+Das Erfassungsformular bietet eine Auswahl bisher erfasster Vereinsturner/-Innen aus früheren Wettkämpfen an. Neue Turner können auch direkt im Formular erfasst werden. Wenn die Vereins-Registrierung am Wettkampf noch nicht vom Wettkampf-Administrator bestätigt wurde, steht diese Liste nicht zur Verfügung.
+
+In diesem Formular können auch Mutationen an den personen-bezogenen Daten gemacht werden. Dies nach dem Grundsatz, dass Daten korrekt erfasst sein müssen. Wenn Mutationen an Personen-Daten gemacht werden, die noch nicht in der zentralen Datenbank übernommen wurden, ist das Speichern der Änderung ohne Warndialog möglich. Sobald es aber Daten sind, die z.B. über den Auswahl-Dialog übernommen wurden, oder die vom Wettkampf-Administrator bestätigt wurden, betreffen die Mutationen auch die bisher in der zentralen Datenbank gespeicherten Daten zu dieser Person. In diesem Fall wird folgender Warndialog angezeigt:
+
+![Warn-Dialog Person überschreiben/korrigieren](/assets/turner-registration-form-person-override.png)
+
+Die Mutation wird dem Wettkampf-Administrator vorgelegt. Dieser kann die Mutation übernehmen oder ablehnen. Im Fall der Ablehnung bleibt die Mutation ohne weiteren Hinweise im Status `pending`.
 
 Nach der Erfassung der Anmeldungen kann der Vereins-Verantwortliche in der Liste überwachen, ob seine Anmeldung in die Wettkampf-Einteilung übernommen wurde. 
 
 ![Status-Registrierung](/assets/status-registration.png)
 
-Solange das noch nicht der Fall ist, wird der Status `pending`angezeigt. Sobald die Anmeldung berücksichtigt wurde, wird der Status `in sync`angezeigt.
+Solange das noch nicht der Fall ist, wird der Status `pending` angezeigt. Sobald die Anmeldung berücksichtigt wurde, wird der Status `in sync` angezeigt. Dies gilt auch für spätere Mutationen.
 
 Auf der Maske der Vereinsanmeldung ist auch im Detail ersichtlich, welche Mutationen noch pendent sind.
+
+![Pendente Mutationen](/assets/verein-registration-form-pending-changes.png)
 
 ### Abgleich der Online-Anmeldungen mit den Wettkampf-Einteilungen {#sync-registrations}
 
@@ -37,15 +73,17 @@ Mit der Funktion `Online Anmeldungen importieren` (bei der Wettkampf-Übersicht)
 
 ![Synchronisierung Online-Anmeldungen](/assets/pending-sync-actions.png)
 
-Wenn ein Verein nicht bereits in der lokalen Datenbank gespeichert ist, wird auch dessen übernahme notwendig, weil sonst dessen Anmeldungen nicht verarbeitet werden. Bereits bestehende Vereine werden erkannt und müssen nicht jedesmal neu importiert werden.
+Wenn ein Verein nicht bereits in der lokalen Datenbank gespeichert ist, wird auch dessen Übernahme/ notwendig, weil sonst dessen Anmeldungen nicht verarbeitet werden. Bereits bestehende Vereine werden erkannt und müssen nicht jedesmal neu importiert werden.
 
 Folgende Mutations-Aktionen werden unterstützt:
 
 |Aktion|Beschreibung|
 |-|-|
 |Verein importieren|Ein neuer Verein kann importiert werden. Um zu verhindern, dass sich Fake-Anmeldungen automatisch in der Datenbank einnisten, muss die initiale Übernahme vom Wettkampf-Administrator bestätigt werden.|
+| Verein bestätigen | Eine neue Vereins-Wettkampfregistrierung eines bestehenden Vereins kann bestätigt werden. Um zu verhindern, dass sich Fake-Anmeldungen den Zugang zu bestehenden Vereinsdaten eines existierenden Vereins erschleichen, muss die eine Vereins-Registrierung zu einem Wettkampf vom Wettkampf-Administrator bestätigt werden. |
+|Verein korrigieren|Name und Verband eines bestehenden Vereins werden korrigiert.|
 |Hinzufügen|Teilt den Athlet beim angegebenen Programm/Kategorie ein. Unter Import-Vorschlag wird angezeigt, ob der Athlet neu importiert wird, oder ob er in der Datenbank gefunden werden konnte und desshalb wiederverwendet werden kann.|
-|Umteilen|Verschieb den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie|
+|Umteilen|Verschiebt den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie|
 |Entfernen|Entfernt den angegebenen Athlet aus dem Wettkampf. Die Entfernen-Aktion entfernt nicht den Athlet beim Verein.|
 
 Wenn die Mutationen erfolgreich durchgeführt werden konnten, wird dies mit folgender Meldung bestätigt:
