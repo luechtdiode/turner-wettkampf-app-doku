@@ -81,8 +81,9 @@ Folgende Mutations-Aktionen werden unterstützt:
 |-|-|
 |Verein importieren|Ein neuer Verein kann importiert werden. Um zu verhindern, dass sich Fake-Anmeldungen automatisch in der Datenbank einnisten, muss die initiale Übernahme vom Wettkampf-Administrator bestätigt werden.|
 | Verein bestätigen | Eine neue Vereins-Wettkampfregistrierung eines bestehenden Vereins kann bestätigt werden. Um zu verhindern, dass sich Fake-Anmeldungen den Zugang zu bestehenden Vereinsdaten eines existierenden Vereins erschleichen, muss die eine Vereins-Registrierung zu einem Wettkampf vom Wettkampf-Administrator bestätigt werden. |
-|Verein korrigieren|Name und Verband eines bestehenden Vereins werden korrigiert.|
+|Verein korrigieren|Name und Verband eines bestehenden Vereins werden korrigiert. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**|
 |Hinzufügen|Teilt den Athlet beim angegebenen Programm/Kategorie ein. Unter Import-Vorschlag wird angezeigt, ob der Athlet neu importiert wird, oder ob er in der Datenbank gefunden werden konnte und desshalb wiederverwendet werden kann.|
+|Athlet korrigieren|Korrigiert die personen-bezogenen Daten eines Turners / einer Turnerin. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**.|
 |Umteilen|Verschiebt den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie|
 |Entfernen|Entfernt den angegebenen Athlet aus dem Wettkampf. Die Entfernen-Aktion entfernt nicht den Athlet beim Verein.|
 
