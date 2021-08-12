@@ -3,7 +3,7 @@
 ![Wettkampf vorbereiten - &#xDC;bersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
 
 1. Athlet/Innen aus der Datenbank auswählen, in den Wettkampf aufnehmen und in eine Kategorie einteilen.
-2. Gruppen von angemeldeten Turner/Innen aus einem Excel-Sheet kopieren und im Wettkampf einfügen.
+2. Gruppen von angemeldeten Turner/Innen aus einem Excel-Sheet kopieren und im Wettkampf einfügen (*siehe* [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)).
 3. Bereits in eine Kategorie eingeteilte Turner in eine andere Kategorie umteilen.
 4. Teilnehmerlisten erstellen.
 5. Notenblätter erstellen.
@@ -14,4 +14,4 @@
 10. Turner zu Riege Zuteilung bearbeiten, Riegennamen vergeben, umbenennen, zurücksetzen.
 11. Resultate erfassen / kontrollieren.
 
-[Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
+
