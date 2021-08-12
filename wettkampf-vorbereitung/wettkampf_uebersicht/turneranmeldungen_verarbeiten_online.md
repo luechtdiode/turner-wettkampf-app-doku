@@ -2,7 +2,7 @@
 
 Sobald der angelegte Wettkampf im Netz bereit gestellt wurde, steht auf der Wettkampf-Übersicht der Link bereit, über welchen die Vereine die Anmeldungen tätigen können.
 
-![Link f&#xFC;r die Vereins-Anmeldungen via Internet](assets/online-registration-link.png)
+![Link f&#xFC;r die Vereins-Anmeldungen via Internet](/assets/online-registration-link.png)
 
 Es wird im folgenden zwischen dem Wettkampf lokal gespeichert und dem Wettkampf im Netz gespeichert unterschieden.
 
