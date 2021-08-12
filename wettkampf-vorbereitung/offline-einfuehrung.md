@@ -14,3 +14,4 @@
 10. Turner zu Riege Zuteilung bearbeiten, Riegennamen vergeben, umbenennen, zurücksetzen.
 11. Resultate erfassen / kontrollieren.
 
+[Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
