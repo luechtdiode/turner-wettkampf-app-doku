@@ -14,7 +14,7 @@ Die Installationsdatei ist nicht signiert und führt deshalb nach einem Download
 
 Nach dem Download der msi-Datei ist es notwendig, die folgende Einstellung im Eigenschaft-Dialog \(rechte Maustaste auf der msi-Datei und dann Eigenschaften\) vorgenommen wird:
 
-![](../.gitbook/assets/msi-wont-install-issue.png)
+![](/assets/msi-wont-install-issue.png)
 
 ## Weiterführende Kapitel
 

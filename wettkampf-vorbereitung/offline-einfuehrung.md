@@ -1,6 +1,6 @@
 # Offline Wettkampf-Anmeldungen verarbeiten
 
-![Wettkampf vorbereiten - &#xDC;bersicht der Funktionen](../.gitbook/assets/wettkampf-vorbereitung.png)
+![Wettkampf vorbereiten - &#xDC;bersicht der Funktionen](/assets/wettkampf-vorbereitung.png)
 
 1. Athlet/Innen aus der Datenbank auswählen, in den Wettkampf aufnehmen und in eine Kategorie einteilen.
 2. Gruppen von angemeldeten Turner/Innen aus einem Excel-Sheet kopieren und im Wettkampf einfügen.

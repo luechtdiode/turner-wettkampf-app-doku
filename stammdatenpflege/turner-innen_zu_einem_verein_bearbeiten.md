@@ -2,5 +2,5 @@
 
 Die Daten der Turner/-Innen können direkt in den Tabellenzellen bearbeitet werden:
 
-![](../.gitbook/assets/turner-bearbeiten.png)
+![](/assets/turner-bearbeiten.png)
 

@@ -4,16 +4,16 @@
 
 Die Riegeneinteilung soll helfen, die Turner in möglichst homogenen und gleichmässig grossen Geräteriegen einzuteilen und diese auf Durchgänge zu verteilen. In der angezeigten Liste werden die Durchgänge mit den zugeteilten Riegen inklusive Statistikwerten über Summe, kleinste, grösste Riege und die Durchschnittsgrösse einer Riege angezeigt. Aus diesen Werten liesse sich auch in etwa errechnen, wie lange ein Durchgang dauern sollte \(jeweils die grösste Geräteriege mal Anzahl gerätespezifische Durchlaufzeiten\):
 
-![](../../.gitbook/assets/suggest-riegen-planning.png)
+![](/assets/suggest-riegen-planning.png)
 
 1. `Riegen- & Durchgänge frisch einteilen`: Es werden pro Geschlecht, Kategorie und Verein jeweils eine Riege erstellt. Diese bildet die kleinste verschiebbare Einheit für die Zuweisung auf ein Startgerät in einem Durchgang. Die Funktion kennt momentan nur einen Parameter: Die maximale Gruppengrösse. Sie wird mit 11 vorbelegt und kann vom Benutzer individuell angepasst werden. Danach werden die Gruppen so verteilt, dass pro Durchgang möglichst gleichgrosse Geräteriegen existieren und dass Riegen von einem Verein möglichst zusammenbleiben \(z.B. Turner und Turnerinnen\). Danach können die Zuteilungen in der oberen Liste beliebig verändert werden.
 2. `Einteilung von Riegen & Durchgängen zurücksetzen`: Es werden alle Riegen- und Durchgangs- und Startgeräte-Einteilungen zurückgesetzt.
 
 Wenn mindestens ein Durchgang \(Multiselektion mittels `CTRL+linke Maustaste` oder `SHIFT+linke Maustaste` erweitern\) in der Liste selektiert ist, können darauf diverse Überarbeitungsfunktionen angewendet werden:
 
-![](../../.gitbook/assets/edit-riegen-planning.png)
+![](/assets/edit-riegen-planning.png)
 
-1. ![](../../.gitbook/assets/durchgang-partiell-neuverteilen.png)`Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
+1. ![](/assets/durchgang-partiell-neuverteilen.png)`Durchgang neu einteilen`: Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. 
 
    Die nicht selektierten Durchgänge werden dabei nicht verändert.  
 
@@ -31,17 +31,17 @@ Die Riegen können auch mittels Drag & Drop auf ein anderes Startgerät oder in 
 
 `Riege auf anderes Startgerät verschieben`
 
-![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten](../../.gitbook/assets/drag-drop-startgeraetriege.gif)
+![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten](/assets/drag-drop-startgeraetriege.gif)
 
 `Riege in anderen Durchgang verschieben`
 
-![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten](../../.gitbook/assets/drag-drop-durchg.gif)
+![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten](/assets/drag-drop-durchg.gif)
 
 Mit gruppierten Durchgängen ist darauf zu achten, dass beim Fallenlassen \(drop\) der Riege die Durchgang-Gruppe aufgeklappt ist. Auf zugegklappte Durchgangs-Gruppen kann keine Riege zugeteilt werden. Siehe auch [Durchgang-Planung](durchgang-planung.md)
 
 ### Export-Funktionen
 
-![](../../.gitbook/assets/riegen-export-funktionen.png)
+![](/assets/riegen-export-funktionen.png)
 
 1. `Riegen Einheiten export`: Das Resultat, welches die Riegen-Einteilenfunktion für sich zum Starten erstellt \(die Riegen pro Geschlecht, Kategorie und Verein\) kann in einer CSV-Datei zur weiteren Verarbeitung im Excel exportiert werden.
 2. `Durchgang-Planung export`: Mit dieser Funktion lässt sich die Durchgangsplanung in eine CSV-Datei exportieren. So lässt sich die Einteilung, die initial von der App gemacht wurde, ev. einfacher oder übersichtlicher im Excel nachbearbeiten.

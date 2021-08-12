@@ -1,8 +1,8 @@
 # Teilnehmerlisten erstellen
 
-![](../.gitbook/assets/print-teilnehmerliste.png)
+![](/assets/print-teilnehmerliste.png)
 
 Generierte Teilnehmerliste:
 
-![](../.gitbook/assets/teilnehmerliste.png)
+![](/assets/teilnehmerliste.png)
 

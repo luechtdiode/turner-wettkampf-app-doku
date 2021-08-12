@@ -2,11 +2,11 @@
 
 Ein Wettkampf wird mittels rechter Maustaste auf dem linken Menu "`Wettkämpfe`" und dem Befehl "`Wettkampf anlegen`" angelegt:
 
-![](../.gitbook/assets/wettkampf-anlegen.png)
+![](/assets/wettkampf-anlegen.png)
 
 Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
 
-![](../.gitbook/assets/wettkampf-anlegen-dlg.png)
+![](/assets/wettkampf-anlegen-dlg.png)
 
 1. Datum, an dem der Wettkampf durchgeführt wird.
 2. Name des Wettkampfs \(Wettkampftitel\)

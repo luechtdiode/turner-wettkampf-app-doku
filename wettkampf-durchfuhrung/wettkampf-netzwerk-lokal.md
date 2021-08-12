@@ -5,7 +5,7 @@ Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die dar�
 
 ## Schmatische Darstellung:
 
-![](../.gitbook/assets/network-usecase.png)
+![](/assets/network-usecase.png)
 
 ## Technische Voraussetzungen
 
@@ -29,13 +29,13 @@ Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffe
 
 ## Wettkampf im lokalen Netz bereitstellen
 
-1. Mittels `Start local Server` im Netzwerk-Menu wird der Server im lokalen Netzwerk gestartet. ![](../.gitbook/assets/start-local-server.png) Sobald der Server gestartet ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `localhost:5757` umgestellt. ![](../.gitbook/assets/display-local-server-offline.png).
+1. Mittels `Start local Server` im Netzwerk-Menu wird der Server im lokalen Netzwerk gestartet. ![](/assets/start-local-server.png) Sobald der Server gestartet ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `localhost:5757` umgestellt. ![](/assets/display-local-server-offline.png).
 2. Anschliessend kann der Wettkampf im lokalen Netzwerk im `Netzwerk-Dashboard` für die dezentrale Resultat-Erfassung bereitgestellt werden   
-   ![](../.gitbook/assets/upload-competition.png)  
+   ![](/assets/upload-competition.png)  
 
 
    Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmeldung angezeigt:  
-   ![](../.gitbook/assets/connect-and-share.png)  
+   ![](/assets/connect-and-share.png)  
 
 
    Gleichzeitig wird der Button `Verbindung stoppen` wählbar.
@@ -44,20 +44,20 @@ Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffe
 
 3. Solange eine aktive Verbindung besteht, werden die Resultate über den lokalen Server mit allen anderen an diesem Wettkampf verbundenen Stationen synchronisiert. Im Gegensatz zur Verbindung über das Internet ist es nicht möglich, mit mehr als einer Station im Rechnungsbüro zu arbeiten.
 4. Mittels `Stop local Server` im Netzwerk-Menu wir der Server im lokalen Netzwer wieder gestoppt.  
-   ![](../.gitbook/assets/stop-local-server.png)  
+   ![](/assets/stop-local-server.png)  
    Sobald der Server gestoppt ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `kutuapp.sharevic.net` umgestellt.  
-   ![](../.gitbook/assets/display-remote-server-offline.png)  
+   ![](/assets/display-remote-server-offline.png)  
 
 
    Diese Adresse wird verwendet, wenn der Netzwerkmodus über das Internet betrieben wird.
 
 ## Riegenblätter mit QR-Code für Direkteinstieg in die Erfassungs-Maske der Mobile-App drucken <a id="qrcode-printouts"></a>
 
-![](../.gitbook/assets/print-riegenblaetter.png)
+![](/assets/print-riegenblaetter.png)
 
 **Generiertes Riegennotenblatt:**
 
-![](../.gitbook/assets/riegenblaetter.png)
+![](/assets/riegenblaetter.png)
 
 **Achtung** Der auf den Riegenblätter gedruckte QR-Code enthält den Link auf den `lokalen Server` und funktioniert nicht im anderen Netzwerk-Modus, wo der Server nicht lokal betrieben wird.
 
@@ -65,11 +65,11 @@ Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wer
 
 ## Mobile App Connections ...
 
-![](../.gitbook/assets/mobile-app-connections.png)
+![](/assets/mobile-app-connections.png)
 
 Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code für die folgenden Links angezeigt \(Tabs auf der linken Dialogseite\): 1. `Mobile-App`, 2. `Letzte Resultate`, 3. `Top Resultate`.
 
-Falls das Gerät, auf dem der Server betrieben wird, mehrere Netzwerkanschlüsse hat, wird für jeden Netzwerkanschluss ein separater Tab mit den entsprechenden Links angezeigt. Das Programm kann in diesem Fall nicht entscheiden, welcher Netzwerk-Anschluss mit dem für die Wertungsrichter bereitgestellten lokalen Netzwerk verknüpft ist. Es müssen somit die einzelnen Adressen `ausprobiert` werden, um die funktionierenden Links zu finden. ![](../.gitbook/assets/mobile-register.png)
+Falls das Gerät, auf dem der Server betrieben wird, mehrere Netzwerkanschlüsse hat, wird für jeden Netzwerkanschluss ein separater Tab mit den entsprechenden Links angezeigt. Das Programm kann in diesem Fall nicht entscheiden, welcher Netzwerk-Anschluss mit dem für die Wertungsrichter bereitgestellten lokalen Netzwerk verknüpft ist. Es müssen somit die einzelnen Adressen `ausprobiert` werden, um die funktionierenden Links zu finden. ![](/assets/mobile-register.png)
 
 ### Mobile-App Link
 
@@ -87,17 +87,17 @@ Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-R
 
 Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.
 
-![](../.gitbook/assets/resultaterfassen-gesperrt.png)
+![](/assets/resultaterfassen-gesperrt.png)
 
 ## Freischalten eines Durchganges für die Resultat-Erfassung über das Netzwerk
 
 In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf. In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist. Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
 
-![](../.gitbook/assets/durchgang-starten.png)
+![](/assets/durchgang-starten.png)
 
 In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
 
-![](../.gitbook/assets/resultcatcher-running.png)
+![](/assets/resultcatcher-running.png)
 
 ## Wertungsrichter erfasst Wettkampf-Resultate
 
@@ -112,7 +112,7 @@ Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, d
         <br />
       </th>
       <th style="text-align:left">
-        <img src="../.gitbook/assets/resultaterfassen-gestartet2.png" alt/>
+        <img src="/assets/resultaterfassen-gestartet2.png" alt/>
       </th>
     </tr>
   </thead>
@@ -134,7 +134,7 @@ Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, d
           oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p>
       </td>
       <td style="text-align:left">
-        <img src="../.gitbook/assets/resultcatcher-wertung-erfassen.png" alt/>
+        <img src="/assets/resultcatcher-wertung-erfassen.png" alt/>
       </td>
     </tr>
   </tbody>
@@ -146,11 +146,11 @@ Wenn alle Resultate einer Riege an einem Gerät erfasst sind, soll die Resultate
 
 Wenn alle Resultate eines Durchganges erfasst sind, soll der `Durchgang abgeschlossen` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.
 
-![](../.gitbook/assets/durchgang-abschliessen.png)
+![](/assets/durchgang-abschliessen.png)
 
-![](../.gitbook/assets/durchgang-abgeschlossen.png)
+![](/assets/durchgang-abgeschlossen.png)
 
-![](../.gitbook/assets/resultaterfassen-gesperrt.png)
+![](/assets/resultaterfassen-gesperrt.png)
 
 Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jeweiligen Durchgang zugänglich und sind nur dann wählbar, wenn der Netzwerk-Modus eingeschaltet ist.
 
@@ -158,9 +158,9 @@ Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jewe
 
 Die gerade gewerteten Wettkampf-Übungen können über ein digitales Resultate-Display angezeigt werden:
 
-![](../.gitbook/assets/nav-resultat-display.png)
+![](/assets/nav-resultat-display.png)
 
-![](../.gitbook/assets/resultat-display.png)
+![](/assets/resultat-display.png)
 
 Die Anzeige wird automatisch aktualisiert, wenn neue Resultate erfasst werden.
 
@@ -168,17 +168,17 @@ Die Anzeige wird automatisch aktualisiert, wenn neue Resultate erfasst werden.
 
 Wenn im `Wettkampf-Modus` und mit dem Netzwerk `verbunden` `(1)`, über die Funktion `Bestenliste (2)` ein Zusammenzug der besten Resultate der aktuellen Runde erstellt wird,
 
-![](../.gitbook/assets/top-resultat-trigger.png)
+![](/assets/top-resultat-trigger.png)
 
 kann dieser über das entsprechende elektronische Display über die App angezeigt werden:
 
-![](../.gitbook/assets/nav-top-resultat-display.png)
+![](/assets/nav-top-resultat-display.png)
 
-![](../.gitbook/assets/top-resultat-display.png)
+![](/assets/top-resultat-display.png)
 
 ## Netzwerkmodus stoppen
 
 Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resultate mehr zum oder vom Netzwerk synchronisiert.
 
-![](../.gitbook/assets/network-disconnect.png)
+![](/assets/network-disconnect.png)
 

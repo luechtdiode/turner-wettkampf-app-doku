@@ -2,7 +2,7 @@
 
 |  |  |
 | :--- | :--- |
-| Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. Die nicht selektierten Durchgänge werden dabei nicht verändert. Im Dialog werden die neuen Parameter angegeben. | ![](../../.gitbook/assets/getu-durchgang-partial-replanning-options.png) |
+| Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. Die nicht selektierten Durchgänge werden dabei nicht verändert. Im Dialog werden die neuen Parameter angegeben. | ![](..//assets/getu-durchgang-partial-replanning-options.png) |
 
 | Funktion | Beschreibung |
 | :--- | :--- |
