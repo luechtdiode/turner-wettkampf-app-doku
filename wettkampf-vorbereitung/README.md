@@ -5,13 +5,9 @@ Die Wettkampf-Vorbereitung ist eine anspruchsvolle Tätigkeit. Mit der App solle
 In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieben:
 
 1. Angelegten Wettkampf im Netz bereitstellen.
-2. Link auf Vereins-Anmeldeformular im Netz an die
+2. Link auf Vereins-Anmeldeformular im Netz an die Vereine versenden oder sonst wie publizieren.
 
-   Vereine versenden oder sonst wie publizieren.
-
-3. Die Vereine registrieren sich online und melden ihre
-
-   Teilnehmer-/Innen.
+3. Die Vereine registrieren sich online und melden ihre Teilnehmer-/Innen.
 
 4. Übernahme der Vereinsanmeldungen in den Wettkampf.
 5. Einteilung im Wettkampf
