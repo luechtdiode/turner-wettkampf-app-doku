@@ -4,7 +4,7 @@ Für die Planung der Durchgänge sind dessen Durchlaufzeiten entscheidend. Die A
 
 Im `Planzeiten`-Tab \(1\) innerhalb der Riegeneinteilung lassen sich alle Zeitbestandteile auflisten, filtern \(6\) und bearbeiten \(7\):
 
-![](..//assets/planzeiten.png)
+![](/assets/planzeiten.png)
 
 | Zeit-Bestandteil | Beschreibung |
 | ---: | :--- |
@@ -26,7 +26,7 @@ Im `Planzeiten`-Tab \(1\) innerhalb der Riegeneinteilung lassen sich alle Zeitbe
 
 Im `Durchgänge`-Tab wird der hochgerechnete Zeitbedarf angezeigt. Ein verschieben der Riegenzuteilungen kann zur Folge haben, dass sich diese Zeit verändert. Die Zeiten werden dann am geringsten, wenn die Riegenverteilung möglichst gleichmässig erfolgt. Wenn es z.B. eine grosse Geräte-Riege gibt, bestimmt diese normalerweise den Zeitbedarf für den ganzen Durchgang. Verschiebungen bei den kleineren Geräteriegen haben dann keinen Einfluss auf die Gesammt-Durchgangszeit.
 
-![](..//assets/durchgang-zeitbedarf.png)
+![](/assets/durchgang-zeitbedarf.png)
 
 | Zeitbedarf-Bestandteil | Beschreibung |
 | ---: | :--- |
@@ -39,7 +39,7 @@ Im `Durchgänge`-Tab wird der hochgerechnete Zeitbedarf angezeigt. Ein verschieb
 
 Die Plandauer eines Durchganges wird auch im Netzwerk-Dashboard angezeigt. Neben der Start-, Ende- und Dauer-Anzeige dient dies nicht zuletzt auch der Kontrolle, ob die Planzeiten korrekt eingeschätzt worden sind. Bei wiederholt grösseren Abweichungen sollten die Planzeiten justiert werden.
 
-![](..//assets/planzeiten-netzwerkdashboard.png)
+![](/assets/planzeiten-netzwerkdashboard.png)
 
 Siehe auch [Durchgang-Planung](durchgang-planung.md)
 
