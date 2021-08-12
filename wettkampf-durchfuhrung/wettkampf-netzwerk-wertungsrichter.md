@@ -45,7 +45,7 @@ Wenn dies nicht gegeben ist, wird möglicherweise in der Turnhalle ein Wireless-
         wird vom Rechnungsb&#xFC;ro entweder ein QR-Code am Bildschirm oder auf
         einem Ausdruck zur Verf&#xFC;gung gestellt</td>
       <td style="text-align:left">
-        <img src="../.gitbook/assets/mobile-register.png" alt/>
+        <img src="/assets/mobile-register.png" alt/>
       </td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@ Wenn dies nicht gegeben ist, wird möglicherweise in der Turnhalle ein Wireless-
         Chats etc in einen &quot;Bitte nicht st&#xF6;ren&quot;-Modus versetzt werden.</td>
       <td
       style="text-align:left">
-        <img src="../.gitbook/assets/how-to-config-quiet-mode.png" alt/>
+        <img src="/assets/how-to-config-quiet-mode.png" alt/>
         </td>
     </tr>
   </tbody>
@@ -63,11 +63,11 @@ Wenn dies nicht gegeben ist, wird möglicherweise in der Turnhalle ein Wireless-
 
 Auf den Riegenblätter ist ein QR-Code aufgedruckt, mit welchem ein Link bereitgestellt wird, welcher die Mobile-Browserapp direkt an der richtigen Stelle öffnet, so dass dort die Resulate der Riegen-Teilnehmer/-Innen in der entpsrechenden Reihenfolge erfasst werden können.
 
-![](../.gitbook/assets/riegenblaetter.png)
+![](/assets/riegenblaetter.png)
 
 ## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](wettkampf-netzwerk-wertungsrichter.md#qrcode-printouts)
 
-|  Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.  | ![](../.gitbook/assets/resultaterfassen-gesperrt.png) |
+|  Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.  | ![](/assets/resultaterfassen-gesperrt.png) |
 | :--- | :--- |
 
 
@@ -84,7 +84,7 @@ Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, d
         <br />
       </th>
       <th style="text-align:left">
-        <img src="../.gitbook/assets/resultaterfassen-gestartet2.png" alt/>
+        <img src="/assets/resultaterfassen-gestartet2.png" alt/>
       </th>
     </tr>
   </thead>
@@ -106,7 +106,7 @@ Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, d
           oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p>
       </td>
       <td style="text-align:left">
-        <img src="../.gitbook/assets/resultcatcher-wertung-erfassen.png" alt/>
+        <img src="/assets/resultcatcher-wertung-erfassen.png" alt/>
       </td>
     </tr>
   </tbody>

@@ -2,8 +2,8 @@
 
 |  |  |
 | :--- | :--- |
-| Aktivierung über das Pop-Up Menu \(mit rechter Maustaste auf dem gewünschten Wettkampf\) und dem Befehl "`Wettkampf durchführen`" | ![](../.gitbook/assets/wettkampfmodus1.png) |
-| oder noch einfacher via dem gut sichtbaren `Wettkampf-Modus` Schalter oben rechts im Fenster: | ![](../.gitbook/assets/wettkampfmodus2-2.png) |
+| Aktivierung über das Pop-Up Menu \(mit rechter Maustaste auf dem gewünschten Wettkampf\) und dem Befehl "`Wettkampf durchführen`" | ![](/assets/wettkampfmodus1.png) |
+| oder noch einfacher via dem gut sichtbaren `Wettkampf-Modus` Schalter oben rechts im Fenster: | ![](/assets/wettkampfmodus2-2.png) |
 
 Dadurch werden alle während der Resultat-Erfassung nicht benötigten Funktionen deaktiviert:
 

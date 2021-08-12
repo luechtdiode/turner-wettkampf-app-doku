@@ -1,6 +1,6 @@
 # Resultat-Erfassung mit Riegen-Notenblätter
 
-![](../.gitbook/assets/resultat-erfassung-riegenblatt.png)
+![](/assets/resultat-erfassung-riegenblatt.png)
 
 Die Turner/Innen, die nach einem Gerätewechsel pro Gerät zur Erfassung der Resultate angezeigt werden müssen, werden mit dem Filter eingestellt.
 
@@ -17,5 +17,5 @@ Für solche Fälle bietet sich an, den Tab-Reiter "Alle" \(-Kategorien\) anzuwä
 
 Für eine schnelle Positionierung kann mit einem Click in die Filterliste und anschliessend dem Eingeben des Riegencodes \(hier z.B. mit `R0111`\) direkt die gewünschten Riege angezeigt werden:
 
-![](../.gitbook/assets/handle-riegencode.gif)
+![](/assets/handle-riegencode.gif)
 

@@ -4,9 +4,9 @@ Bei der Wettkampfdurchführung können Durchgänge parallel durchgeführt werden
 
 Die Gruppierung wird jeweils auch auf der Netzwerk-Ansicht angewendet, so dass dort die Vollständigkeits-Kontrolle auf der Durchgangs-Gruppe möglich ist.
 
-![Durchgang gruppieren](../../.gitbook/assets/durchgang-gruppieren.png)
+![Durchgang gruppieren](..//assets/durchgang-gruppieren.png)
 
-![Durchganggruppe bezeichnen](../../.gitbook/assets/name-durchganggruppe.png)
+![Durchganggruppe bezeichnen](..//assets/name-durchganggruppe.png)
 
-![Gruppierte Durchg&#xE4;nge](../../.gitbook/assets/gruppierte-durchgaenge.png)
+![Gruppierte Durchg&#xE4;nge](..//assets/gruppierte-durchgaenge.png)
 

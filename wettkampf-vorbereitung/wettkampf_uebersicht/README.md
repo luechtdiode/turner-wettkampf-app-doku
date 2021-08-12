@@ -4,7 +4,7 @@ Im Übersicht-Tab werden pro Verein, Programm/Kategorie und Geschlecht die Anmel
 
 Je nach angabe der Auszeichnungs-Schwelle wird anhand der Anmeldungen auch der Medallien-Bedarf tabellarisch ausgewiesen.
 
-![](../../.gitbook/assets/wettkampf-uebersicht.png)
+![](/assets/wettkampf-uebersicht.png)
 
 ## Wettkampf-Logo anpassen
 

@@ -8,7 +8,7 @@ Für einen totalen Reset der Daten kann dieses Verzeichnis auch einfach gelösch
 
 Wenn nur die Daten eines konkreten Wettkampfes gesichert werden sollen, kann hierfür die Funktion "`Wettkampf exportieren`" verwendet werden:
 
-![Wettkampf exportieren Popup-Menu](../.gitbook/assets/wettkampf-export.png)
+![Wettkampf exportieren Popup-Menu](/assets/wettkampf-export.png)
 
 Ein solch exportierter Wettkampf beinhaltet folgende Daten:
 
@@ -27,7 +27,7 @@ Der Import dieser exportierten Daten kann auf jeder beliebigen anderen Turner-We
 
 Die dabei importierten Daten werden mit den bereits vorhandenen Daten abgeglichen. Dabei werden folgende Regeln angewendet:
 
-![Wettkampf importieren Popup-Menu](../.gitbook/assets/wettkampf-import.png)
+![Wettkampf importieren Popup-Menu](/assets/wettkampf-import.png)
 
 * Ein Turner, eine Turnerin wird anhand des Geschlechts, Namens, Vornamens, Vereins und dem Jahrgang in der bestehenden Datenbank gesucht. Die Namen werden mit einem Ähnlichkeits-Test miteinander verglichen, so dass Tippfehler oder Varianten von verschiedenen Namens-Schreibweisen tolerant behandelt werden. Sofern der Turner resp. die Turnerin bereits existiert, wird er/sie nicht neu angelegt. Es findet eine Veredelung der Daten statt, indem z.B. ein Geburtsdatum mit 01.01.2000 durch ein Geburtsdatum 21.03.2000 veredelt wird. Ebenso bei den Adressfeldern.
 * Die Wettkampf-Daten selbst werden zuvor komplett gelöscht, so dass sie konfliktfrei wieder importiert werden können.

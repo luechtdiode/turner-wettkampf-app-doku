@@ -5,7 +5,7 @@ Die Mehrfach-Auswahl bei den Filter-Auswahllisten ermöglicht die Aktivierung de
 * Wenn nichts angewählt ist, werden die Daten lediglich gruppiert. Alle Daten werden ungefiltert aufbereitet.
 * Wenn 1 bis mehrere Einträge aktiviert sind, werden nur damit relevante Daten aufbereitet.
 
-![](../.gitbook/assets/rangliste-extended-filter-detail.png)
+![](/assets/rangliste-extended-filter-detail.png)
 
 Sobald mehr als 1 Eintrag aktiviert ist, steht ein weiterer Eintrag mit der Beschriftung "alle" in der Auswahlliste zur Verfügung:
 
@@ -16,7 +16,7 @@ Sobald mehr als 1 Eintrag aktiviert ist, steht ein weiterer Eintrag mit der Besc
 
 Konkret wird das am Beispiel eines Zusammenzugs aller Qualifikations-Wettkämpfe in eine übergreifende Rangliste:
 
-![](../.gitbook/assets/rangliste-extended-filter.png)
+![](/assets/rangliste-extended-filter.png)
 
 Wenn in der Gruppierungs-Auswahl "Wettkampf" \(1\), mittels Mehrfachselektion \(2\) bei den gewünschten \(Qualifikations-\) Wettkämpfen und zusätzlich beim Filter-Eintrag "alle" \(3\) ein Haken gesetzt wird, dann werden die kumulierten Summen und Durchschnitts-Resultate der gewählten Wettkämpfe in einer Rangliste aufbereitet. In der Rangliste-Überschrift \(4\) werden die ausgewählten Wettkämpfe aufgelistet.
 
