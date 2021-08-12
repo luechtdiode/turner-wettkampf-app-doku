@@ -19,7 +19,7 @@ Um dies sicherzustellen, kann der Vereinsname und Verband über das Suchfeld ges
 Wenn ein neuer Vereinsname verwendet werden soll, ist die Vorbelegungsfunktion nicht relevant.
 
 #### Mutationen an Vereinsname/Verband
-Wenn nach der Registrierung der Vereinsname oder der Verband korrigiert werden, wid dem Wettkampf-Adinistrator die Mutation vorgelegt. Wenn diese angenommen wird, ist die Korrektur durchgägngig durchgeführt. 
+Wenn nach der Registrierung der Vereinsname oder der Verband korrigiert werden, wird dem Wettkampf-Administrator die Mutation vorgelegt. Wenn diese angenommen wird, ist die Korrektur durchgägngig durchgeführt. 
 
 **Es ist zu bedenken, dass diese Funktion ausschliesslich als Korrektur-Funktion verstanden werden soll. Eine offizielle Vereins-Namensänderung resp. der Wechsel in einen anderen Verband sollte wie die Erfassung eines neuen Vereins abgewickelt werden.**
 
@@ -33,19 +33,29 @@ die Wertungrichter/-Innen in einer separaten Liste angemeldet werden:
 
 Die möglichen Optionen sind:
 
-1) Athlet & Athletinnen erfassen.
-2) Wertungsrichter erfassen.
-3) Daten aus einer frühereren Anmeldung kopieren. Diese Option ist nur verfügbar, wenn der Verein bereits einmal online Anmeldungen getätigt hat und die aktuelle Registrierung vom Wettkampf-Administrator bestätigt wurde.
-4) Die Registrierung wird komplett gelöscht. Alle Daten zu den erfassten Athleten/-Innen und Wertungsrichter sind danach gelöscht.
-5) Abbrechen - Das Anmeldungen-Menü wird zugeklappt.
+1. Athlet & Athletinnen erfassen.
+2. Wertungsrichter erfassen.
+3. Daten aus einer frühereren Anmeldung kopieren. Diese Option ist nur verfügbar, wenn der Verein bereits einmal online Anmeldungen getätigt hat und die aktuelle Registrierung vom Wettkampf-Administrator bestätigt wurde.
+4. Die Registrierung wird komplett gelöscht. Alle Daten zu den erfassten Athleten/-Innen und Wertungsrichter sind danach gelöscht.
+5. Abbrechen - Das Anmeldungen-Menü wird zugeklappt.
 
 #### Formular für die Anmeldung von Turner/-Innen
 
 ![Online-Turner-Registrierung](/assets/turner-registration-form.png)
 
-Das Erfassungsformular bietet eine Auswahl bisher erfasster Vereinsturner/-Innen aus früheren Wettkämpfen an. Neue Turner können auch direkt im Formular erfasst werden. Wenn die Vereins-Registrierung am Wettkampf noch nicht vom Wettkampf-Administrator bestätigt wurde, steht diese Liste nicht zur Verfügung.
+Das Erfassungsformular bietet eine Auswahl bisher erfasster Vereinsturner/-Innen aus früheren Wettkämpfen an. Neue Turner/-Innen können auch direkt im Formular erfasst werden. Wenn die Vereins-Registrierung am Wettkampf noch nicht vom Wettkampf-Administrator bestätigt wurde, steht diese Liste nicht zur Verfügung.
 
-In diesem Formular können auch Mutationen an den personen-bezogenen Daten gemacht werden. Dies nach dem Grundsatz, dass Daten korrekt erfasst sein müssen. Wenn Mutationen an Personen-Daten gemacht werden, die noch nicht in der zentralen Datenbank übernommen wurden, ist das Speichern der Änderung ohne Warndialog möglich. Sobald es aber Daten sind, die z.B. über den Auswahl-Dialog übernommen wurden, oder die vom Wettkampf-Administrator bestätigt wurden, betreffen die Mutationen auch die bisher in der zentralen Datenbank gespeicherten Daten zu dieser Person. In diesem Fall wird folgender Warndialog angezeigt:
+Bei der Ersterfassung findet eine strengere Validierung der Eingabedaten statt:
+
+1. Das Geburtsdatum muss so sein, dass die erfasste Person aktuell zwischen 1 und 100 Jahren alt ist.
+2. In Blockschrift erfasste Namen werden umgeformt, so dass der erste Buchstaben gross und der rest kein geschrieben ist.
+3. Es werden (meist unbeabsichtigt) vorangestellte oder angehängte Leerzeichen im Namen und Vornamen entfernt.
+4. Sofern der Vorname als Vorname aus einer Liste erkannt wird wird das Geschlecht überprüft, sofern das vom Vornamen her eindeutig ist. Bei fehlerhaftem Geschlecht wird dies automatisch korrigiert.
+5. Sofern der Vorname im Namen-Feld erfasst wurde, und dieser als Vorname aus einer Liste erkannt wird, werden Name und Vorname umgetauscht.
+
+Es kann sein, dass ein Vornamen verwendet wird (berechtigterweise), welcher aber nicht in der vorliegenden Vornamensliste existiert. In diesen Fällen kann es vorkommen, dass die App komisch reagiert. Nach der Ersterfassung kann eine ungewollte (falsch-) Korrektur wieder korrigiert werden.
+
+Mutationen an den personen-bezogenen Daten sind möglich. Dies nach dem Grundsatz, dass Daten korrekt erfasst sein müssen. Wenn Mutationen an Personen-Daten gemacht werden, die noch nicht in der zentralen Datenbank übernommen wurden, ist das Speichern der Änderung ohne Warndialog möglich. Sobald es aber Daten sind, die z.B. über den Auswahl-Dialog übernommen wurden, oder die vom Wettkampf-Administrator bestätigt wurden, betreffen die Mutationen auch die bisher in der zentralen Datenbank gespeicherten Daten zu dieser Person. In diesem Fall wird folgender Warndialog angezeigt:
 
 ![Warn-Dialog Person überschreiben/korrigieren](/assets/turner-registration-form-person-override.png)
 
