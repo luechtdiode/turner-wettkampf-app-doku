@@ -13,8 +13,8 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
 3. Art des Wettkampfs \(Programm\). Dies können folgende Wettkampfarten sein: Geräteturn-Wettkampf, Kunstturn-Wettkampf 
 
    oder Athletiktest.
-
-4. Schwellwerte für Auszeichnungen. Die Prozent-Angabe darf bis zu drei Stellen nach dem Komma haben. Die Angaben 
+4. EMail-Adresse für die Notifikation an die Wettkampf-Administration bei Online-Anmeldungen
+5. Schwellwerte für Auszeichnungen. Die Prozent-Angabe darf bis zu drei Stellen nach dem Komma haben. Die Angaben 
 
    können kombiniert verwendet werden. So kann z.B. eine Auszeichnung für die 40% Besten Ergebnisse und bei Erreichung 
 

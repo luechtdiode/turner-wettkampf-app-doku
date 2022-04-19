@@ -95,19 +95,26 @@ Folgende Mutations-Aktionen werden unterstützt:
 | Verein bestätigen | Eine neue Vereins-Wettkampfregistrierung eines bestehenden Vereins kann bestätigt werden. Um zu verhindern, dass sich Fake-Anmeldungen den Zugang zu bestehenden Vereinsdaten eines existierenden Vereins erschleichen, muss jede Vereins-Registrierung zu einem Wettkampf vom Wettkampf-Administrator bestätigt werden. |
 | Verein korrigieren | Name und Verband eines bestehenden Vereins werden korrigiert. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen** |
 | Hinzufügen | Teilt den Athlet beim angegebenen Programm/Kategorie ein. Unter Import-Vorschlag wird angezeigt, ob der Athlet neu importiert wird, oder ob er in der Datenbank gefunden werden konnte und desshalb wiederverwendet werden kann. |
-| Athlet korrigieren | Korrigiert die personen-bezogenen Daten eines Turners / einer Turnerin. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**. |
-| Umteilen | Verschieb den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie |
+| Athlet korrigieren | Korrigiert die personen-bezogenen Daten eines Turners / einer Turnerin. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**. Bei Mutation des Geschlechts wird bei der betroffenen Person von M auf W eine die Barren-Riege zurückgesetzt, resp. von W auf M eine Barrenriege (Riege2) zugewiesen. |
+| Umteilen | Verschiebt den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie |
 | Entfernen | Entfernt den angegebenen Athlet aus dem Wettkampf. Die Entfernen-Aktion entfernt nicht den Athlet beim Verein. |
 
-Wenn die Mutationen erfolgreich durchgeführt werden konnten, wird dies mit folgender Meldung bestätigt:
+Die Verarbeitung wird sowohl lokal als auch auf dem Server durchgeführt. Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf bei den entspr. Programmen/Kategorien eingeteilt. Die Riegennamen werden automatisch generiert.
+Beim Geräteturn Wettkampf wird automatisch bei Athleten eine Riege2 mit `Barren <Kategorie>` generiert.
 
-![Best&#xE4;tigung Anmeldungen verarbeitet](/assets/bestaetigung-sync-actions.png)
+In diesem Fall ist es nicht notwendig, dass der Wettkampf manuell wieder mit `Upload` hochgeladen wird.
 
-Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf bei den entspr. Programmen/Kategorien eingeteilt. Der Riegenname wird automatisch generiert. Sofern bereits eine Durchgangsplanung gemacht wurde, **ist dort zu überprüfen, ob die Riege bereits eingeteilt ist**.
+![Best&#xE4;tigung Anmeldungen verarbeitet](/assets/bestaetigung-sync-actions-no-action-required.png)
 
-![Kontrolle der Anmeldungen](/assets/auto-assigned-riege.png)
+Es gibt eine Ausnahme, wo eine manuelle nachbearbeitung notwendig wird: Wenn nämlich bereits eine Riegeneinteilung vorhanden ist und es eine neue Riege gibt, die noch eingeteilt werden musss (Durchgang, Startgerät).
 
-![Kontrolle der Riegen-Einteilung im Durchgang](/assets/durchgangsplanung-nachbearbeitung.png)
+![Best&#xE4;tigung Anmeldungen verarbeitet, manuelle Nachbearbeitung notwendig](/assets/bestaetigung-sync-actions-manual-action-required.png)
+
+Sofern bereits eine Durchgangsplanung gemacht wurde, **ist dort zu überprüfen, ob die Riege bereits eingeteilt ist**.
+
+![Kontrolle der Riegen-Einteilung im Durchgang](/assets/durchgangsplanung-nachbearbeitung2.png)
+
+Nach der manuellen Zuweisung in Durchgang und Startgerät muss der Wettkampf mit der `Upload` Funktion auf dem Netzwerk-Tab zum Server synchronisiert werden.
 
 Siehe auch
 

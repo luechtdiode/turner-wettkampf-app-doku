@@ -8,3 +8,5 @@ Ein Wettkampf wird mittels rechter Maustaste auf dem linken Menu "`Wettkämpfe`"
 
 Es ist wichtig für die **Medallien-Bedarfsberechnung**, dass der Anteil der Medallien-Empfänger erfasst ist.
 
+Falls die Anmeldungen online durchgeführt werden, kann eine EMail-Adresse hinterlegt werden, an welche die Mutationen gemeldet werden.
+
