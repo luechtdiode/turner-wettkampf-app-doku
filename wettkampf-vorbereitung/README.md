@@ -23,9 +23,10 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
 ## Weiterführende Kapitel
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
-* [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/)
-* [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
-* [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
+  * [Verwendung von Altersklassen](wettkampf_uebersicht/altersklassen.md)
+  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/)
+  * [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
+  * [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen/)
   * [Details zu Durchgang neu einteilen](riegeneinteilung_erstellen/durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](riegeneinteilung_erstellen/ausnahmen-limitationen.md)
@@ -34,6 +35,9 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
   * [Mustervorgehen für Athletiktest-Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_att.md)
   * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_kutu.md)
   * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_getu.md)
+  * [Mustervorgehen für Turn10®-Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_turn10.md)
+  * [Mustervorgehen für TG Allgäu Pflicht & Kür -Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
+
 * [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
 * [Notenblätter / Riegennotenblätter erstellen](notenblatter__riegennotenblatter_erstellen.md)
 * [Teilnehmerlisten erstellen](teilnehmerlisten_erstellen.md)
