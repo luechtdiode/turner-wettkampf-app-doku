@@ -20,13 +20,13 @@ Es können damit alle Teilnehmer/-Innen einer Altersklasse in einer gemeinsamen 
 
 Die Altersklasse berechnet sich anhand des effektiven Geburtsdatums des Teilnehmers, der Teilnehmerin. Dieses wird gegenüber dem Wettkampfdatum gestellt. Die Differenz in ganzen Jahren ist die relevante Zahl für die Eingliederung in die Altersklasse.
 
-### Alter nach Jahrgang in dem Jahr, wo der Wettkampf durchgeführt wird.
+### Alter nach Differenz aus Wettkampf-Jahr minus Jahrgang
 
 Die Jahrgangs-Altersklasse berechnet sich anhand des Jahrgangs des Teilnehmers, der Teilnehmerin. Dieses wird gegenüber dem Jahr im Wettkampf-Datum gestellt. Die Differenz ist die relevante Zahl für die Eingliederung in die Altersklasse.
 
 ## Gliederungsmöglichkeiten der Altersklassen
 
-Die Alterklassen werden im Grunde anhand von Altersgrenzen mit numerischen Angaben und komma-separiert festgelegt.
+Die Alterklassen werden im Grunde anhand von Altersgrenzen mit numerischen Angaben und komma-separiert festgelegt (`<Altersgrenze1>[,<Altersgrenze2>, ...]`).
 Die Altergrenzen `7,10,16,25` ergeben damit folgende Altersklassen:
 * Altersklasse bis 6
 * Altersklasse 7-9
@@ -49,14 +49,17 @@ Wenn die Altersklassen im Erfassungsdialog zum Wettkampf definiert oder ausgewä
 
 In der Wettkampf-Übersicht werden die Wettkampf-Altersklassen aufgeführt, und die Gliederungen mit den Altersklassen erweitert:
 Beispiel mit Turn10:
+
 ![](/assets/Turn10-Wettkampfuebersicht-Altersklassen.png)
 
 Beispiel TG Allgäu:
+
 ![](/assets/TGAllgaeu-Wettkampfuebersicht-Altersklassen.png)
 
 Die Riegeneinteilung erfolgt anhand der hinterlegten Altersklassen.
 
 Beispiel TG Allgäu mit Pflicht und Kür und Riegen mit Altersklassen-Bezeichnungen:
+
 ![](/assets/TGAllgaeu-WertungTab-Pflicht-Kuer-Altersklassen-Riegen.png)
 
 ## Altersklasse als dynamisch hinzugefügter Filter/Gruppierer in der Rangliste
