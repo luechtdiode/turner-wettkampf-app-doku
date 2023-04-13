@@ -37,7 +37,7 @@ Die Altergrenzen `7,10,16,25` ergeben damit folgende Altersklassen:
 Um komplexere Strukturen zu definieren, gibt es zusätzlich folgende Möglichkeiten:
 * Explizite Angabe der Altersklassenbezeichnung (vorangestellte Buchstaben `<Bezeichnung><Altersgrenze>`)
 * Range-Angabe für automatische Inkrements um 1 Jahr zwischen zwei Altersgrenzen (verbinden der Altersgrenze mit Bindestrich `<von>-<bis>`)
-* Explzite Inkrement-Angabe, sofern in einem Range nicht jedes Jahr eine neue Altersgrenze generieren soll (vinbinden mit Division und Inkrement-Wert `/<Inkrement-Wert>`)
+* Explzite Inkrement-Angabe, sofern in einem Range nicht jedes Jahr eine neue Altersgrenze generieren soll (verbinden mit Division und Inkrement-Wert `/<Inkrement-Wert>`)
 
 Zusammengesetzt ergibt sich volgener Syntax:
 
@@ -45,7 +45,7 @@ Zusammengesetzt ergibt sich volgener Syntax:
 
 ## Altersklasse als Wettkampf-Bestandteil
 
-Wenn die Altersklassen im Erfassungsdialog zum Wettkampf definiert oder ausgewählt wird, wird sie sowohl in der Wettkampfübersicht als auch bei der Riegeneinteilung und in der Rangliste integriert angewendet.
+Wenn die Altersklassen im Erfassungsdialog zum Wettkampf definiert oder ausgewählt werden, werden sie sowohl in der Wettkampfübersicht als auch bei der Riegeneinteilung und in der Rangliste integriert angewendet.
 
 In der Wettkampf-Übersicht werden die Wettkampf-Altersklassen aufgeführt, und die Gliederungen mit den Altersklassen erweitert:
 Beispiel mit Turn10:
