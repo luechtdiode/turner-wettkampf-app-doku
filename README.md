@@ -9,3 +9,7 @@ _für die Version 2.3 der Turner Wettkampf App_
 
 ### Github Link (Quelle)
 [https://github.com/luechtdiode/turner-wettkampf-app-doku/blob/v2r3/SUMMARY.md](https://github.com/luechtdiode/turner-wettkampf-app-doku/blob/v2r3/SUMMARY.md)
+
+### Summary
+
+[Inhaltsverzeichnis](SUMMARY.md)
