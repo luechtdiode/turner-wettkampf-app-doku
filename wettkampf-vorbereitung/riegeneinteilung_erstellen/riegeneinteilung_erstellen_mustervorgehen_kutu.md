@@ -6,7 +6,7 @@ Die initiale Riegenaufteilung wird mit dem Button `Riegen- & Durchgangs-Einteilu
 
 Die KuTu oder KuTuri Riegenverteilung verteilt standardmässig mit einer Gruppengrösse von maximal 11 Turner/-Innen pro Startgerät:
 
-![Riegen &amp; Durchg&#xE4;nge frisch einteilen](/assets/riegen-einteilen-dlg.png)
+![Riegen &amp; Durchg&#xE4;nge frisch einteilen](/assets/kutu-riegen-einteilen-dlg.png)
 
 Danach kann es pro Programm mehrere Durchgänge geben:
 

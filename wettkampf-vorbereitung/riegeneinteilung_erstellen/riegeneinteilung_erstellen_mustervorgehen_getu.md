@@ -23,8 +23,8 @@ Diese können einzeln oder mit Multiselection auf mehreren Durchgängen neu vert
 
 | Funktion | Beschreibung |
 | ---: | :--- |
-| Maximale Gruppengrösse | limitieren oder erweitern, was zu mehr oder weniger Durchgängen führen kann. |
-| Geschlechter-Trennung | Bei `gemischte Geräterieten` werden geschlecht-gemischte Rigen erstellt Bei `gemischter Durchgang` werden Riegen ohne Geschlechts-Durchmischung erstellt, innerhalb eines Durchganges werden jedoch Riegen beider Geschlechter eingeteilt Bei `getrennte Durchgänge` werden Durchgänge ohne Geschlechts-Durchmischung erstellt  Die Aufteilung auf Geschlechts-Ebene kann helfen, die Turner in einen separaten Durchgang zu ziehen, in welchem dann z.B. auch Barren verwendet wird: ![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten 3](/assets/getu-durchgang-partial-replanning-barren.png) |
+| Maximale Gruppengrösse | Limitieren oder erweitern, was zu mehr oder weniger Durchgängen führen kann. |
+| Geschlechter-Trennung | Bei `gemischte Geräterieten` werden geschlecht-gemischte Riegen erstellt. Bei `gemischter Durchgang` werden Riegen ohne Geschlechts-Durchmischung erstellt, innerhalb eines Durchganges werden jedoch Riegen beider Geschlechter eingeteilt Bei `getrennte Durchgänge` werden Durchgänge ohne Geschlechts-Durchmischung erstellt.  Die Aufteilung auf Geschlechts-Ebene kann helfen, die Turner in einen separaten Durchgang zu ziehen, in welchem dann z.B. auch Barren verwendet wird: ![Riegen &amp; Durchg&#xE4;nge Einteilung nachbearbeiten 3](/assets/getu-durchgang-partial-replanning-barren.png) |
 | Programme / Kategorien teilen | Wenn diese Option aktiviert ist, dann gibt es pro Programm/Kategorie eigene Durchgänge. Im deaktivierten Zustand können Programme/Kategorien in einem Durchgang gemischt werden. |
 | Verteilung auf Diszipline | Einzelne `Geräte` im Durchgang `ausschliessen` oder mit `einschliessen` \(Barren\), was zu grösseren oder kleineren Gruppen führt und dadurch ev. mehr oder weniger Durchgängen. |
 

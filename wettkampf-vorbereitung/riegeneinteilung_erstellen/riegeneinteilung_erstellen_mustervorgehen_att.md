@@ -4,7 +4,7 @@ Für einen Athletiktest gibt es in der Regel die Rangierung pro Jahrgang. Die in
 
 ![Riegen &amp; Durchg&#xE4;nge frisch einteilen](/assets/att-suggest-init.png)
 
-Diese Funktion gruppiert primär nach Geschlecht und nach Jahrgang. Zu grosse Gruppen werden gesplittet, so dass eine pro Station im Durchgang gleichmässige Verteilung möglich wird. Wenn wie im Beispiel die Vorbelegung bei `Maximale Gruppengrösse` der Wert `0` verwendet wird, so werden für den Athletiktest standardmässig zwei Durchgänge eingerichtet.
+Diese Funktion gruppiert primär nach Geschlecht und nach Jahrgang. Bei grosser Teilnehmerzahl wird der Verein dazugenommen. Zu grosse Gruppen werden gesplittet, so dass eine pro Station im Durchgang gleichmässige Verteilung möglich wird. Wenn wie im Beispiel die Vorbelegung bei `Maximale Gruppengrösse` der Wert `0` verwendet wird, so werden für den Athletiktest standardmässig zwei Durchgänge eingerichtet.
 
 1. Beweglichkeits-Stationen
 2. Kraft-Stationen

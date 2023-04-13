@@ -27,3 +27,4 @@ Die ausgewählte Datei wird in den Wettkampf-Ordner kopiert und auf den Dateinam
 
 Um die angezeigte Darstellung ausserhalb der App nutzen zu können lassen sich die Daten via `Übersicht drucken...` exportieren.
 
+Siehe auch die detailierte Beschreibung für die [Verwendung von Altersklassen](altersklassen.md)
