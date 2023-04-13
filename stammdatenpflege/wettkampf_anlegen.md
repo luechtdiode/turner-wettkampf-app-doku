@@ -33,6 +33,8 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
    * [DTB Allgemein (AK6,AK18,AK22,AK25)](https://www.dtb.de/fileadmin/user_upload/dtb.de/Passwesen/Wettkampfordnung_DTB_2021.pdf)
    * [DTB Pflicht (AK8-9,AK11-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
    * [DTB Kür (AK13-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
+   * Individuell - [Siehe Syntax-Beschreibung](../wettkampf-vorbereitung/wettkampf_uebersicht/altersklassen.md), wie die Altersklassen manuell definiert werden können.
+   * Ohne - erlaubt das entfernen einer Altersklassen-Belegung.
 7. (optional) Jahrgang Altersklassen (Alter im Jahr des Wettkampfes, auf Jahrgang-Basis):
    * Beinhaltet dieselben Altersklassen-Belegungsmöglichkeiten wie die "Alter am Wettkampftag" Altersklassen
    

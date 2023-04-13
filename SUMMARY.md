@@ -20,6 +20,8 @@
     * [Mustervorgehen für Athletiktest-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_att.md)
     * [Mustervorgehen für KuTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_kutu.md)
     * [Mustervorgehen für GeTu-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_getu.md)
+    * [Mustervorgehen für Turn10®-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_turn10.md)
+    * [Mustervorgehen für TG Allgäu Pflicht & Kür -Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
   * [Riegenzuteilung nachbearbeiten](wettkampf-vorbereitung/riegenzuteilung_nachbearbeiten.md)
   * [Notenblätter / Riegennotenblätter erstellen](wettkampf-vorbereitung/notenblatter__riegennotenblatter_erstellen.md)
   * [Teilnehmerlisten erstellen](wettkampf-vorbereitung/teilnehmerlisten_erstellen.md)
