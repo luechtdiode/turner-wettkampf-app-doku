@@ -67,4 +67,4 @@ Mit gruppierten Durchgängen ist darauf zu achten, dass beim Fallenlassen \(drop
 * [Mustervorgehen für KuTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_kutu.md)
 * [Mustervorgehen für GeTu-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_getu.md)
 * [Mustervorgehen für Turn10®-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_turn10.md)
-* [Mustervorgehen für Turn10®-Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
+* [Mustervorgehen für TG Allgäu Pflicht & Kür -Riegeneinteilung](riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
