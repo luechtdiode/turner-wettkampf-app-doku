@@ -23,19 +23,21 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
    * 
    * Athletiktest
 4. EMail-Adresse für die Notifikation an die Wettkampf-Administration bei Online-Anmeldungen
-5. Schwellwerte für Auszeichnungen. 
+5. Riegenrotationsregel: Es kann definiert werden, wie von einem Wettkampf zum nächsten die Startreihenfolge der Vereine und deren Teilnehmer rotieren soll. Siehe [Beschreibung Startreihenfolge in den Geräte-Riegen](../wettkampf-vorbereitung/wettkampf_uebersicht/riegenrotation.md)
+6. Punktegleichstand Regelung: Es kann definiert werden, wie die Rangierung bei Punktegleichstand ermittelt wird. Siehe [Beschreibung Rangierung bei Punktegleichstand](../wettkampf-vorbereitung/wettkampf_uebersicht/punktgleichstand.md)
+7. Schwellwerte für Auszeichnungen. 
    * Die Prozent-Angabe darf bis zu drei Stellen nach dem Komma haben.
    * Die Angaben können kombiniert verwendet werden. So kann z.B. eine Auszeichnung für die 40% Besten Ergebnisse und bei Erreichung
      eines Mindest-Gerätedurchschnitts vergeben werden. 
    * Bei Geräte-Tests wird oft eine Auszeichnung vergeben, wenn mind. 7.5 Punkte im Gerätedurchschnitt erreicht werden.
-6. (optional) Altersklassen (Alter am Wettkampftag):
+8. (optional) Altersklassen (Alter am Wettkampftag):
    * [Turn10® (AK7-18,AK24,AK30-100/5)](https://www.turn10.at/de/vereine/regeln/docdown-4-NAw02AlwnzzQ)
    * [DTB Allgemein (AK6,AK18,AK22,AK25)](https://www.dtb.de/fileadmin/user_upload/dtb.de/Passwesen/Wettkampfordnung_DTB_2021.pdf)
    * [DTB Pflicht (AK8-9,AK11-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
    * [DTB Kür (AK13-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
    * Individuell - [Siehe Syntax-Beschreibung](../wettkampf-vorbereitung/wettkampf_uebersicht/altersklassen.md), wie die Altersklassen manuell definiert werden können.
    * Ohne - erlaubt das entfernen einer Altersklassen-Belegung.
-7. (optional) Jahrgang Altersklassen (Alter im Jahr des Wettkampfes, auf Jahrgang-Basis):
+9. (optional) Jahrgang Altersklassen (Alter im Jahr des Wettkampfes, auf Jahrgang-Basis):
    * Beinhaltet dieselben Altersklassen-Belegungsmöglichkeiten wie die "Alter am Wettkampftag" Altersklassen
    
 Mit "`OK`" wird der Wettkampf angelegt.
