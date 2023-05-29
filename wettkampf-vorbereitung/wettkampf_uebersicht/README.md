@@ -27,6 +27,16 @@ Die ausgewählte Datei wird in den Wettkampf-Ordner kopiert und auf den Dateinam
 
 Siehe auch die detailierte Beschreibung für die [Verwendung von Altersklassen](altersklassen.md)
 
+## Nützliche Links
+
+Es werden weitere Links bereitgestellt, die z.B. auf der Wettkampf Homepage hinterlegt werden können, so dass die Teilnehmenden online auf die aktuellsten Daten zugreifen können.
+
+* Online Vereinsanmeldung
+* Online Teilnehmerliste
+* Online Wettkampfresultate
+
+Die Links können nur verwendet werden, wenn der Wettkampf im Netz hochgeladen wurde. Die Teilnehmerliste ist nur dann befüllt, wenn bereits eine Riegeneinteilung mit Durchgängen erstellt wurde.
+
 ## Darstellung exportieren
 
 Um die angezeigte Darstellung ausserhalb der App nutzen zu können lassen sich die Daten via `Übersicht drucken...` exportieren.

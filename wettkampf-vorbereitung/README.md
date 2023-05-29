@@ -23,6 +23,8 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
 ## Weiterführende Kapitel
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
+  * [Startreihenfolge in den Geräte-Riegen](wettkampf_uebersicht/riegenrotation.md)
+  * [Rangierung bei Punktegleichstand](wettkampf_uebersicht/punktgleichstand.md)
   * [Verwendung von Altersklassen](wettkampf_uebersicht/altersklassen.md)
   * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/)
   * [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)

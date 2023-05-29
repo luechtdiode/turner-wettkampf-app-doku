@@ -10,3 +10,13 @@ Es ist wichtig für die **Medallien-Bedarfsberechnung**, dass der Anteil der Med
 
 Falls die Anmeldungen online durchgeführt werden, kann eine EMail-Adresse hinterlegt werden, an welche die Mutationen gemeldet werden.
 
+# Wettkampf kopieren
+
+Wenn ein neuer Wettkampf angelegt werden soll, der dieselbe Parametrisierung wie ein bestehender Wettkampf haben sollte, kann dies mittels rechter Maustaste auf dem gewünschten Wettkampf im linken Menu unter "`Wettkämpfe`" ausgeführt werden.
+
+In diesem Fall werden folgende Elemente aus dem selektierten Wettkampf übernommen:
+
+* Sämtliche Parameter aus dem Wettkampf-Dialog, mit ausnahme des Wettkampf-Datums.
+* Wettkampf-Logo
+* Planzeiten
+* Ranglisten-Einstellungen
