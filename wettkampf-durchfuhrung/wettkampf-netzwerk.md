@@ -56,11 +56,11 @@ Dieser QR-Code muss von jedem Mobile-Device, von wo Resultate erfasst werden sol
 
 ### Letzte Resultate Link
 
-Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Resultaten. Siehe ![Aktuelle Wettkampf Resultate anzeigen](https://github.com/luechtdiode/turner-wettkampf-app-doku/tree/75f6f1ab61e90469693c54864ff38b520eb31438/wettkampf-durchfuhrung/#letzteResultate)
+Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Resultaten.
 
 ### Top Resultate Link
 
-Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-Resultaten. Siehe ![Letzte Top Resultate anzeigen](https://github.com/luechtdiode/turner-wettkampf-app-doku/tree/75f6f1ab61e90469693c54864ff38b520eb31438/wettkampf-durchfuhrung/#topResultate)
+Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-Resultaten. 
 
 ## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](wettkampf-netzwerk.md#qrcode-printouts)
 
@@ -82,46 +82,14 @@ In der Mobile-App ist in der Kopfzeile der Resultaterfassung sichtbar, ob der Du
 
 ## Wertungsrichter erfasst Wettkampf-Resultate
 
-Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Mit einem Click auf die Person &#xF6;ffnet sich die Noten-Eingabemaske.
-        <br
-        />
-        <br />
-      </th>
-      <th style="text-align:left">
-        <img src="/assets/resultaterfassen-gestartet2.png" alt/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>Bei Kunstturn-Wettk&#xE4;mpfen kann hier auch eine D-Note erfasst werden.</p>
-        <p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausf&#xFC;hrungs-Note
-          (E wie Execution) erfasst/korrigiert werden.</p>
-        <p>Die Endnote wird beim `Speichern` oder beim `Speichern &amp; Weiter` (2)
-          vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene
-          Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen.
-          Bei Kunstturn-Wettk&#xE4;mpfen wird die D-Note und die E-Note zusammengez&#xE4;hlt.</p>
-        <p>Es k&#xF6;nnen auch Fehler gemeldet werden. Wenn z.B. die Berechtigung
-          f&#xFC;r die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade
-          gesperrt ist, k&#xF6;nnen keine Resultate erfasst/korrigiert werden.</p>
-        <p> <em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons
-          &#xFC;berdeckt, muss f&#xFC;r dessen Bet&#xE4;tigung der Bildschirm nach
-          oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p>
-      </td>
-      <td style="text-align:left">
-        <img src="/assets/resultcatcher-wertung-erfassen.png" alt/>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Beschreibung |  Screenshot   |
+|--------------|:-------------:|
+| Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.<br>Mit einem Click auf die Person &#xF6;ffnet sich die Noten-Eingabemaske. |  ![](/assets/resultaterfassen-gestartet2.png) |
+|<p>Bei Kunstturn-Wettk&#xE4;mpfen kann hier auch eine D-Note erfasst werden.</p><p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausf&#xFC;hrungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>Mit einem Click auf den Plus-Button am Ende der Noteneingabe (2) können mehrere Teilwertungen erfasst werden, welche zu einem Durchschnittswert gerechnet werden. Beim Speichern wird nur noch der Durchschnittswert gespeichert, die Teilwertungen werden nicht gespeichert und sind danach nicht mehr zugänglich.</p><p>Wenn mehrere Teilwertungen erfasst sind, können einzelne davon mit dem Trash-Button (6) entfernt werden.</p><p>Im Kommastellen-Feld kann die Anzahl Dezimalstellen angegeben werden, auf welche der Durchschnittswert gerundet werden soll (5).</p><p>Die Endnote wird beim `Speichern` oder beim `Speichern & Weiter` (3/4) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettk&#xE4;mpfen wird die D-Note und die E-Note zusammengez&#xE4;hlt.</p><p>Es k&#xF6;nnen auch Fehler gemeldet werden. Wenn z.B. die Berechtigung f&#xFC;r die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, k&#xF6;nnen keine Resultate erfasst/korrigiert werden.</p><p> <em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons &#xFC;berdeckt, muss f&#xFC;r dessen Bet&#xE4;tigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p><p>Mit `Speichern & Weiter` wird jeweils automatisch der/die nächste Turner/Turnerin geöffnet. Wenn alle in der Riege erfasst sind, wird ein Abschluss-Dialog angezeigt, der zum Überprüfen aller Resultate auffordert, um danach die Erfassung für die Riege abzuschliessen. </p>| ![](/assets/resultcatcher-wertung-erfassen.png) ![](/assets/resultcatcher-wertung-erfassen-avg-multi.png)  |
 
-Wenn alle Resultate einer Riege an einem Gerät erfasst sind, soll die Resultaterfassung für diese Riege an diesem Gerät abgeschlossen werden. Dies wird mittels `Eingaben abschliessen` gemacht und bewirkt zusätzlich, dass die nächste Riege für die Resultaterfassung geladen wird.
+
+Wenn alle Resultate einer Riege an einem Gerät erfasst sind, und nicht mit `Speichern & Weiter` automatisch der Abschliessen-Dialog gekommen ist, soll die Resultaterfassung für diese Riege an diesem Gerät explizit abgeschlossen werden. Dies wird mittels `Eingaben abschliessen` gemacht und bewirkt zusätzlich, dass die nächste Riege für die Resultaterfassung geladen wird.
 
 ## Durchgang abschliessen
 
@@ -137,9 +105,9 @@ Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jewe
 
 ## Aktuelle Wettkampf Resultate anzeigen <a id="letzteResultate"></a>
 
-Die gerade gewerteten Wettkampf-Übungen können über ein digitales Resultate-Display angezeigt werden:
+Die gerade gewerteten Wettkampf-Übungen können über ein digitales Resultate-Display angezeigt werden (1):
 
-![](/assets/nav-resultat-display.png)
+![](/assets/nav-display.png)
 
 ![](/assets/resultat-display.png)
 
@@ -151,9 +119,9 @@ Wenn im `Wettkampf-Modus` und mit dem Netzwerk `verbunden` `(1)`, über die Funk
 
 ![](/assets/top-resultat-trigger.png)
 
-kann dieser über das entsprechende elektronische Display über die App angezeigt werden:
+kann dieser über das entsprechende elektronische Display über die App angezeigt werden (2):
 
-![](/assets/nav-top-resultat-display.png)
+![](/assets/nav-display.png)
 
 ![](/assets/top-resultat-display.png)
 
