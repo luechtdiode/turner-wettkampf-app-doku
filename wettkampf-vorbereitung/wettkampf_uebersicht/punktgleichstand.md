@@ -46,7 +46,7 @@ _Code_: `Disziplin(<Gerät1>[,<Gerät2>,...])`
 
 Die Endnoten der aufgeführten Diszipline werden der Reihe nach verglichen. Die erste Differenz entscheidet, wer vor dem anderen Rangiert wird.
 
-## Gliederungsmöglichkeiten der Punktegleichstandsrebel
+## Gliederungsmöglichkeiten der Punktegleichstandsregel
 
 Die Regeln können mit dem entspr. _Code_ hintereinander gereiht werden. Die Regeln können mit einem '/' Slash zusammengehängt werden. So wird von vorne nach hinten bei Punktegleichstend die nächste Regel angewendet, bis es einen klaren Vorteil gibt.
 
