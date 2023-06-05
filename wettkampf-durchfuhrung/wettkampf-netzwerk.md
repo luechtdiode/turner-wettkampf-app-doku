@@ -4,39 +4,39 @@ Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die dar�
 
 ## Schmatische Darstellung:
 
-![](/assets/network-usecase.png)
+![](<../assets/network-usecase (1).png>)
 
 ## Technische Voraussetzungen
 
 * Jeder Teilnehmer muss auf seinem Gerät am Wettkampf-Platz einen Internet-Zugang haben.
-* Jeder Teilnehmer, der Resultate erfassen muss \(Wertungsrichter\) muss auf seinem Mobile-Device einen QR-Code Reader installiert haben. Leider gibt es zahlreiche gratis QR-Code scanner, welche z.B. Werbung einblenden oder Browser-Inhalte nicht im offiziellen Browser des Mobile-Devices öffnen. **Voraussetzung ist ein QR-Code Reader, der mit dem QR-Code den Standardbrowser auf dem Mobile-Device öffnen kann**, damit für die Erfassungs-App genügend Bildschirm-Fläche zur Verfügung steht.
+* Jeder Teilnehmer, der Resultate erfassen muss (Wertungsrichter) muss auf seinem Mobile-Device einen QR-Code Reader installiert haben. Leider gibt es zahlreiche gratis QR-Code scanner, welche z.B. Werbung einblenden oder Browser-Inhalte nicht im offiziellen Browser des Mobile-Devices öffnen. **Voraussetzung ist ein QR-Code Reader, der mit dem QR-Code den Standardbrowser auf dem Mobile-Device öffnen kann**, damit für die Erfassungs-App genügend Bildschirm-Fläche zur Verfügung steht.
 * Grundsätzlich reicht jedoch der Standard-Bildschirm eines normalen Mobile-Devices mit einer Auflösung 360 x 640.
-* Wenn der Internet-Zugang für die Wettkampf-App über einen **`Internet-Proxy`** erreichbar ist, muss vor der Verbindung in's Internet die Proxy-Einstellung konfiguriert werden: ![](/assets/internet-proxy-menu.png) ![](/assets/proxy-dialog.png)
+* Wenn der Internet-Zugang für die Wettkampf-App über einen **`Internet-Proxy`** erreichbar ist, muss vor der Verbindung in's Internet die Proxy-Einstellung konfiguriert werden: ![](<../assets/internet-proxy-menu (1).png>) ![](../assets/proxy-dialog.png)
 
 ## Sicherheits-Massnahmen
 
 Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffen worden:
 
-* Die Daten werden ausschliesslich über eine verschlüsselte Verbindung transferiert \(HTTPS, SSL\). Damit wird sichergestellt, dass die Daten unverfälscht übertragen werden und während der Übertragung von dritten nicht mitgelesen werden können.
+* Die Daten werden ausschliesslich über eine verschlüsselte Verbindung transferiert (HTTPS, SSL). Damit wird sichergestellt, dass die Daten unverfälscht übertragen werden und während der Übertragung von dritten nicht mitgelesen werden können.
 * Lese-Zugriff auf die zentral bereitgestellten Daten wird jedem gewährt.
-* Ein neuer Wettkampf darf jeder hochladen, sofern dieser Wettkampf eindeutig ist. Heruntergeladene Wettkämpfe können nicht wieder hochgeladen werden \(Ausnahme siehe nächstes Kapitel\).
+* Ein neuer Wettkampf darf jeder hochladen, sofern dieser Wettkampf eindeutig ist. Heruntergeladene Wettkämpfe können nicht wieder hochgeladen werden (Ausnahme siehe nächstes Kapitel).
 * Die Mutation von Daten an einem im Netzwerk zur Verfügung gestellten Wettkampf ist nur mit einer gültigen Authentifizierung und Authorisierung möglich. Die Authorisierung gilt für maximal 24 Stunden.
 * Die Authentifizierung/Authorisierung kann nur mit dem Link durchgeführt werden, der von dem Gerät stammt, von dem der Wettkampf im Netzwerk bereitgestellt wurde. Der Link kann via QR-Code, Browser-Link oder Link via EMail-Einladung verteilt werden. Es liegt in der Verantwortung des Wettkampf-Erstellers, wem dieser Link zugänglich gemacht wird.
 
 ## Wettkampf im Netz bereitstellen
 
 1. Die Person, welche die Wettkampf-Planung wie unter [Wettkampf-Vorbereitung](https://github.com/luechtdiode/turner-wettkampf-app-doku/tree/75f6f1ab61e90469693c54864ff38b520eb31438/wettkampf-durchfuhrung/wettkampf-vorbereitung/README.md) beschrieben erstellt hat, kann grundsätzlich darüber entscheiden, ob der Wettkampf im Netz geteilt wird. Ausgangslage ist der zunächst lokal erstellte Wettkampf mit einer Riegen- und Durchgangseinteilung.
-2. Anschliessend kann der Wettkampf auf dem `Netzwerk-Dashboard` im Netz für die dezentrale Resultat-Erfassung bereitgestellt werden  ![](/assets/upload-competition.png)  Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmeldung angezeigt: ![](/assets/connect-and-share.png)  Gleichzeitig wird der Button `Verbindung stoppen` wählbar. Für eine schnelle Kontrolle dient der Status-Button oben rechts im Fenster. Mit der Status-Lampe wird mit `grün` eine aktive und mit `grau` eine nicht aktive Verbindung angezeigt. Die Verbindung kann auch über diesen Status-Button ein- und ausgeschaltet werden. 
-3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen: ![](/assets/download-competitions.png)  ![](/assets/list-download-competitions.png)  Nachdem ein Wettkampf heruntergeladen wurde, können daran noch keine Änderungen gemacht werden. Man kann sich allerdings zu dem Wettkampf im Netzwerk verbinden und aktualisierte Resultate werden auf die lokale Kopie gemeldet. Um die volle Kontrolle über den Wettkampf von einem Gerät auf das Andere zu übertragen muss vom Gerät, auf dem der Wettkampf hochgeladen wurde, der Wettkampf wie bisher via `Import-`/`Export`-Funktion als Zip-Datei auf das zusätzliche Gerät kopiert werden. Die Datei enthält den Sicherheits-Schlüssel für den Vollzugriff auf diesen Wettkampf:  ![](/assets/competition-share-secret.png)  Diese Datei ist für den Benutzer **unsichtbar**. Mit diesem Vorgehen können mehrere Geräte die volle Kontrolle über den Wettkampf erlangen.
+2. Anschliessend kann der Wettkampf auf dem `Netzwerk-Dashboard` im Netz für die dezentrale Resultat-Erfassung bereitgestellt werden ![](../assets/upload-competition.png) Bei diesem Arbeitsschritt, wird nach erfolgreichem bereitstellen eine Erfolgsmeldung angezeigt: ![](<../assets/connect-and-share (1).png>) Gleichzeitig wird der Button `Verbindung stoppen` wählbar. Für eine schnelle Kontrolle dient der Status-Button oben rechts im Fenster. Mit der Status-Lampe wird mit `grün` eine aktive und mit `grau` eine nicht aktive Verbindung angezeigt. Die Verbindung kann auch über diesen Status-Button ein- und ausgeschaltet werden.
+3. Weitere Interessierte können sich mit der Funktion `Wettkampf herunterladen` den kompletten Wettkampf über das Netzwerk herunterladen: ![](<../assets/download-competitions (1).png>) ![](../assets/list-download-competitions.png) Nachdem ein Wettkampf heruntergeladen wurde, können daran noch keine Änderungen gemacht werden. Man kann sich allerdings zu dem Wettkampf im Netzwerk verbinden und aktualisierte Resultate werden auf die lokale Kopie gemeldet. Um die volle Kontrolle über den Wettkampf von einem Gerät auf das Andere zu übertragen muss vom Gerät, auf dem der Wettkampf hochgeladen wurde, der Wettkampf wie bisher via `Import-`/`Export`-Funktion als Zip-Datei auf das zusätzliche Gerät kopiert werden. Die Datei enthält den Sicherheits-Schlüssel für den Vollzugriff auf diesen Wettkampf: ![](../assets/competition-share-secret.png) Diese Datei ist für den Benutzer **unsichtbar**. Mit diesem Vorgehen können mehrere Geräte die volle Kontrolle über den Wettkampf erlangen.
 4. Solange eine aktive Verbindung besteht, werden die Resultate über den zentralen Server mit allen anderen an diesem Wettkampf verbundenen Stationen synchronisiert. So ist es denn auch möglich, mit mehr als einer Station im Rechnungsbüro zu arbeiten, um so die Ausfallsicherheit zu erhöhen.
 
-## Riegenblätter mit QR-Code für Direkteinstieg in die Erfassungs-Maske der Mobile-App drucken <a id="qrcode-printouts"></a>
+## Riegenblätter mit QR-Code für Direkteinstieg in die Erfassungs-Maske der Mobile-App drucken <a href="#qrcode-printouts" id="qrcode-printouts"></a>
 
-![](/assets/print-riegenblaetter.png)
+![](../assets/print-riegenblaetter.png)
 
 **Generiertes Riegennotenblatt:**
 
-![](/assets/riegenblaetter.png)
+![](../assets/riegenblaetter.png)
 
 **Achtung** Der auf den Riegenblätter gedruckte QR-Code enthält den Link auf den `zentralen Server` und funktioniert nicht mit dem anderen Netzwerk-Modus, wo der Server lokal betrieben wird.
 
@@ -44,11 +44,11 @@ Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wer
 
 ## Mobile App Connections ...
 
-![](/assets/mobile-app-connections.png)
+![](../assets/mobile-app-connections.png)
 
-Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code für die folgenden Links angezeigt \(Tabs auf der linken Dialogseite\): 1. `Mobile-App`, 2. `Letzte Resultate`, 3. `Top Resultate`.
+Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code für die folgenden Links angezeigt (Tabs auf der linken Dialogseite): 1. `Mobile-App`, 2. `Letzte Resultate`, 3. `Top Resultate`.
 
-![](/assets/mobile-register.png)
+![](../assets/mobile-register.png)
 
 ### Mobile-App Link
 
@@ -60,34 +60,32 @@ Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Resul
 
 ### Top Resultate Link
 
-Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-Resultaten. 
+Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-Resultaten.
 
 ## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](wettkampf-netzwerk.md#qrcode-printouts)
 
 Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.
 
-![](/assets/resultaterfassen-gesperrt.png)
+![](../assets/resultaterfassen-gesperrt.png)
 
 ## Freischalten eines Durchganges für die Resultat-Erfassung über das Netzwerk
 
 In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf. In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist. Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
 
-![](/assets/durchgang-starten.png)
+![](<../assets/durchgang-starten (1).png>)
 
-In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet. Solange Durchgänge gestartet und nicht gestoppt sind, werden die Änderungsmeldungen zu diesen Durchgängen zurückbehalten, so dass die Wettkampf-App im Rechnungsbüro nicht erhaltene Meldungen \(z.B. wegen einem Verbindungs-Unterbruch\) bei der nächsten Verbindung nachführen kann.
+In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet. Solange Durchgänge gestartet und nicht gestoppt sind, werden die Änderungsmeldungen zu diesen Durchgängen zurückbehalten, so dass die Wettkampf-App im Rechnungsbüro nicht erhaltene Meldungen (z.B. wegen einem Verbindungs-Unterbruch) bei der nächsten Verbindung nachführen kann.
 
-![](/assets/resultcatcher-running.png)
+![](<../assets/resultcatcher-running (1).png>)
 
 In der Mobile-App ist in der Kopfzeile der Resultaterfassung sichtbar, ob der Durchgang für die Erfassung freigegeben wurde. Zusätzlich erscheinen die gelben Buttons `Eingaben Abschliessen`, mit welchen die Erfassung einer Geräteriege abgeschlossen werden kann.
 
 ## Wertungsrichter erfasst Wettkampf-Resultate
 
-
-| Beschreibung |  Screenshot   |
-|--------------|:-------------:|
-| Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.<br>Mit einem Click auf die Person &#xF6;ffnet sich die Noten-Eingabemaske. |  ![](/assets/resultaterfassen-gestartet2.png) |
-|<p>Bei Kunstturn-Wettk&#xE4;mpfen kann hier auch eine D-Note erfasst werden.</p><p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausf&#xFC;hrungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>Mit einem Click auf den Plus-Button am Ende der Noteneingabe (2) können mehrere Teilwertungen erfasst werden, welche zu einem Durchschnittswert gerechnet werden. Beim Speichern wird nur noch der Durchschnittswert gespeichert, die Teilwertungen werden nicht gespeichert und sind danach nicht mehr zugänglich.</p><p>Wenn mehrere Teilwertungen erfasst sind, können einzelne davon mit dem Trash-Button (6) entfernt werden.</p><p>Im Kommastellen-Feld kann die Anzahl Dezimalstellen angegeben werden, auf welche der Durchschnittswert gerundet werden soll (5).</p><p>Die Endnote wird beim `Speichern` oder beim `Speichern & Weiter` (3/4) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettk&#xE4;mpfen wird die D-Note und die E-Note zusammengez&#xE4;hlt.</p><p>Es k&#xF6;nnen auch Fehler gemeldet werden. Wenn z.B. die Berechtigung f&#xFC;r die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, k&#xF6;nnen keine Resultate erfasst/korrigiert werden.</p><p> <em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons &#xFC;berdeckt, muss f&#xFC;r dessen Bet&#xE4;tigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p><p>Mit `Speichern & Weiter` wird jeweils automatisch der/die nächste Turner/Turnerin geöffnet. Wenn alle in der Riege erfasst sind, wird ein Abschluss-Dialog angezeigt, der zum Überprüfen aller Resultate auffordert, um danach die Erfassung für die Riege abzuschliessen. </p>| ![](/assets/resultcatcher-wertung-erfassen.png) ![](/assets/resultcatcher-wertung-erfassen-avg-multi.png)  |
-
+| Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                                      Screenshot                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------: |
+| <p>Mit dem Button <code>RESULTATE</code> gelangt man in der Mobile-App zu den Turner/-Innen, die Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.<br>Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.</p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |                                    ![](../assets/resultaterfassen-gestartet2.png)                                   |
+| <p>Bei Kunstturn-Wettkämpfen kann hier auch eine D-Note erfasst werden.</p><p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>Mit einem Click auf den Plus-Button am Ende der Noteneingabe (2) können mehrere Teilwertungen erfasst werden, welche zu einem Durchschnittswert gerechnet werden. Beim Speichern wird nur noch der Durchschnittswert gespeichert, die Teilwertungen werden nicht gespeichert und sind danach nicht mehr zugänglich.</p><p>Wenn mehrere Teilwertungen erfasst sind, können einzelne davon mit dem Trash-Button (6) entfernt werden.</p><p>Im Kommastellen-Feld kann die Anzahl Dezimalstellen angegeben werden, auf welche der Durchschnittswert gerundet werden soll (5).</p><p>Die Endnote wird beim <code>Speichern</code> oder beim <code>Speichern &#x26; Weiter</code> (3/4) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettkämpfen wird die D-Note und die E-Note zusammengezählt.</p><p>Es können auch Fehler gemeldet werden. Wenn z.B. die Berechtigung für die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, können keine Resultate erfasst/korrigiert werden.</p><p><em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons überdeckt, muss für dessen Betätigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p><p>Mit <code>Speichern &#x26; Weiter</code> wird jeweils automatisch der/die nächste Turner/Turnerin geöffnet. Wenn alle in der Riege erfasst sind, wird ein Abschluss-Dialog angezeigt, der zum Überprüfen aller Resultate auffordert, um danach die Erfassung für die Riege abzuschliessen.</p> | ![](<../assets/resultcatcher-wertung-erfassen (1).png>) ![](../assets/resultcatcher-wertung-erfassen-avg-multi.png) |
 
 Wenn alle Resultate einer Riege an einem Gerät erfasst sind, und nicht mit `Speichern & Weiter` automatisch der Abschliessen-Dialog gekommen ist, soll die Resultaterfassung für diese Riege an diesem Gerät explizit abgeschlossen werden. Dies wird mittels `Eingaben abschliessen` gemacht und bewirkt zusätzlich, dass die nächste Riege für die Resultaterfassung geladen wird.
 
@@ -95,41 +93,41 @@ Wenn alle Resultate einer Riege an einem Gerät erfasst sind, und nicht mit `Spe
 
 Wenn alle Resultate eines Durchganges erfasst sind, soll der `Durchgang abgeschlossen` werden, worauf keine weiteren Resultate via Mobile-Devices mehr engegengenommen werden.
 
-![](/assets/durchgang-abschliessen.png)
+![](../assets/durchgang-abschliessen.png)
 
-![](/assets/durchgang-abgeschlossen.png)
+![](<../assets/durchgang-abgeschlossen (1).png>)
 
-![](/assets/resultaterfassen-gesperrt.png)
+![](../assets/resultaterfassen-gesperrt.png)
 
 Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jeweiligen Durchgang zugänglich und sind nur dann wählbar, wenn der Netzwerk-Modus eingeschaltet ist.
 
-## Aktuelle Wettkampf Resultate anzeigen <a id="letzteResultate"></a>
+## Aktuelle Wettkampf Resultate anzeigen <a href="#letzteresultate" id="letzteresultate"></a>
 
 Die gerade gewerteten Wettkampf-Übungen können über ein digitales Resultate-Display angezeigt werden (1):
 
-![](/assets/nav-display.png)
+![](../assets/nav-display.png)
 
-![](/assets/resultat-display.png)
+![](../assets/resultat-display.png)
 
 Die Anzeige wird automatisch aktualisiert, wenn neue Resultate erfasst werden.
 
-## Letzte Top-Resultate anzeigen <a id="topResultate"></a>
+## Letzte Top-Resultate anzeigen <a href="#topresultate" id="topresultate"></a>
 
 Wenn im `Wettkampf-Modus` und mit dem Netzwerk `verbunden` `(1)`, über die Funktion `Bestenliste (2)` ein Zusammenzug der besten Resultate der aktuellen Runde erstellt wird,
 
-![](/assets/top-resultat-trigger.png)
+![](../assets/top-resultat-trigger.png)
 
 kann dieser über das entsprechende elektronische Display über die App angezeigt werden (2):
 
-![](/assets/nav-display.png)
+![](../assets/nav-display.png)
 
-![](/assets/top-resultat-display.png)
+![](../assets/top-resultat-display.png)
 
 ## Wettkampf Resultate lokal aktualisieren
 
 Sollten bereits Daten über Mobile-Devices erfasst worden sein, bevor im Rechnungsbüro die zentrale Wettkampf-App mit dem Netzwerk verbunden war, können die lokalen Daten mit denjenigen aus dem Netzwerk überschrieben/ersetzt werden. Dies wirt mit der Aktion `Download` durchgeführt. Es wird eine Sicherheits-Abfrage angezeigt, wo noch einmal darauf hingewiesen wird, dass die lokal erfassten Daten allesamt mit denjenigen aus dem Netzwerk überschrieben werden.
 
-![](/assets/wettkampf-herunterladen.png)
+![](../assets/wettkampf-herunterladen.png)
 
 ## Wettkampf noch einmal in's Netzwerk hochladen
 
@@ -139,11 +137,10 @@ Es kann vorkommen, dass nach Anpassungen z.B. an der Riegeneinteilung diese so a
 
 Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resultate mehr zum oder vom Netzwerk synchronisiert. Solange jedoch noch Durchgänge gestartet und nicht gestoppt wurden, werden die pendenten Änderungsmeldungen bei der nächsten Verbindung nachgeführt.
 
-![](/assets/network-disconnect.png)
+![](../assets/network-disconnect.png)
 
-## Wettkampf im Netzwerk entfernen <a id="wettkampfnetzwerk-entfernen"></a>
+## Wettkampf im Netzwerk entfernen <a href="#wettkampfnetzwerk-entfernen" id="wettkampfnetzwerk-entfernen"></a>
 
 Mit dieser Funktion wird der Wettkampf im Netzwerk entfernt und steht danach nicht mehr im Netzwerk zur Verfügung.
 
-![](/assets/network-remove.png)
-
+![](../assets/network-remove.png)
