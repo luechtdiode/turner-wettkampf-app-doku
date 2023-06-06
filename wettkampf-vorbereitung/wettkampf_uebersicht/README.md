@@ -23,9 +23,12 @@ Die Dimensionen des Logos werden automatisch in die gewünschte Grösse skaliert
 
 Die ausgewählte Datei wird in den Wettkampf-Ordner kopiert und auf den Dateinamen `logo` mit gleicher Datei-Endung wie das Original umbenannt.
 
-## Altersklassen
+## Grundsätzliche Einstellungen zum Wettkampf
 
-Siehe auch die detailierte Beschreibung für die [Verwendung von Altersklassen](altersklassen.md)
+Weitere Einstellungen zum Wettkampf können im Wettkampf-Bearbeiten Dialog gemacht werden:
+* [Rangierung bei Punktegleichstand](punktegleichstand.md)
+* [Wettkampf-übergreifende Riegen Rotationsregel](riegenrotation.md)
+* [Verwendung von Altersklassen](altersklassen.md)
 
 ## Nützliche Links
 
@@ -40,3 +43,4 @@ Die Links können nur verwendet werden, wenn der Wettkampf im Netz hochgeladen w
 ## Darstellung exportieren
 
 Um die angezeigte Darstellung ausserhalb der App nutzen zu können lassen sich die Daten via `Übersicht drucken...` exportieren.
+
