@@ -14,4 +14,4 @@ _für die Version 2.3 der Turner Wettkampf App_
 
 ### Summary
 
-[Inhaltsverzeichnis](./#summary)
+[Inhaltsverzeichnis](SUMMARY.md)
