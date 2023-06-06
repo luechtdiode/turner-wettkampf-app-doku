@@ -1,4 +1,4 @@
-# Table of contents
+# Inhaltsverzeichnis
 
 * [Turner Wettkampf App](README.md)
 * [Installation](installation/README.md)
