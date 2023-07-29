@@ -15,6 +15,7 @@
     * [Startreihenfolge in den Geräte-Riegen](wettkampf-vorbereitung/wettkampf_uebersicht/riegenrotation.md)
     * [Rangierung bei Punktegleichstand](wettkampf-vorbereitung/wettkampf_uebersicht/punktgleichstand.md)
     * [Altersklassen hinterlegen](wettkampf-vorbereitung/wettkampf_uebersicht/altersklassen.md)
+    * [Teamregeln hinterlegen](wettkampf-vorbereitung/wettkampf_uebersicht/teamregeln.md)
   * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen/README.md)
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/riegeneinteilung_erstellen/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/riegeneinteilung_erstellen/ausnahmen-limitationen.md)

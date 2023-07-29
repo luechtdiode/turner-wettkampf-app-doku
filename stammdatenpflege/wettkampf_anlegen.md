@@ -39,6 +39,13 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
    * Ohne - erlaubt das entfernen einer Altersklassen-Belegung.
 9. (optional) Jahrgang Altersklassen (Alter im Jahr des Wettkampfes, auf Jahrgang-Basis):
    * Beinhaltet dieselben Altersklassen-Belegungsmöglichkeiten wie die "Alter am Wettkampftag" Altersklassen
-   
+10. (optional) Teamregelung: Für die Auswertung der Resultate auf Team-Ebene lassen sich hier die Regeln definieren, 
+was ein Team ausmacht. Aus der Dropdown-Liste können gängige Regeldefinitionen ausgewält weden.
+Mit `Individuell` lassen sich die Regeln individuell festlegen. Dabei gbit es folgende Möglichkeiten:
+    * Zusammenzug der besten Geräte-Wertungen oder der besten Gesamt-Wertungen.
+    * Die Teamnummern können auf Vereins- oder Verbandsebene für die Team-Zusammenstellung verwendet werden.
+    * Es können mehrere Teamregeln aufgenommen werden. Bei der Online-Anmeldung werden die Teamregeln sichtbar gemacht.
+    * 
+
 Mit "`OK`" wird der Wettkampf angelegt.
 

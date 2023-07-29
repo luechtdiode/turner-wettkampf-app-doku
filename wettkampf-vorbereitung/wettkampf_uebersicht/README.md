@@ -2,7 +2,7 @@
 
 Im Übersicht-Tab werden pro Verein, Programm/Kategorie und Geschlecht die Anmeldungen statistisch angezeigt. Hiermit lassen sich schnell Vollständigkeits-Kontrollen durchführen. Die Daten eignen sich auch als Basis für weitergehende Verarbeitungen wie z.B. für die Startgeld-Budgetierung.
 
-Je nach angabe der Auszeichnungs-Schwelle wird anhand der Anmeldungen auch der Medallien-Bedarf tabellarisch ausgewiesen.
+Je nach Angabe der Auszeichnungs-Schwelle wird anhand der Anmeldungen auch der Medallien-Bedarf tabellarisch ausgewiesen.
 
 ![](/assets/wettkampf-uebersicht.png)
 
@@ -26,6 +26,13 @@ Die ausgewählte Datei wird in den Wettkampf-Ordner kopiert und auf den Dateinam
 ## Altersklassen
 
 Siehe auch die detailierte Beschreibung für die [Verwendung von Altersklassen](altersklassen.md)
+
+## Teamregelung
+
+Sofern Teamregeln definiert sind, wird eine Aufstellung gemacht, ob es gemäss den bisherigen Anmeldungen passende Team-Zusammenstellungen geben kann.
+Siehe auch die detailierte Beschreibung für die [Definition von Team Zusammenstellungsregeln](teamregeln.md)
+
+![](/assets/team-stats.png)
 
 ## Nützliche Links
 
