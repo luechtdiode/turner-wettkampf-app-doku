@@ -1,24 +1,23 @@
 # Notenblätter / Riegennotenblätter erstellen
 
-»Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen: Siehe [Ausnahmen und Limitationen]().
+»Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen: Siehe [Ausnahmen und Limitationen](notenblatter\_\_riegennotenblatter\_erstellen.md).
 
 Für die Erstellung der Notenblätter wird die **pro Kategorie** wählbare Funktion "`Notenblätter erstellen`" benutzt:
 
-![](/assets/print-notenblaetter.png)
+![](<../assets/print-notenblaetter (1).png>)
 
 Wenn nicht gleich für alle aus der Kategorie ein Notenblatt gedruckt werden soll, kann dies mit allen möglichen Filter eingeschränkt werden.
 
 **Generiertes Notenblatt:**
 
-![](/assets/notenblatt.png)
+![](../assets/notenblatt.png)
 
 Für die Generierung aller Riegennotenblätter muss auf den Tab "`Riegeneinteilung`" gewechselt werden. Vorausgesetzt wird eine fertige Riegeneinteilung, so dass die richtigen Turner zusammen auf die richtigen Blätter kommen.
 
-![](/assets/print-riegenblaetter.png)
+![](../assets/print-riegenblaetter.png)
 
-Die Turner rotieren bei jedem Gerätewechsel \(jeweils der 1. wird hinten angestellt\).
+Die Turner rotieren bei jedem Gerätewechsel (jeweils der 1. wird hinten angestellt).
 
 **Generiertes Riegennotenblatt:**
 
-![](/assets/riegenblaetter.png)
-
+![](../assets/riegenblaetter.png)
