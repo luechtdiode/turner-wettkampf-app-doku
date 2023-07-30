@@ -116,8 +116,8 @@ Nach der manuellen Zuweisung in Durchgang und Startgerät muss der Wettkampf mit
 
 Siehe auch
 
-* [Riegeneinteilung erstellen](../riegeneinteilung\_erstellen/)
-* [Riegenzuteilung nachbearbeiten](../riegenzuteilung\_nachbearbeiten.md)
+* [Riegeneinteilung erstellen](../riegeneinteilung_erstellen/README.md)
+* [Riegenzuteilung nachbearbeiten](../riegenzuteilung_nachbearbeiten.md)
 
 ## Abschliessen der Anmeldungs-Verarbeitung
 

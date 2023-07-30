@@ -62,7 +62,7 @@ Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Resul
 
 Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-Resultaten.
 
-## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](wettkampf-netzwerk.md#qrcode-printouts)
+## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](#qrcode-printouts)
 
 Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.
 

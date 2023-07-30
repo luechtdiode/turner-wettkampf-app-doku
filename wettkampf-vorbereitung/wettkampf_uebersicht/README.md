@@ -26,7 +26,7 @@ Die ausgewählte Datei wird in den Wettkampf-Ordner kopiert und auf den Dateinam
 ## Grundsätzliche Einstellungen zum Wettkampf
 
 Weitere Einstellungen zum Wettkampf können im Wettkampf-Bearbeiten Dialog gemacht werden:
-* [Rangierung bei Punktegleichstand](punktegleichstand.md)
+* [Rangierung bei Punktegleichstand](punktgleichstand.md)
 * [Wettkampf-übergreifende Riegen Rotationsregel](riegenrotation.md)
 * [Verwendung von Altersklassen](altersklassen.md)
 

@@ -36,12 +36,12 @@ Auf den Riegenblätter ist ein QR-Code aufgedruckt, mit welchem ein Link bereitg
 
 ![](../assets/riegenblaetter.png)
 
-## Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem [QR-Code vom Riegenblatt](wettkampf-netzwerk-wertungsrichter.md#qrcode-printouts)
+### Wertungsrichter initialisiert sein Mobile-Device an seiner Station mit dem QR-Code vom Riegenblatt
 
 | Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben. | ![](<../assets/resultaterfassen-gesperrt.png>) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
 
-## Wertungsrichter erfasst Wettkampf-Resultate
+### Wertungsrichter erfasst Wettkampf-Resultate
 
 Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.
 

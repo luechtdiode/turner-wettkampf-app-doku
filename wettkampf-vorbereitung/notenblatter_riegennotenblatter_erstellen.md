@@ -1,6 +1,6 @@
 # Notenblätter / Riegennotenblätter erstellen
 
-»Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen: Siehe [Ausnahmen und Limitationen](notenblatter\_\_riegennotenblatter\_erstellen.md).
+»Durchgänge mit gemischten Kategorien/Programmen / Durchgänge mit zu wenig Start-Riegen: Siehe [Ausnahmen und Limitationen](riegeneinteilung_erstellen/ausnahmen-limitationen.md).
 
 Für die Erstellung der Notenblätter wird die **pro Kategorie** wählbare Funktion "`Notenblätter erstellen`" benutzt:
 

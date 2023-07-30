@@ -27,7 +27,7 @@
     * [Mustervorgehen für Turn10®-Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_turn10.md)
     * [Mustervorgehen für TG Allgäu Pflicht & Kür -Riegeneinteilung](wettkampf-vorbereitung/riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
   * [Riegenzuteilung nachbearbeiten](wettkampf-vorbereitung/riegenzuteilung_nachbearbeiten.md)
-  * [Notenblätter / Riegennotenblätter erstellen](wettkampf-vorbereitung/notenblatter__riegennotenblatter_erstellen.md)
+  * [Notenblätter / Riegennotenblätter erstellen](wettkampf-vorbereitung/notenblatter_riegennotenblatter_erstellen.md)
   * [Teilnehmerlisten erstellen](wettkampf-vorbereitung/teilnehmerlisten_erstellen.md)
 * [Wettkampf-Durchführung](wettkampf-durchfuhrung/README.md)
   * [Wettkampf über das Internet bereitstellen](wettkampf-durchfuhrung/wettkampf-netzwerk.md)

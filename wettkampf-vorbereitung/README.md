@@ -42,6 +42,6 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
   * [Mustervorgehen für TG Allgäu Pflicht & Kür -Riegeneinteilung](riegeneinteilung_erstellen/riegeneinteilung_erstellen_mustervorgehen_tgallgaeu.md)
 
 * [Riegenzuteilung nachbearbeiten](riegenzuteilung_nachbearbeiten.md)
-* [Notenblätter / Riegennotenblätter erstellen](notenblatter__riegennotenblatter_erstellen.md)
+* [Notenblätter / Riegennotenblätter erstellen](notenblatter_riegennotenblatter_erstellen.md)
 * [Teilnehmerlisten erstellen](teilnehmerlisten_erstellen.md)
 
