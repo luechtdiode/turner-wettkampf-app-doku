@@ -16,6 +16,6 @@ Sobald mehr als 1 Eintrag aktiviert ist, steht ein weiterer Eintrag mit der Besc
 
 Konkret wird das am Beispiel eines Zusammenzugs aller Qualifikations-Wettkämpfe in eine übergreifende Rangliste:
 
-![](<../assets/rangliste-extended-filter (1).png>)
+![](<../assets/rangliste-extended-filter.png>)
 
 Wenn in der Gruppierungs-Auswahl "Wettkampf" (1), mittels Mehrfachselektion (2) bei den gewünschten (Qualifikations-) Wettkämpfen und zusätzlich beim Filter-Eintrag "alle" (3) ein Haken gesetzt wird, dann werden die kumulierten Summen und Durchschnitts-Resultate der gewählten Wettkämpfe in einer Rangliste aufbereitet. In der Rangliste-Überschrift (4) werden die ausgewählten Wettkämpfe aufgelistet.

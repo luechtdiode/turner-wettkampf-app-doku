@@ -4,11 +4,11 @@ Für den Versand an die Vereine, oder für die Abwicklung vor Ort z.B. für Anwe
 
 ## Teilnehmerliste nach Kategorie
 
-![](<../assets/print-teilnehmerliste (1).png>)
+![](<../assets/print-teilnehmerliste.png>)
 
 Generierte Teilnehmerliste:
 
-![](<../assets/teilnehmerliste (1).png>)
+![](<../assets/teilnehmerliste.png>)
 
 ## Teilnehmerliste nach Verein
 

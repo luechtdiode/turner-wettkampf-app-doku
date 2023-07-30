@@ -21,4 +21,4 @@ Bevorzugt werden "`.svg`"-Dateien, weil diese besser auf hochauflösenden Drucke
 
 Die Dimensionen des Logos werden automatisch in die gewünschte Grösse skaliert. Zu kleine Bilder könnten dadurch verpixelt dargestellt werden.
 
-![Pfad zum Wettkampf-Ordner](<../assets/path-to-wettkampf-dir (1).png>)
+![Pfad zum Wettkampf-Ordner](<../assets/path-to-wettkampf-dir.png>)

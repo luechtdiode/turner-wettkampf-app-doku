@@ -62,7 +62,7 @@ Die Mutation wird dem Wettkampf-Administrator vorgelegt. Dieser kann die Mutatio
 
 Nach der Erfassung der Anmeldungen kann der Vereins-Verantwortliche in der Liste überwachen, ob seine Anmeldung in die Wettkampf-Einteilung übernommen wurde.
 
-![Status-Registrierung](<../../assets/status-registration (3).png>)
+![Status-Registrierung](<../../assets/status-registration.png>)
 
 Solange das noch nicht der Fall ist, wird der Status `pending` angezeigt. Sobald die Anmeldung berücksichtigt wurde, wird der Status `in sync` angezeigt. Dies gilt auch für spätere Mutationen.
 
@@ -76,9 +76,9 @@ Auf der Maske der Vereinsanmeldung ist auch im Detail ersichtlich, welche Mutati
 
 Für den Abgleich der Online-Anmeldedaten mit dem lokal gespeicherten Wettkampf muss die Verbindung mit dem Netzwerk aktiv sein (siehe Grosser Button mit grüner Lampe).
 
-![offline](<../../assets/netzwerk-offline (3).png>)
+![offline](<../../assets/netzwerk-offline.png>)
 
-![online](<../../assets/netzwerk-online (2).png>)
+![online](<../../assets/netzwerk-online.png>)
 
 Mit der Funktion `Online Anmeldungen importieren` (bei der Wettkampf-Übersicht) können die Vereinsanmeldungen in den lokal gespeicherten Wettkampf importiert werden. Die Funktion prüft jedesmal, was sich bei den online erfassten Anmeldungen gegenüber dem lokal gespeicherten Wettkampf geändert hat und schlägt dann eine Liste von Mutationen vor, die am lokal gespeicherten Wettkampf durchgeführt werden können.
 

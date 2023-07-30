@@ -4,7 +4,7 @@
 
 Für die Erstellung der Notenblätter wird die **pro Kategorie** wählbare Funktion "`Notenblätter erstellen`" benutzt:
 
-![](<../assets/print-notenblaetter (1).png>)
+![](<../assets/print-notenblaetter.png>)
 
 Wenn nicht gleich für alle aus der Kategorie ein Notenblatt gedruckt werden soll, kann dies mit allen möglichen Filter eingeschränkt werden.
 

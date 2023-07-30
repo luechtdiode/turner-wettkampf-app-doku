@@ -5,7 +5,7 @@ Auf dem Rechner im Rechnungsbüro, von wo aus der lokale Server betrieben wird, 
 
 ## Schmatische Darstellung:
 
-![](<../assets/network-usecase (1).png>)
+![](<../assets/network-usecase.png>)
 
 ## Technische Voraussetzungen
 
@@ -43,7 +43,7 @@ Für den Betrieb über das Netzwerk sind folgende Sicherheitsmassnahmen getroffe
 4.  Mittels `Stop local Server` im Netzwerk-Menu wir der Server im lokalen Netzwer wieder gestoppt.\
     ![](../assets/stop-local-server.png)\
     Sobald der Server gestoppt ist, wird die Adresse im blauen Anzeigefeld oben rechts auf `kutuapp.sharevic.net` umgestellt.\
-    ![](<../assets/display-remote-server-offline (1).png>)
+    ![](<../assets/display-remote-server-offline.png>)
 
     Diese Adresse wird verwendet, wenn der Netzwerkmodus über das Internet betrieben wird.
 
@@ -61,11 +61,11 @@ Diese QR-Codes sind lediglich für einen sicheren Einstieg zu den relevanten Wer
 
 ## Mobile App Connections ...
 
-![](<../assets/mobile-app-connections (1).png>)
+![](<../assets/mobile-app-connections.png>)
 
 Diese Funktion erlaubt es, die Personen als Wertungsrichter auf ihrem Mobile-Device zu berechtigen, an diesem Wettkampf Resultate zu erfassen. Es wird ein Fenster mit einem QR-Code für die folgenden Links angezeigt (Tabs auf der linken Dialogseite): 1. `Mobile-App`, 2. `Letzte Resultate`, 3. `Top Resultate`.
 
-Falls das Gerät, auf dem der Server betrieben wird, mehrere Netzwerkanschlüsse hat, wird für jeden Netzwerkanschluss ein separater Tab mit den entsprechenden Links angezeigt. Das Programm kann in diesem Fall nicht entscheiden, welcher Netzwerk-Anschluss mit dem für die Wertungsrichter bereitgestellten lokalen Netzwerk verknüpft ist. Es müssen somit die einzelnen Adressen `ausprobiert` werden, um die funktionierenden Links zu finden. ![](<../assets/mobile-register (1).png>)
+Falls das Gerät, auf dem der Server betrieben wird, mehrere Netzwerkanschlüsse hat, wird für jeden Netzwerkanschluss ein separater Tab mit den entsprechenden Links angezeigt. Das Programm kann in diesem Fall nicht entscheiden, welcher Netzwerk-Anschluss mit dem für die Wertungsrichter bereitgestellten lokalen Netzwerk verknüpft ist. Es müssen somit die einzelnen Adressen `ausprobiert` werden, um die funktionierenden Links zu finden. ![](<../assets/mobile-register.png>)
 
 ### Mobile-App Link
 
@@ -83,25 +83,25 @@ Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Top-R
 
 Auf den Riegenblätter zur manuellen Resultaterfassung, befindet sich jeweils ein QR-Code, mit welchem die Mobile-App direkt am richtigen Ort gestartet werden kann. Zu Beginn kann es sein, dass die Resultaterfassung noch gesperrt ist. Diese wird durch die Wettkampfleitung im Rechnungsbüro freigegeben.
 
-![](<../assets/resultaterfassen-gesperrt (2).png>)
+![](<../assets/resultaterfassen-gesperrt.png>)
 
 ## Freischalten eines Durchganges für die Resultat-Erfassung über das Netzwerk
 
 In der Wettkampf-App gibt es eine Ansicht Namens `Netzwerk-Dashboard` für die Kontrolle und Steuerung der Resultat-Erfassung während einem Wettkampf. In dieser Ansicht ist schnell sichtbar, wo noch Resultate fehlen - resp. ob ein Durchgang vollständig ist. Wenn über das Netzwerk Resultate erfasst werden sollen, muss ein Durchgang jeweils von dieser Ansicht aus `gestartet` werden.
 
-![](<../assets/durchgang-starten (1).png>)
+![](<../assets/durchgang-starten.png>)
 
 In der Ansicht wird dann die Startzeit eingetragen und die Resultat-Erfassung über die Mobile-Devices ist somit freigeschaltet.
 
-![](<../assets/resultcatcher-running (1).png>)
+![](<../assets/resultcatcher-running.png>)
 
 ## Wertungsrichter erfasst Wettkampf-Resultate
 
 Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.
 
-| <p>Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.<br><br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | ![](<../assets/resultaterfassen-gestartet2 (1).png>)    |
+| <p>Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.<br><br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | ![](<../assets/resultaterfassen-gestartet2.png>)    |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| <p>Bei Kunstturn-Wettkämpfen kann hier auch eine D-Note erfasst werden.</p><p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>Die Endnote wird beim `Speichern` oder beim `Speichern &#x26; Weiter` (2) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettkämpfen wird die D-Note und die E-Note zusammengezählt.</p><p>Es können auch Fehler gemeldet werden. Wenn z.B. die Berechtigung für die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, können keine Resultate erfasst/korrigiert werden.</p><p><em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons überdeckt, muss für dessen Betätigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p> | ![](<../assets/resultcatcher-wertung-erfassen (2).png>) |
+| <p>Bei Kunstturn-Wettkämpfen kann hier auch eine D-Note erfasst werden.</p><p>Mit einem Click auf die E-Note (1) kann die entsprechende Ausführungs-Note (E wie Execution) erfasst/korrigiert werden.</p><p>Die Endnote wird beim `Speichern` oder beim `Speichern &#x26; Weiter` (2) vom Programm berechnet und aktualisiert. Bei Athletiktests gibt es verschiedene Multiplikationsfaktoren, die mit der E-Note multipliziert die Endnote ausmachen. Bei Kunstturn-Wettkämpfen wird die D-Note und die E-Note zusammengezählt.</p><p>Es können auch Fehler gemeldet werden. Wenn z.B. die Berechtigung für die Resultat-Erfassung abgelaufen ist oder der Durchgang gerade gesperrt ist, können keine Resultate erfasst/korrigiert werden.</p><p><em>Achtung</em> Wenn die eingeblendete Nummer-Eingabetastatur die Buttons überdeckt, muss für dessen Betätigung der Bildschirm nach oben gescrollt werden, so dass die Buttons wieder sichtbar werden.</p> | ![](<../assets/resultcatcher-wertung-erfassen.png>) |
 
 Wenn alle Resultate einer Riege an einem Gerät erfasst sind, soll die Resultaterfassung für diese Riege an diesem Gerät abgeschlossen werden. Dies wird mittels `Eingaben abschliessen` gemacht und bewirkt zusätzlich, dass die nächste Riege für die Resultaterfassung geladen wird.
 
@@ -111,9 +111,9 @@ Wenn alle Resultate eines Durchganges erfasst sind, soll der `Durchgang abgeschl
 
 ![](../assets/durchgang-abschliessen.png)
 
-![](<../assets/durchgang-abgeschlossen (1).png>)
+![](<../assets/durchgang-abgeschlossen.png>)
 
-![](<../assets/resultaterfassen-gesperrt (2).png>)
+![](<../assets/resultaterfassen-gesperrt.png>)
 
 Die Aktionen zum starten und beenden sind als Popup-Menu Funtkionen auf dem jeweiligen Durchgang zugänglich und sind nur dann wählbar, wenn der Netzwerk-Modus eingeschaltet ist.
 

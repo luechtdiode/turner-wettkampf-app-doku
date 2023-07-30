@@ -2,7 +2,7 @@
 
 Beim Click auf den Button "`Athlet hinzufügen`" wird am Anfang der Liste eine neue "leere" Zeile eingefügt:
 
-![](<../assets/turner-erfassen (1).png>)
+![](<../assets/turner-erfassen.png>)
 
 Sobald diese ausgefüllt werden, wird der Turner / die Turnerin gespeichert und steht für die Verwendung in den Wettkämpfen zur Verfügung.
 

@@ -4,7 +4,7 @@
 
 Mit dem Menu-Befehl "`Doppelt erfasste Athleten finden ...`" auf dem Navigations-Knoten `Athleten` werden alle Turner/-Innen in der lokalen Datenbank miteinander verglichen. Mit einer Gleichheitsprüfung werden pontentiell doppelt erfasste Turner/-Innen (Dubletten) entdeckt und in einer Liste angezeigt.
 
-![](<../assets/find-duplicates (1).png>)
+![](<../assets/find-duplicates.png>)
 
 ### Beschreibung der Vorschlag-Liste
 

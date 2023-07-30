@@ -2,8 +2,8 @@
 
 Mit einem Click auf den Button "`Athlet entfernen`" ...
 
-![](<../assets/turner-loeschen (1).png>)
+![](<../assets/turner-loeschen.png>)
 
 wird sowohl der/die in der Liste selektierte Athlet / Athletin als auch dessen Wettkampfresultate gelöscht:
 
-![](<../assets/turner-loeschen-sicherheitsabfrage (1).png>)
+![](<../assets/turner-loeschen-sicherheitsabfrage.png>)

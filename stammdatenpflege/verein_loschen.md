@@ -2,7 +2,7 @@
 
 Rechte Maustaste auf dem Verein, der gelöscht werden soll:
 
-![](<../assets/verein-loeschen (1).png>)
+![](<../assets/verein-loeschen.png>)
 
 Wenn dann die Sicherheits-Abfrage bestätigt wird, wird der Verein, alle zugeordneten Turner/-Innen sowie dessen Wettkampfresultate gelöscht:
 

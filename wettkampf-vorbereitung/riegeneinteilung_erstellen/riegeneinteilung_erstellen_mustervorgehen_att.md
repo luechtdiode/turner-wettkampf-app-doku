@@ -9,7 +9,7 @@ Diese Funktion gruppiert primär nach Geschlecht und nach Jahrgang. Bei grosser 
 1. Beweglichkeits-Stationen
 2. Kraft-Stationen
 
-![Riegen & Durchgänge frisch einteilen](<../../assets/att-riegen-einteilen-dlg (1).png>)
+![Riegen & Durchgänge frisch einteilen](<../../assets/att-riegen-einteilen-dlg.png>)
 
 Danach können folgende Kriterien in die Verteilung eingearbeitet werden:
 
@@ -20,4 +20,4 @@ Danach können folgende Kriterien in die Verteilung eingearbeitet werden:
 
 Zum Schluss können einzelne Einteilungen von Hand verschoben werden:
 
-![Riegen & Durchgänge frisch einteilen](<../../assets/att-planning-edit (1).png>)
+![Riegen & Durchgänge frisch einteilen](<../../assets/att-planning-edit.png>)

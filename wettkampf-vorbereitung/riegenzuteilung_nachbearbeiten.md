@@ -2,7 +2,7 @@
 
 Die Riegeneinteilung kann in dieser Ansicht individuell angepasst werden:
 
-![](<../assets/edit-riegen-planning2 (1).png>)
+![](<../assets/edit-riegen-planning2.png>)
 
 1.  Wenn eine Riege in der oberen Liste selektiert ist, kann mittels dieser Funktion der Riegen-Name neu
 
