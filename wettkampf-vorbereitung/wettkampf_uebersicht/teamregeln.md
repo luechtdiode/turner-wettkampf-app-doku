@@ -21,6 +21,18 @@ zusammenstellen.
 Über die Filter- und Gruppierungsfunktionen der Rangliste lassen sich beliebig weitere
 Kombinationen erreichen.
 
+### Erfassung im Online Registrierungs-Formular
+
+![](/assets/team-assignement-online-reg.png)
+
+### Erfassung in der Wettkampf-App
+
+![](/assets/team-assignements-column.png)
+
+### Aktion für Synchronisierung Online-Registrierung zur Wettkampf-Einteilung
+
+![](/assets/team-snc.png)
+
 ## Berechnung der Teamwertung
 
 Es gibt aktuell folgende Formeln, die für die Team-Gesamtwertung verwendet werden können:
@@ -35,6 +47,13 @@ Aus einem Team werden die n besten Gesamtwertungen für das Teamresultat verwend
 ### Besten n Gerätewertungen
 
 Aus einem Team werden die n besten Wertungen pro Gerät herangezogen, um das Teamresultat zu berechnen.
+
+## Erfassung der Team-Regel(n)
+
+Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog vorgenommen werden.
+»Siehe auch: [Wettkampf anlegen](../../stammdatenpflege/wettkampf_anlegen.md)
+
+![](/assets/team-define.png)
 
 ## Regel-Syntax
 
