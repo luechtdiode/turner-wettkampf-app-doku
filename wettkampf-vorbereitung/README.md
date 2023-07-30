@@ -26,7 +26,7 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
   * [Startreihenfolge in den Geräte-Riegen](wettkampf_uebersicht/riegenrotation.md)
   * [Rangierung bei Punktegleichstand](wettkampf_uebersicht/punktgleichstand.md)
   * [Verwendung von Altersklassen](wettkampf_uebersicht/altersklassen.md)
-  * [Verwendung von Teamregeln](wettkampf_uebersicht/teamregeln.md)
+  * [Teams / Mannschaften](wettkampf_uebersicht/teamregeln.md)
   * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/README.md)
   * [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
   * [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)

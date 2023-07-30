@@ -4,14 +4,48 @@ Die Rangliste wird sofort in der Standard-Einstellung gerechnet und angezeigt:
 
 ![](../assets/rangliste-config.png)
 
-|                                                                                                                                                                                                                                                                                                                                                                                                   |                                                  |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| Nun können sowohl Gruppierungen als auch Filter konfiguriert werden, um die Abgrenzungen nach den eigenen Vorstellungen einzustellen. Mit den vier möglichen Gruppierungskriterien lassen sich auf vier Stufen jeweils eine der folgenden Gruppierungskriterien einstellen: So lässt sich z.B. eine separate Rangliste pro Verband oder pro Verein oder pro Jahrgang/Altersklasse etc. erstellen. | ![](<../assets/rangliste-gruppierungen.png>) |
-| Mit dem Filter lässt sich nach der Gruppierung ein Filter einstellen, dass z.B. mit der Gruppierung "`Geschlecht`" im Filter nur noch die Turnerinnen in der Rangliste aufgeführt werden:                                                                                                                                                                                                         | ![](../assets/rangliste-filter.png)              |
+Wenn Teamregeln für den Wettkampf definiert wurden, und es genügend Teilnehmer gibt, die die Teamregeln erfüllen, kann mit der Auswahl des
+Ranglisten-Typs von Einzelrangliste auf Teamrangliste oder Kombirangliste umgestellt werden.
 
-![](<../assets/rangliste-drucken.png>)
+## Einzelrangliste
+
+In der Einzelrangliste werden die Wertungen pro Turner/-In aufgelistet.
+## Teamrangliste
+
+In der Teamrangliste werden Team-Resultate angezeigt. Diese bilden sich aus den Einzelwertungen. Die Teamregeln bestimmen, wann eine Teamzuordnung und Wertung aus der Einzelrangliste für eine Teamwertung herangezogen wird.
+Wenn mehrere Teamregeln definiert wurden, kann pro Teamregel eine separate Team-Rangliste erstellt werden.
+
+Siehe auch die detailierte Beschreibung für die [Definition von Team Zusammenstellungsregeln](../wettkampf-vorbereitung/wettkampf_uebersicht/teamregeln.md)
+
+## Kombirangliste
+
+Bei der Kombirangliste wird pro Einzelrangliste zur selben Gruppierungs- und Filter-Einstellung und pro Teamregel die Teamrangliste angezeigt.
+
+## Filter und Gruppierungsmöglichkeiten
+
+Nun können sowohl `Gruppierungen`  als auch `Filter` konfiguriert werden, um die Abgrenzungen nach den eigenen Vorstellungen einzustellen. 
+Mit den vier möglichen Gruppierungskriterien lassen sich auf vier Stufen jeweils eine der folgenden Gruppierungskriterien einstellen.
+So lässt sich z.B. eine separate Rangliste pro Verband oder pro Verein oder pro Jahrgang/Altersklasse etc. erstellen.
+
+![](<../assets/rangliste-gruppierungen.png>)
+
+Mit dem `Filter` lässt sich nach der Gruppierung ein Filter einstellen, dass z.B. mit der Gruppierung "`Geschlecht`" im Filter nur noch die Turnerinnen in der Rangliste aufgeführt werden.
+
+![](../assets/rangliste-filter.png)
+
+Sobald mehr als ein Filter Eintrag selektiert ist, kann mit dem Eintrag `alle` bewirkt werden, dass diese in einer Rangliste zusammengefasst werden.
+So ist es z.B. möglich, mehrere Kategorien oder Altersklassen in eine Rangliste zusammenzunehmen.
+
+![](../assets/rangliste-filter-alle.png)
+
+Wenn es z.B. zu wenige Team-Mitglieder in den höheren Leistungsklassen gibt, können diese für die Team-/Manschaftsrangliste zusammengefasst werden:
+
+![](../assets/rangliste-team-alle.png)
+
 
 Am Ende, oder nach jeder gewünschter Ranglisten-Einstellung, lässt sich die Rangliste drucken:
+
+![](<../assets/rangliste-drucken.png>)
 
 1. Je nach Papierformat und ausgewähltem Drucker müssen ev. die Anzahl Zeilen pro Seite justiert werden.
 2. Mit aktivierter Checkbox "`via Browser`" wird die Rangliste als HTML-Datei gespeichert und im Webbrowser geöffnet. In dieser Form lässt sie sich gut im Internet integrieren, aber auch mit jedem aktuellen Web-Browser ausdrucken.

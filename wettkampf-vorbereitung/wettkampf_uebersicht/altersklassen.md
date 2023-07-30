@@ -28,7 +28,7 @@ Die Jahrgangs-Altersklasse berechnet sich anhand des Jahrgangs des Teilnehmers, 
 
 ### Legende
 
-* `[]` in eckien Klammern sind optionale Bestandteile. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
+* `[]` in eckigen Klammern sind optionale Bestandteile. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
 * `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem Variablennamen. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
 * `...` mit 3 Punkten wird die Fortsetzung einer Reihe angedeutet (verkettung von Elementen). Die Punkte werden in der konkreten Formel nicht verwendet.
 * `,` mit Komma werden die ganze Alterklassen-Elemente verkettet.

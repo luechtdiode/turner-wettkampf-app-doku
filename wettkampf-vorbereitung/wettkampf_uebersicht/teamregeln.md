@@ -1,7 +1,4 @@
-# Teamregeln
-
-Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf 
-zusammenstellen.
+# Teams / Mannschaften
 
 ## Zusammenstellung der Teams
 
@@ -50,6 +47,9 @@ Aus einem Team werden die n besten Wertungen pro Gerät herangezogen, um das Tea
 
 ## Erfassung der Team-Regel(n)
 
+Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf 
+zusammenstellen.
+
 Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog vorgenommen werden.
 »Siehe auch: [Wettkampf anlegen](../../stammdatenpflege/wettkampf_anlegen.md)
 
@@ -59,7 +59,7 @@ Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog 
 
 ### Legende
 
-* `[]` in eckien Klammern sind optionale Bestandteile. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
+* `[]` in eckigen Klammern sind optionale Bestandteile. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
 * `|` Optionale Alternativen. Vor dem `|` Symbol ist z.B. Variante 1 und hinter dem Symbol ist Variante 2. Eine der beiden muss verwendet werden.
 * `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem Variablennamen. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
 * `*` ein Stern bedeutet unbegrenzt und kann für die Maximalanzahl-Teammitglieder verwendet werden.

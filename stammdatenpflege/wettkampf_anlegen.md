@@ -45,7 +45,7 @@ Mit `Individuell` lassen sich die Regeln individuell festlegen. Dabei gbit es fo
     * Zusammenzug der besten Geräte-Wertungen oder der besten Gesamt-Wertungen.
     * Die Teamnummern können auf Vereins- oder Verbandsebene für die Team-Zusammenstellung verwendet werden.
     * Es können mehrere Teamregeln aufgenommen werden. Bei der Online-Anmeldung werden die Teamregeln sichtbar gemacht.
-    * »Siehe auch: [Beschreibung der Teamregeln](../wettkampf-vorbereitung/wettkampf_uebersicht/teamregeln.md)
+    * »Siehe auch: [Beschreibung der Teams / Mannschaften](../wettkampf-vorbereitung/wettkampf_uebersicht/teamregeln.md)
     
 
 Mit "`OK`" wird der Wettkampf angelegt.
