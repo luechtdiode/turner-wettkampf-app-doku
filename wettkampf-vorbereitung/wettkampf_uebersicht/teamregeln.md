@@ -65,10 +65,11 @@ Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog 
 * `*` ein Stern bedeutet unbegrenzt und kann für die Maximalanzahl-Teammitglieder verwendet werden.
 * `...` mit 3 Punkten wird die Fortsetzung einer Reihe angedeutet (verkettung von Elementen). Die Punkte werden in der konkreten Formel nicht verwendet.
 * `,` mit Komma werden weitere Teamregeln voneinander getrennt.
+* `+` mit Plus werden mehrere mixed Teams voneinander getrennt.
 
 ### Aufbau
 
-`[Verein|Verband][Gerät|Gesamt](<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*])[,...]`
+`[Verein|Verband][Gerät|Gesamt](<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*][/<Mixed Team1>[+<Mixed Team n>...]])[,...]`
 
 Die Regel beginnt mit der Abgrenzug auf Vereins- oder Verbandsebene. Darauf folgt direkt anschliessend die Berechnungsmethode, ob auf Gerät oder Gesamtwertungen addiert werden soll.
 Danach wird angegeben, wieviele Teilnehmer mindestens ein Team bestücken. Optional kann auch eine Obergrenze definiert werden.
@@ -79,26 +80,32 @@ Danach wird angegeben, wieviele Teilnehmer mindestens ein Team bestücken. Optio
 _Team auf Vereins-Ebene mit den besten 3 Gerätenoten_
 `VereinGerät(3/*)`
 
-_Team auf Vereins-Ebene mit den besten 3 Gerätenoten_ mit maximal 4 Teamteilnehmer/-Innen
+_Team auf Vereins-Ebene mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
 `VereinGerät(3/4)`
 
 _Team auf Vereins-Ebene mit den besten 3 Gersamtwertungen_
 `VereinGesamt(3/*)`
 
-_Team auf Vereins-Ebene mit den besten 3 Gesamtwertungen_ mit maximal 4 Teamteilnehmer/-Innen
+_Team auf Vereins-Ebene mit den besten 3 Gesamtwertungen mit maximal 4 Teamteilnehmer/-Innen_
 `VereinGesamt(3/4)`
 
 _Team auf Verband-Ebene mit den besten 4 Gerätenoten_
 `VerbandGerät(4/*)`
 
-_Team auf Verband-Ebene mit den besten 2 Gerätenoten_ mit maximal 4 Teamteilnehmer/-Innen
+_Team auf Verband-Ebene mit den besten 2 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
 `VerbandGerät(2/4)`
 
 _Team auf Verband-Ebene mit den besten 3 Gersamtwertungen_
 `VerbandGesamt(3/*)`
 
-_Team auf Verband-Ebene mit den besten 3 Gesamtwertungen_ mit maximal 4 Teamteilnehmer/-Innen
+_Team auf Verband-Ebene mit den besten 3 Gesamtwertungen mit maximal 4 Teamteilnehmer/-Innen_
 `VerbandGesamt(3/4)`
 
-_Teams auf Verband-Ebene mit den besten 3 Gesamtwertungen, sowie Teams auf Vereins-Ebene mit den besten 2 Gerätenoten
+_Teams auf Verband-Ebene mit den besten 3 Gesamtwertungen, sowie Teams auf Vereins-Ebene mit den besten 2 Gerätenoten_
 `VerbandGesamt(3/*),VereinGerät(2/*)`
+
+_Teams auf Vereins-Ebene mit den besten 3 Gerätenoten und mit 4 vordefinierten mixed Teams_
+`VereinGerät(3/*/Mixed Team 1+Mixed Team 2+Mixed Team 3+Mixed Team 4)`
+
+_Teams auf Vereins-Ebene mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen und mit 3 vordefinierten mixed Teams_
+`VereinGerät(3/4/Mixed Team 1+Mixed Team 2+Mixed Team 3)`
