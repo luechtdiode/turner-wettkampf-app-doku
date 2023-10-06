@@ -95,7 +95,7 @@ Folgende Mutations-Aktionen werden unterstützt:
 | Verein korrigieren | Name und Verband eines bestehenden Vereins werden korrigiert. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**                                                                                                                                                                             |
 | Hinzufügen         | Teilt den Athlet beim angegebenen Programm/Kategorie ein. Unter Import-Vorschlag wird angezeigt, ob der Athlet neu importiert wird, oder ob er in der Datenbank gefunden werden konnte und desshalb wiederverwendet werden kann.                                                                                                  |
 | Athlet korrigieren | Korrigiert die personen-bezogenen Daten eines Turners / einer Turnerin. **Diese Funktion korrigiert durchgängig, wirksam auch in allen bisherigen Wettkämpfen**. Bei Mutation des Geschlechts wird bei der betroffenen Person von M auf W die Barren-Riege zurückgesetzt, resp. von W auf M eine Barrenriege (Riege2) zugewiesen. |
-| Umteilen           | Verschiebt den Athlet von einem Programm/Kategorie in ein anderes Programm/Kategorie                                                                                                                                                                                                                                              |
+| Umteilen           | Verschiebt den Athlet von einem Programm/Kategorie/Team in ein anderes Programm/Kategorie/Team                                                                                                                                                                                          |
 | Entfernen          | Entfernt den angegebenen Athlet aus dem Wettkampf. Die Entfernen-Aktion entfernt nicht den Athlet beim Verein.                                                                                                                                                                                                                    |
 
 Die Verarbeitung wird sowohl lokal als auch auf dem Server durchgeführt. Der neue Verein ist dann angelegt und dessen Turner und Turnerin im Wettkampf bei den entspr. Programmen/Kategorien eingeteilt. Die Riegennamen werden automatisch generiert. Beim Geräteturn Wettkampf wird automatisch bei Athleten eine Riege2 mit `Barren <Kategorie>` generiert.
@@ -121,7 +121,7 @@ Siehe auch
 
 ## Abschliessen der Anmeldungs-Verarbeitung
 
-Nach der erfolgreichen Übernahme der Anmeldedaten (dies kann auch wiederholt gemacht werden), der Überprüfung der korrekten Einteilung und der Nachführung der Durchgangsplanung, **soll der Wettkampf wieder ins Netz aktualisiert werden**. Erst dann ist die Anpassung für alle sichtbar, also auch für die Vereine, die ihre Anmeldungen auf dem Online-Formular überprüfen.
+Wenn nach der erfolgreichen Übernahme der Anmeldedaten (dies kann auch wiederholt gemacht werden), die Einteilung der Durchgangsplanung nachgeführt werden musste, **soll der Wettkampf wieder ins Netz aktualisiert werden**. Erst dann ist die Anpassung für alle sichtbar, also auch für die Vereine, die ihre Anmeldungen auf dem Online-Formular überprüfen.
 
 ## Mutationen der Online-Anmeldungen nach dem Import im Wettkampf
 
