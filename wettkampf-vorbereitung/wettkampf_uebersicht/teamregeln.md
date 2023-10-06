@@ -3,16 +3,17 @@
 ## Zusammenstellung der Teams
 
 Grundsätzlich kann bei jedem Teilehmer oder Teilnehmerin eine Teamnummer erfasst werden.
-Die Nummer kann als Teamnummer auf Vereins- oder Verbands-Ebene gesehen werden.
+Die Nummer kann als Teamnummer auf Vereins- oder Verbands-Ebene interpretiert werden.
 Zudem gilt sie normalerweise pro Programm/Kategorie und Geschlecht.
+Wenn Altersklassen definiert wurden, wirken diese ebenfalls als Abgrenzungskriterium.
 
 Bei einer Turnerin im K3 wirkt sich dann die Teamnummer z.B. so aus, dass
 sie mit anderen Turnerinnen aus K3 und aus dem selben Verein mit der selben Teamnummer 
 zu einem Team zusammengestellt wird.
 
 Wenn es zu wenige Telnehmer/-Innen für eine Teamzusammenstellung innerhalb der
-Geschlechts- und Programm/Kategorie-Gruppierung ergeben, lassen sich die
-Teams in der Ranglisten-Konfiguration auch Geschlechts- und/oder Programm/Kategorie übergreifend
+Geschlechts- und Programm/Kategorie/Altersklasse-Gruppierung ergeben, lassen sich die
+Teams in der Ranglisten-Konfiguration auch Geschlechts- und/oder Programm/Kategorie/Altersklasse übergreifend
 zusammenstellen.
 
 Über die Filter- und Gruppierungsfunktionen der Rangliste lassen sich beliebig weitere
