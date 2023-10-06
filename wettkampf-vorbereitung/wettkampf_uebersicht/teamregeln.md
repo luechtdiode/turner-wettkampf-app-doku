@@ -59,21 +59,35 @@ Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog 
 
 ### Legende
 
-* `[]` in eckigen Klammern sind optionale Bestandteile. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
-* `|` Optionale Alternativen. Vor dem `|` Symbol ist z.B. Variante 1 und hinter dem Symbol ist Variante 2. Eine der beiden muss verwendet werden.
-* `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem Variablennamen. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
-* `*` ein Stern bedeutet unbegrenzt und kann für die Maximalanzahl-Teammitglieder verwendet werden.
-* `...` mit 3 Punkten wird die Fortsetzung einer Reihe angedeutet (verkettung von Elementen). Die Punkte werden in der konkreten Formel nicht verwendet.
-* `,` mit Komma werden weitere Teamregeln voneinander getrennt.
-* `+` mit Plus werden mehrere mixed Teams voneinander getrennt.
+* `[]` in eckigen Klammern sind `optionale Bestandteile`. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
+* `|` Optionale `Alternativen`. Vor dem `|` Symbol ist z.B. Variante 1 und hinter dem Symbol ist Variante 2. Eine der beiden muss verwendet werden.
+* `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem `Variablennamen`. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
+* `*` ein Stern bedeutet `unbegrenzt` und kann für die Maximalanzahl-Teammitglieder verwendet werden.
+* `...` mit 3 Punkten wird die `Fortsetzung einer Reihe` angedeutet (verkettung von Elementen). Die Punkte werden in der konkreten Formel nicht verwendet.
+* `,` mit Komma werden weitere `Teamregeln` voneinander getrennt.
+* `+` mit Plus werden mehrere `mixed Teams` voneinander getrennt.
 
 ### Aufbau
 
 `[Verein|Verband][Gerät|Gesamt](<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*][/<Mixed Team1>[+<Mixed Team n>...]])[,...]`
 
-Die Regel beginnt mit der Abgrenzug auf Vereins- oder Verbandsebene. Darauf folgt direkt anschliessend die Berechnungsmethode, ob auf Gerät oder Gesamtwertungen addiert werden soll.
-Danach wird angegeben, wieviele Teilnehmer mindestens ein Team bestücken. Optional kann auch eine Obergrenze definiert werden.
+1) Die Regel beginnt mit der **Abgrenzug** auf `Verein`s- oder `Verband`s-Ebene.
+2) Anschliessend folgt die **Berechnungsmethode**, ob die Punkte auf `Gerät` oder `Gesamtwertungen` addiert werden sollen.
+3) Danach wird in der runden Klammerung angegeben,
+    * wieviele `Teilnehmer mindestens` ein Team bestücken. 
+    * _Optional_ kann auch eine `Obergrenze` definiert werden.
+    * _Optional_ können `Teamnamen aufgelistet` werden, die als mixed Teams (Vereinsübergreifend) benutzt werden können.
 
+### Umgang mit explizit erfassten mixed Teams
+
+* Wenn in mehreren TeamRegeln Team-Namen aufgelistet werden, wird daraus eine Gesamtliste erstellt.
+* Die mixed Teams in der Gesamtliste bekommen einen Index, über den die Zuweisungen hergestellt werden. Es ist deshalb darauf zu achten, dass einmal aufgelistete Teams nicht mehr in ihrer Position in der Gesamtliste ändern. Wenn also vorne ein Team herausgelöscht wird, stimmen die nachfolgenden Indicies nicht mehr. Atkuell gibt es von der App noch 
+keine Unterstützung für stabilere Team-Zuweisungen.
+* **Es gilt also grösste Vorsicht bei der nachträglichen Bearbeitung dieser mixed Teams Auflistung. Am sichersten ist es, wenn nur noch neue Teams am Ende einer Liste eingetragen werden**.
+
+### Prioritätsregelung bei gemischten Teamregeln
+
+Wenn eine gemischte Liste von Teamregeln (auf Vereins-Ebend und auf Verbans-Ebene) definiert wird, werden die Teamzuordnungen standardmässig auf Vereins-Ebene gemacht. Die Verbands-Team Zuteilung erfolgt dann ausschliesslich über die explizit definierten mixed Teams.
 
 ### Beispiele
 
