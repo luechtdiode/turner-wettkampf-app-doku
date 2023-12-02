@@ -141,6 +141,6 @@ Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resul
 
 ## Wettkampf im Netzwerk entfernen <a href="#wettkampfnetzwerk-entfernen" id="wettkampfnetzwerk-entfernen"></a>
 
-Mit dieser Funktion wird der Wettkampf im Netzwerk entfernt und steht danach nicht mehr im Netzwerk zur Verfügung.
+Mit dieser Funktion wird der Wettkampf im Netzwerk entfernt und steht danach nicht mehr online zur Verfügung.
 
 ![](../assets/network-remove.png)
