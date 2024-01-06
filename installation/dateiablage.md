@@ -7,6 +7,7 @@
 Die Installationsdatei ist ein Windows-Installationspaket (msi), mit welchem ein Assistenz-gestütztes Installieren der App möglich ist.
 
 _(der Stern `*` steht für die Versionsbezeichung)_
+
 **Dateiname** : `TurnerWettkampf-App_v*.msi`
 
 ### Programm
@@ -32,6 +33,7 @@ Pro Wettkampf wird von der App ein eigenes Verzeichnis darin angelegt und die da
 Die Installationsdatei ist ein Mac OS Installationspaket (pkg), mit welchem ein Assistenz-gestütztes Installieren der App möglich ist.
 
 _(der Stern `*` steht für die Versionsbezeichung)_
+
 **Dateiname** : `TurnerWettkampf-App_v*.pkg`
 
 ### Programm
@@ -54,9 +56,10 @@ Pro Wettkampf wird von der App ein eigenes Verzeichnis darin angelegt und die da
 
 ## Linux
 
-Die Installationsdatei ist ein Mac OS Installationspaket (pkg), mit welchem ein Assistenz-gestütztes Installieren der App möglich ist.
+Die Installationsdatei ist ein Linux amd64bit Installationspaket (deb), mit welchem ein Assistenz-gestütztes Installieren der App möglich ist.
 
 _(der Stern `*` steht für die Versionsbezeichung)_
+
 **Dateiname** : `turnerwettkampf-app_v*amd64.deb`
 
 ### Programm
