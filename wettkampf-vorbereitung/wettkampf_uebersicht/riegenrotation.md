@@ -92,7 +92,7 @@ _Syntax_: `<Regel1>[/<Regel2>/ ...]`.
 
 ### Beispiele
 
-Die `Einfach` Regel, welche dem Defaultsortierung entspricht, setzt intern folgende Regeln um:
+Die `Einfach` Regel, welche der voreingestellten Sortierung entspricht, setzt intern folgende Regeln um:
 
 Formel: `Kategorie/Verein/AlterAbsteigend/Geschlecht/Name/Vorname`
 
