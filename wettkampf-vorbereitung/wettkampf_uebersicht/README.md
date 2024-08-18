@@ -35,7 +35,10 @@ Weitere Einstellungen zum Wettkampf können im Wettkampf-Bearbeiten Dialog gemac
 Sofern Teamregeln definiert sind, wird eine Aufstellung gemacht, ob es gemäss den bisherigen Anmeldungen passende Team-Zusammenstellungen geben kann.
 Siehe auch die detailierte Beschreibung für die [Definition von Team Zusammenstellungsregeln](teamregeln.md)
 
-![](/assets/team-stats.png)
+![](/assets/team-stats-extended.png)
+
+Bei explizit definierten Gruppenzusammenfassungen, werden diese hier ebenfalls aufgelistet und in der Zusammenstellung der Teams berücksichtigt.
+Auf den aufgelisteten Teams kann auch die Mitglieder-Liste ein- und ausgeblendet werden.
 
 ## Nützliche Links
 

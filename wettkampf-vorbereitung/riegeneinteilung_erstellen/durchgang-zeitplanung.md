@@ -43,3 +43,19 @@ Die Plandauer eines Durchganges wird auch im Netzwerk-Dashboard angezeigt. Neben
 
 Siehe auch [Durchgang-Planung](durchgang-planung.md)
 
+## <a href="#set-starttime" id="set-starttime">Setzen eines Durchgang Start-Zeitpunkts</a>
+
+Sobald die Plandauer der Durchgänge berechnet werden können, kann man die Durchgänge auf der Zeitachse einplanen.
+Hierzu lässt sich der Start-Zeitpunkt eines Durchgangs einstellen.
+
+![](/assets/set-starttime-dropdown.png)
+
+![](/assets/set-starttime-popup.png)
+
+Das Format ist zwingend einzuhalten: `jjjj-mm-dd`T`hh:mm:ss`. (nur die Sekunden können optional weggelassen werden)
+
+![](/assets/set-starttime-dlg.png)
+
+Hiermit lassen sich Durchgänge auch auf mehrere Tage verteilen.
+
+![](/assets/dg-starttimes.png)

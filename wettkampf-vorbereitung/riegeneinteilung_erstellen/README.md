@@ -35,6 +35,15 @@ Wenn mindestens ein Durchgang (Multiselektion mittels `CTRL+linke Maustaste` ode
     Wenn diese Funktion auf einer Disziplin-/Gerätespalte angewendet wird, wird die leere Riege nur dort entfernt. Wenn diese Funktion vorne in der Durchgang-Spalte angewendet wird, werden alle existierende leeren Riegen in dem selektierten Durchgang entfernt.
 7. `In anderen Durchgang verschieben`: Wenn genau ein Durchgang selektiert ist, dann können zugeteilte Riegen in andere Durchgänge verschoben werden. Es klappt ein Untermenü mit allen Riegennamen aus dem Durchgang auf. Die kleinste Riege ist zu oberst, die grösste zu unterst. Wird eine Riege ausgewählt kann im weiteren Untermenü der Ziel-Durchgang ausgewählt werden.
 8. `Auf anderes Startgerät verschieben`: Wenn genau ein Durchgang selektiert ist, dann können zugeteilte Riegen in eine andere Startgerät-Riege verschoben werden. Es klappt ein Untermenü mit allen Riegennamen aus dem Durchgang auf. Die kleinste Riege ist zu oberst, die grösste zu unterst. Wird eine Riege ausgewählt kann im weiteren Untermenü der Ziel-Startgeräteriege ausgewählt werden. Die Ziel-Startgeräteriegen sind mit ihrer aktuellen Grösse gekennzeichnet.
+9. `Riegenblätter nachdrucken`: Im Wettkampf kann es durch späte Abmeldungen dazu führen, dass die Riegenblätter nachgedruckt werden müssen. Hierüber können beim selektierten Durchgang (auch Multiselektion möglich) die Riegenblätter neu ausgedruckt werden. Wahlweise nur vom 1. Gerät, oder von allen nachfolgenden Geräten, da die meisten Absenzen während dem 1. Gerät im Durchgang bemerkt werden. So können die Blätter für alle nachfolgenden Geräte nachgedruckt werden.
+
+## Geräte-Parallelisierung bei gemischten Durchgängen
+
+Wenn in einem Durchgang an der selben Position im Geräte-Wechsel Ablauf die Turnerinnen ein anderes Gerät turnen wie die Turner, werden die Geräte-Positionen in der Reihenfolge zusammengefasst. Das bedeutet, dass nicht zuerst das Gerät der Turnerinnen auf dem Plan steht, und dann das Gerät der Turner.
+
+**Ein Beispiel**
+![](../../assets/Geraetzusammenfassung-durch-gruppierte-durchgaenge.png)
+_Es gibt in diesem Durchgang nur 4 Gerätewechsel, obwohl ingesamt 5 Geräte geturnt werden. Dies, weil die Turnerinnen an zweiter Position Balken turnen, und die Turner an zweiter Position den Barren turnen._
 
 ## Drag & Drop Unterstützung bei der Durchgang-Planung
 

@@ -1,8 +1,20 @@
 # Teams / Mannschaften
 
+## Erfassung der Team-Regel(n)
+
+Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf 
+zusammenstellen.
+
+Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog vorgenommen werden.
+»Siehe auch: [Wettkampf anlegen](../../stammdatenpflege/wettkampf_anlegen.md)
+
+![](/assets/team-define.png)
+
+»Siehe auch: [Regel Syntax](#regel-syntax) für die individuelle Teamregel Definition
+
 ## Zusammenstellung der Teams
 
-Grundsätzlich kann bei jedem Teilehmer oder Teilnehmerin eine Teamnummer erfasst werden.
+Sobald mindestens eine Teamregel hinterlegt ist kann grundsätzlich bei jedem Teilehmer oder Teilnehmerin eine Teamnummer erfasst werden.
 Die Nummer kann als Teamnummer auf Vereins- oder Verbands-Ebene interpretiert werden.
 Zudem gilt sie normalerweise pro Programm/Kategorie und Geschlecht.
 Wenn Altersklassen definiert wurden, wirken diese ebenfalls als Abgrenzungskriterium.
@@ -46,21 +58,11 @@ Aus einem Team werden die n besten Gesamtwertungen für das Teamresultat verwend
 
 Aus einem Team werden die n besten Wertungen pro Gerät herangezogen, um das Teamresultat zu berechnen.
 
-## Erfassung der Team-Regel(n)
-
-Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf 
-zusammenstellen.
-
-Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog vorgenommen werden.
-»Siehe auch: [Wettkampf anlegen](../../stammdatenpflege/wettkampf_anlegen.md)
-
-![](/assets/team-define.png)
-
-## Regel-Syntax
+## <a href="#regel-syntax" id="regel-syntax">Regel-Syntax</a>
 
 ### Legende
 
-* `[]` in eckigen Klammern sind `optionale Bestandteile`. Die eckigen Klammern selbst kommen in der Formel nicht zum Einsatz.
+* `[]` in eckigen Klammern sind `optionale Bestandteile`. Wenn die eckigen Klammern selbst in der Formel zum Einsatz kommen, wird sie mit Ausrufezeichen eingefasst angegeben (`![]!`).
 * `|` Optionale `Alternativen`. Vor dem `|` Symbol ist z.B. Variante 1 und hinter dem Symbol ist Variante 2. Eine der beiden muss verwendet werden.
 * `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem `Variablennamen`. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
 * `*` ein Stern bedeutet `unbegrenzt` und kann für die Maximalanzahl-Teammitglieder verwendet werden.
@@ -70,9 +72,13 @@ Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog 
 
 ### Aufbau
 
-`[Verein|Verband][Gerät|Gesamt](<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*][/<Mixed Team1>[+<Mixed Team n>...]])[,...]`
+`[Verein|Verband][Gerät|Gesamt][![<Zusammenfassung1>[/<Zusammenfassung-n>]]!](<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*][/<Mixed Team1>[+<Mixed Team n>...]])[,...]`
 
 1) Die Regel beginnt mit der **Abgrenzug** auf `Verein`s- oder `Verband`s-Ebene.
+2) Anschliessend kann _optional_ angegeben werden, welche Kategorien, Programme oder Geschlechter **in einer Gruppe zusammengefasst** werden sollen.
+    * Eine Zusammenfassung enthält die Begriffe einer Kategorie (z.B. `K5`) oder die Abkürzung des Geschlechts (z.B. `W` oder `M`). 
+    * Diese Begriffe werden mit einem `+` miteinander zusammengefasst. Zum Beispiel bedeutet `K5+K6+K7`, dass sich ein Team aus Mitgliedern der drei Kategorien K5-K7 zusammensetzen kann. Alle nicht erwähnten Kategorien bleiben für sich separat in dedizierten Teams pro Kategorie.
+    * Es können mehrere Zusammenfassungsdefinitionen angegeben werden. Diese werden mit dem Slash `/` aneinander gereiht werden.
 2) Anschliessend folgt die **Berechnungsmethode**, ob die Punkte auf `Gerät` oder `Gesamtwertungen` addiert werden sollen.
 3) Danach wird in der runden Klammerung angegeben,
     * wieviele `Teilnehmer mindestens` ein Team bestücken. 
@@ -97,6 +103,9 @@ _Team auf Vereins-Ebene mit den besten 3 Gerätenoten_
 
 _Team auf Vereins-Ebene mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
 `VereinGerät(3/4)`
+
+_Team auf Vereins-Ebene, zusammengefasste Kategorien K6, K7, KD, KH mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
+`VereinGerät[K6+K7+KD+KH](3/4)`
 
 _Team auf Vereins-Ebene mit den besten 3 Gersamtwertungen_
 `VereinGesamt(3/*)`
