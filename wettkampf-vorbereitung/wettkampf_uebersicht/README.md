@@ -40,6 +40,9 @@ Siehe auch die detailierte Beschreibung für die [Definition von Team Zusammenst
 Bei explizit definierten Gruppenzusammenfassungen, werden diese hier ebenfalls aufgelistet und in der Zusammenstellung der Teams berücksichtigt.
 Auf den aufgelisteten Teams kann auch die Mitglieder-Liste ein- und ausgeblendet werden.
 
+Sollten Mitglieder im Wettkampf von keiner Teamregel in ein Team zugeordnet werden können, werden diese hier ebenfalls in einger eigenen Gruppierung angezeigt.
+Dies soll helfen, ungewollte Konstellationen zu erkennen.
+
 ## Nützliche Links
 
 Es werden weitere Links bereitgestellt, die z.B. auf der Wettkampf Homepage hinterlegt werden können, so dass die Teilnehmenden online auf die aktuellsten Daten zugreifen können.
