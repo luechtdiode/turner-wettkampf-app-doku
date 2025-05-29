@@ -19,3 +19,13 @@ Konkret wird das am Beispiel eines Zusammenzugs aller Qualifikations-Wettkämpfe
 ![](<../assets/rangliste-extended-filter.png>)
 
 Wenn in der Gruppierungs-Auswahl "Wettkampf" (1), mittels Mehrfachselektion (2) bei den gewünschten (Qualifikations-) Wettkämpfen und zusätzlich beim Filter-Eintrag "alle" (3) ein Haken gesetzt wird, dann werden die kumulierten Summen und Durchschnitts-Resultate der gewählten Wettkämpfe in einer Rangliste aufbereitet. In der Rangliste-Überschrift (4) werden die ausgewählten Wettkämpfe aufgelistet.
+
+# Cup-Rangliste
+_**Vergleich auf Summen vs Durchschnitt**_
+
+Die Punkte aus den selektierten Wettkämpfen werden standardmässig als Durchschnittswert berechnet. Dies ermöglicht den Teilnehmern, ihre Punkte an unterschiedlich vielen Wettkämpfen zu sammeln. In einem Cup zählt jedoch oft das Punkte-Total als Summe. Dies bewirkt, dass
+nur jene gewinnen können, die an allen Cup-Wettkämpfen teilgenommen haben.
+
+Mit der Checkbox im Kopfteil kann von Durchschnitts- auf Summenberechnung umgestellt werden.
+
+![](<../assets/rangliste-extended-filter-detail3.png>)
