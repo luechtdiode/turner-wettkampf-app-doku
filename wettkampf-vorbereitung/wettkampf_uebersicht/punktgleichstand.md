@@ -50,13 +50,13 @@ Die Endnoten der aufgeführten Diszipline werden der Reihe nach verglichen. Die 
 
 _Code_: `StreichDisziplin(<Gerät1>[,<Gerät2>,...])`
 
-Die Endnoten der aufgeführten Diszipline werden der Reihe gestrichen. Die erste Differenz entscheidet, wer vor dem anderen Rangiert wird.
+Die Endnoten der aufgeführten Diszipline werden der Reihe nach gestrichen. Die erste Differenz in der Gesamntnote der restlichen Wertungen entscheidet, wer vor dem anderen Rangiert wird.
 
 ### StreichWertungen (streicht die jeweils schlechteste oder beste Note)
 
 _Code_: `StreichWertungen(<Endnote|E-Note|D-Note>[,<Min|Max>])`
 
-Die kleinsten oder höchsten Endnoten, E-Noten oder D-Noten der aufgeführten Diszipline werden der Reihe gestrichen. Die erste Differenz entscheidet, wer vor dem anderen Rangiert wird.
+Die kleinsten oder höchsten Endnoten, E-Noten oder D-Noten der aufgeführten Diszipline werden der Reihe nach gestrichen. Die erste Differenz in der Gesamtnote (Total Endnote, E-Note oder D-Note der restlichen Wertungen) entscheidet, wer vor dem anderen Rangiert wird.
 
 **Beispiele**
 
