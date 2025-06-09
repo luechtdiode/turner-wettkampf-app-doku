@@ -56,14 +56,13 @@ Die Endnoten der aufgeführten Diszipline werden der Reihe gestrichen. Die erste
 
 _Code_: `StreichWertungen(<Endnote|E-Note|D-Note>[,<Min|Max>])`
 
-Die Endnoten der aufgeführten Diszipline werden der Reihe gestrichen. Die erste Differenz entscheidet, wer vor dem anderen Rangiert wird.
+Die kleinsten oder höchsten Endnoten, E-Noten oder D-Noten der aufgeführten Diszipline werden der Reihe gestrichen. Die erste Differenz entscheidet, wer vor dem anderen Rangiert wird.
 
-**Beispiele:**
+**Beispiele**
 
 * `StreichWertungen(Endnote,Min)` streicht der Reihe nach die schlechtesten Endnoten.
 * `StreichWertungen(E-Note,Min)` streicht der Reihe nach die schlechtesten E-Noten.
 * `StreichWertungen(D-Note,Max)` streicht der Reihe nach die besten D-Noten.
-* `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)` Kombination der obigen Varianten. Dies entspricht der [Ex-aequo Regelung des STV](https://www.stv-fsg.ch/fileadmin/user_upload/stvfsgch/Sportarten/Kunstturnen/Weisungen_und_Reglemente/si_Reglement_ex-aequo_kutu_CD_2019_08_df.pdf)
 
 ## Gliederungsmöglichkeiten der Punktegleichstandsregel
 
@@ -91,3 +90,7 @@ Formel: `Disziplin(Schaukelringe,Sprung,Reck)`
 #### KuTu Standardregel
 
 Formel: `E-Note-Summe/D-Note-Summe/JugendVorAlter`
+
+#### KuTu STV Standardregel
+
+* `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)` Kombination der obigen Varianten. Dies entspricht der [Ex-aequo Regelung des STV](https://www.stv-fsg.ch/fileadmin/user_upload/stvfsgch/Sportarten/Kunstturnen/Weisungen_und_Reglemente/si_Reglement_ex-aequo_kutu_CD_2019_08_df.pdf)
