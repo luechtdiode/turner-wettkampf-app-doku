@@ -93,4 +93,4 @@ Formel: `E-Note-Summe/D-Note-Summe/JugendVorAlter`
 
 #### KuTu STV Standardregel
 
-* `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)` Kombination der obigen Varianten. Dies entspricht der [Ex-aequo Regelung des STV](https://www.stv-fsg.ch/fileadmin/user_upload/stvfsgch/Sportarten/Kunstturnen/Weisungen_und_Reglemente/si_Reglement_ex-aequo_kutu_CD_2019_08_df.pdf)
+* `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)` Diese Kombination entspricht der [Ex-aequo Regelung des STV](https://www.stv-fsg.ch/fileadmin/user_upload/stvfsgch/Sportarten/Kunstturnen/Weisungen_und_Reglemente/si_Reglement_ex-aequo_kutu_CD_2019_08_df.pdf)

@@ -57,6 +57,7 @@ Dieser QR-Code muss von jedem Mobile-Device, von wo Resultate erfasst werden sol
 ### Letzte Resultate Link
 
 Dieser QR-Code führt mit einem Link auf die Anzeige der aktuell erfassten Resultaten.
+Siehe auch [Letzte Resultate Einstellmöglichkeiten](./letzte-resultate.md)
 
 ### Top Resultate Link
 
