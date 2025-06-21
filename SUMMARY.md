@@ -36,6 +36,7 @@
   * [Resultat-Erfassung mit Notenblätter](wettkampf-durchfuhrung/resultat-erfassung_mit_notenblatter.md)
   * [Resultat-Erfassung mit Riegen-Notenblätter](wettkampf-durchfuhrung/resultat-erfassung_mit_riegen-notenblatter.md)
   * [Resultat-Erfassung über Mobile-App](wettkampf-durchfuhrung/wettkampf-netzwerk-wertungsrichter.md)
+  * [Aktuelle Resultate Anzeige](wettkampf-durchfuhrung/letzte-resultate.md)
   * [Besten-Listen für die Durchsage nach Gerätewechsel](wettkampf-durchfuhrung/besten-listen_fur_die_durchsage_nach_geratewechsel.md)
   * [Ranglisten erstellen](wettkampf-durchfuhrung/ranglisten_erstellen.md)
 * [Resultat-Analysen](resultatanalysen/README.md)
