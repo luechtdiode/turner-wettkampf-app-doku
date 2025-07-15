@@ -12,6 +12,8 @@ Die Suchfunktion kann mit mehreren Suchbegriffen umgehen. So z.B. mit ein paar Z
 
 ![](../assets/resultat-erfassung.png)
 
+_Hinweis: Wenn im Wettkampf gerätespezifische Formulare definiert wurden, sehen die Erfasssungsdialog individuell aus. Siehe auch [Formular Templates für Notenerfassung](../wettkampf-vorbereitung/formular_templates_fuer_notenerfassung.md)_
+
 Für die Erfassung können dann von links nach rechts für alle auf dem Notenblatt eingetragenen Geräte-Wertungen die Resultate übertragen werden.
 
 Mit den Cursor-Tasten kann die gewünschte Zelle erreicht werden, in die etwas erfasst werden soll.

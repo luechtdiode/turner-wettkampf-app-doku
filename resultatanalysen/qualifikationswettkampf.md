@@ -29,3 +29,9 @@ nur jene gewinnen können, die an allen Cup-Wettkämpfen teilgenommen haben.
 Mit der Checkbox im Kopfteil kann von Durchschnitts- auf Summenberechnung umgestellt werden.
 
 ![](<../assets/rangliste-extended-filter-detail3.png>)
+
+# Qualifikation anhand Bestnoten Auswertung
+
+Es gibt die Möglichkeit, die Rangliste anhand von den 1-5 Bestnoten berechneten Endresultaten zu erstellen:
+
+![](<../assets/rangliste-bestwertungen.png>)

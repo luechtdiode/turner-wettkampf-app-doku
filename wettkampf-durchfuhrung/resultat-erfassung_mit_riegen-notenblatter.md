@@ -19,3 +19,7 @@ Für eine schnelle Positionierung kann mit einem Click in die Filterliste und an
 
 ![](/assets/handle-riegencode.gif)
 
+
+## Gerätespezifische Erfassungsformulare
+
+Wenn im Wettkampf gerätespezifische Formulare definiert wurden, sehen die Erfasssungsdialog individuell aus. Siehe auch [Formular Templates für Notenerfassung](../wettkampf-vorbereitung/formular_templates_fuer_notenerfassung.md)

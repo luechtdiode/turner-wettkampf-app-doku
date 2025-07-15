@@ -10,6 +10,7 @@ Ranglisten-Typs von Einzelrangliste auf Teamrangliste oder Kombirangliste umgest
 ## Einzelrangliste
 
 In der Einzelrangliste werden die Wertungen pro Turner/-In aufgelistet.
+
 ## Teamrangliste
 
 In der Teamrangliste werden Team-Resultate angezeigt. Diese bilden sich aus den Einzelwertungen. Die Teamregeln bestimmen, wann eine Teamzuordnung und Wertung aus der Einzelrangliste für eine Teamwertung herangezogen wird.

@@ -119,7 +119,7 @@ Implizit: Total ENote = Aggregate(max(0, min(30, ENote)), ...)
 Implizit: Total Endnote = Aggregate(max(0, min(30, DNote) + mi (10, ENote) - PNote), ...)
 ```
 
-## Zuweisung eines Formulars zu Disziplin oder Kategorie-Disziplin
+## Formularzuordnung auf Disziplin oder Kategorie-Disziplin Ebene
 
 Ein Formular kann auf mehreren Ebenen definiert werden:
 
@@ -140,7 +140,7 @@ Die angegebene Disziplin bei allen Kategorien im Wettkampf verwendet das selbe F
 
 ### Ebene Kategorie-Disziplin
 
-Es existiert eine explilzite Zuordnung auf eine Kategorie-Disziplin.
+Es existiert eine explizite Zuordnung auf eine Kategorie-Disziplin.
 
 Nur bei der angegebenen Kategorie-Disziplin im Wettkampf wird das Formular verwendet.
 

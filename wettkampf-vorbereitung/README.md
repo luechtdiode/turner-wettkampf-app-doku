@@ -23,14 +23,16 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
 ## Weiterführende Kapitel
 
 * [Wettkampf anlegen](wettkampf_anlegen.md)
-  * [Startreihenfolge in den Geräte-Riegen](wettkampf_uebersicht/riegenrotation.md)
-  * [Rangierung bei Punktegleichstand](wettkampf_uebersicht/punktgleichstand.md)
-  * [Verwendung von Altersklassen](wettkampf_uebersicht/altersklassen.md)
-  * [Teams / Mannschaften](wettkampf_uebersicht/teamregeln.md)
-  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/README.md)
+  * [Startreihenfolge in den Geräte-Riegen](riegenrotation.md)
+  * [Rangierung bei Punktegleichstand](punktgleichstand.md)
+  * [Verwendung von Altersklassen](altersklassen.md)
+  * [Teams / Mannschaften](teamregeln.md)
+  * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht.md)
   * [Formular Templates für die Notenerfassung](formular_templates_fuer_notenerfassung.md)
-  * [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
-  * [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
+* Wettkampf-Anmeldungen  
+  * [Offline Wettkampf-Anmeldungen verarbeiten](turneranmeldungen/offline-einfuehrung.md)
+  * [Turneranmeldungen online verarbeiten](turneranmeldungen/turneranmeldungen_verarbeiten_online.md)
+  * [Turneranmeldungen offline verarbeiten](turneranmeldungen/turneranmeldungen_verarbeiten_offline.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen/README.md)
   * [Details zu Durchgang neu einteilen](riegeneinteilung_erstellen/durchgang-neu-einteilen.md)
   * [Ausnahmen und Limitationen](riegeneinteilung_erstellen/ausnahmen-limitationen.md)

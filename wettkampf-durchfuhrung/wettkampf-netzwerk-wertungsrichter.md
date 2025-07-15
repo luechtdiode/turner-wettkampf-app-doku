@@ -43,6 +43,8 @@ Auf den Riegenblätter ist ein QR-Code aufgedruckt, mit welchem ein Link bereitg
 
 ### Wertungsrichter erfasst Wettkampf-Resultate
 
+Wenn im Wettkampf gerätespezifische Formulare definiert wurden, sehen die Erfasssungsdialog individuell aus. Siehe auch [Formular Templates für Notenerfassung](../wettkampf-vorbereitung/formular_templates_fuer_notenerfassung.md)
+
 Mit dem Button `RESULTATE` gelangt man in der Mobile-App zu den Turner/-Innen, die in der Reihenfolge aufgelistet werden, in der sie ihre Wettkampf-Übung vorturnen sollen.
 
 | <p>Mit einem Click auf die Person öffnet sich die Noten-Eingabemaske.<br><br></p>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              | ![](<../assets/resultaterfassen-gestartet2.png>)    |
