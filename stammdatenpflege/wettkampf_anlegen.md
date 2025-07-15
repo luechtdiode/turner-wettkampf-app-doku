@@ -23,8 +23,8 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
    * 
    * Athletiktest
 4. EMail-Adresse für die Notifikation an die Wettkampf-Administration bei Online-Anmeldungen
-5. Riegenrotationsregel: Es kann definiert werden, wie von einem Wettkampf zum nächsten die Startreihenfolge der Vereine und deren Teilnehmer rotieren soll. Siehe [Beschreibung Startreihenfolge in den Geräte-Riegen](../wettkampf-vorbereitung/wettkampf_uebersicht/riegenrotation.md)
-6. Punktegleichstand Regelung: Es kann definiert werden, wie die Rangierung bei Punktegleichstand ermittelt wird. Siehe [Beschreibung Rangierung bei Punktegleichstand](../wettkampf-vorbereitung/wettkampf_uebersicht/punktgleichstand.md)
+5. Riegenrotationsregel: Es kann definiert werden, wie von einem Wettkampf zum nächsten die Startreihenfolge der Vereine und deren Teilnehmer rotieren soll. Siehe [Beschreibung Startreihenfolge in den Geräte-Riegen](../wettkampf-vorbereitung/riegenrotation.md)
+6. Punktegleichstand Regelung: Es kann definiert werden, wie die Rangierung bei Punktegleichstand ermittelt wird. Siehe [Beschreibung Rangierung bei Punktegleichstand](../wettkampf-vorbereitung/punktgleichstand.md)
 7. Schwellwerte für Auszeichnungen. 
    * Die Prozent-Angabe darf bis zu drei Stellen nach dem Komma haben.
    * Die Angaben können kombiniert verwendet werden. So kann z.B. eine Auszeichnung für die 40% Besten Ergebnisse und bei Erreichung
@@ -35,7 +35,7 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
    * [DTB Allgemein (AK6,AK18,AK22,AK25)](https://www.dtb.de/fileadmin/user_upload/dtb.de/Passwesen/Wettkampfordnung_DTB_2021.pdf)
    * [DTB Pflicht (AK8-9,AK11-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
    * [DTB Kür (AK13-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
-   * Individuell - [Siehe Syntax-Beschreibung](../wettkampf-vorbereitung/wettkampf_uebersicht/altersklassen.md), wie die Altersklassen manuell definiert werden können.
+   * Individuell - [Siehe Syntax-Beschreibung](../wettkampf-vorbereitung/altersklassen.md), wie die Altersklassen manuell definiert werden können.
    * Ohne - erlaubt das entfernen einer Altersklassen-Belegung.
 9. (optional) Jahrgang Altersklassen (Alter im Jahr des Wettkampfes, auf Jahrgang-Basis):
    * Beinhaltet dieselben Altersklassen-Belegungsmöglichkeiten wie die "Alter am Wettkampftag" Altersklassen
@@ -45,7 +45,7 @@ Mit `Individuell` lassen sich die Regeln individuell festlegen. Dabei gbit es fo
     * Zusammenzug der besten Geräte-Wertungen oder der besten Gesamt-Wertungen.
     * Die Teamnummern können auf Vereins- oder Verbandsebene für die Team-Zusammenstellung verwendet werden.
     * Es können mehrere Teamregeln aufgenommen werden. Bei der Online-Anmeldung werden die Teamregeln sichtbar gemacht.
-    * »Siehe auch: [Beschreibung der Teams / Mannschaften](../wettkampf-vorbereitung/wettkampf_uebersicht/teamregeln.md)
+    * »Siehe auch: [Beschreibung der Teams / Mannschaften](../wettkampf-vorbereitung/teamregeln.md)
     
 
 Mit "`OK`" wird der Wettkampf angelegt.
