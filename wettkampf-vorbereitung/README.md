@@ -28,6 +28,7 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
   * [Verwendung von Altersklassen](wettkampf_uebersicht/altersklassen.md)
   * [Teams / Mannschaften](wettkampf_uebersicht/teamregeln.md)
   * [Übersicht der angemeldeten Vereine und Medallienbedarf](wettkampf_uebersicht/README.md)
+  * [Formular Templates für die Notenerfassung](formular_templates_fuer_notenerfassung.md)
   * [Turneranmeldungen online verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
   * [Turneranmeldungen offline verarbeiten](wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
 * [Riegeneinteilung erstellen](riegeneinteilung_erstellen/README.md)
