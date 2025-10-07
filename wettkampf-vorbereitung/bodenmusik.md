@@ -25,6 +25,10 @@ Der Player kann immer nur maximal eine Datei zum Abspielen geladen haben. Erst w
 
 Wenn eine Datei geladen ist, kann sie beliebig oft gestartet, pausiert und neu abgespielt werden.
 
+Die Benutzung des Players macht erst wirklich Sinn, wenn zuvor die Musikdateien katalogisiert wurden (pro Turner/-In hinterleget).
+Dies lässt sich bei vielen Teilnehmerinnen schlecht erst am Wettkampf-Tag machen.
+Es wird empfohlen, die Katalogisierung vor dem Wettkampf vorzunehmen, so dass am Wettkampf die Dateien bereits bei den Turnerinnen hinterlegt sind und nur noch abgespielt werden müssen.
+
 #### Player in der Wettkampf-App (an Musikanlage angeschlossen)
 
 Folgende zusätzliche Funktionen sind nur im Player-Fenster der Wettkampf-App verfügbar:
@@ -61,9 +65,9 @@ Anschliessend kann die Steuerung im Web-Client genutzt werden:
 
 Mit dem roten Power-Button wird die Musik-Belegung im Player freigegeben. Dies ist nur notwendig, wenn die Musik-Datei irrtümlicherweise geladen wurde. Normalerweise wird die Musik abgespielt und am Ende wird der Player automatisch freigegeben.
 
-## Bodenmusik zu einer Athletin, einem Athlet hinterlegen
+## Bodenmusik katalogisieren
 
-Jede Turnerin kann eine eigene Boden-Musik hinterlegt werden. Die hinterlegten Dateien müssen auf dem Gerät gespeichert sein, das am Wettkampf-Platz an der Musikanlage angeschlossen ist.
+Jeder Turnerin kann eine eigene Boden-Musik hinterlegt werden. Die hinterlegten Dateien müssen auf dem Gerät gespeichert sein, das am Wettkampf-Platz an der Musikanlage angeschlossen ist.
 
 ### Musik offline hinterlegen
 
@@ -91,11 +95,19 @@ Die in der Anmeldung hochgeladene Datei kann jeweils auch wieder aktualisiert, a
 
 ![](/assets/mediaplayer-registration-preview-loaded.png)
 
- Die via Online-Anmeldung hochgeladenen Dateien auf dem Server können nach dem abgeschlossenen Wettkampf aus Platzgründen durch die App gelöscht werden. Die lokal gespeicherten Musikdateien werden nur gelöscht, wenn dort der Wettkampf gelöscht wird.
+Die via Online-Anmeldung hochgeladenen Dateien auf dem Server können nach dem abgeschlossenen Wettkampf aus Platzgründen durch die App gelöscht werden. Die lokal gespeicherten Musikdateien werden nur gelöscht, wenn dort der Wettkampf gelöscht wird.
 
- ## Transport der Musikdateien via Import-/Export
+## Transport der Musikdateien via Import-/Export
 
 Die Musikdateien können, wenn sie nicht über die Online-Anmeldung hochgeladen werden, von irgendwelchen Datenträgern eingelesen und katalogisiert werden. Sie liegen dann bereit auf dem lokalen Dateisystem im Wettkampf-Verzeichnis unter `audiofiles`.
 Wenn die lokal gespeicherten Musikdateien auf einem anderen Gerät abgespielt werden sollen, ist das sichergestellt indem der Wettkampf mit der Export-Funktion in eine Zip-Datei exportiert wird. Diese kann auf dem Ziel-Gerät manuell wieder importiert werden.
 
 Aktuell sollte es allerdings immer nur ein Gerät sein, das dann mit dem Player ferngesteuert werden soll.
+
+## Mutationen am Wettkampf-Tag
+
+Die Katalogisierung kann auch während dem Wettkampf angepasst werden. 
+
+Turner oder Turnerinnen, die sich kurzfristig abgemeldet haben und deshalb im Wettkampf entfernt werden, werden korrekt auch im Musik-Katalog nachgeführt.
+
+Wenn ein separates Gerät für den Mediaplayer Anschluss eingerichtet wird, müssen die Katalog-Anpassungen auch auf diesem Gerät gemacht werden.
