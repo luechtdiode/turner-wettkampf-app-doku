@@ -18,6 +18,7 @@
     * [Offline Wettkampf-Anmeldungen verarbeiten](wettkampf-vorbereitung/turneranmeldungen/offline-einfuehrung.md)
     * [Turneranmeldungen online verarbeiten](wettkampf-vorbereitung/turneranmeldungen/turneranmeldungen_verarbeiten_online.md)
     * [Turneranmeldungen offline verarbeiten](wettkampf-vorbereitung/turneranmeldungen/turneranmeldungen_verarbeiten_offline.md)
+    * [Bodenmusik katalogisieren](wettkampf-vorbereitung/bodenmusik.md)
   * [Riegeneinteilung erstellen](wettkampf-vorbereitung/riegeneinteilung_erstellen/README.md)
     * [Details zu Durchgang neu einteilen](wettkampf-vorbereitung/riegeneinteilung_erstellen/durchgang-neu-einteilen.md)
     * [Ausnahmen und Limitationen](wettkampf-vorbereitung/riegeneinteilung_erstellen/ausnahmen-limitationen.md)
