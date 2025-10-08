@@ -39,20 +39,20 @@ Folgende zusätzliche Funktionen sind nur im Player-Fenster der Wettkampf-App ve
 
 #### Player-Fernsteuerung in der Web-App für die Resultaterfassung
 
-Der oder die Wertungsrichter/-In kann in der Online-App, da wo das Ergebnis einer Wettkampfübung erfasst wird, die Kontrolle des Players übernehmen. Hierzu gibt es folgende Funktionen, sofern eine Musikdatei hinterlegt wurde:
+Der oder die Wertungsrichter/-In kann in der Online Web-App, da wo von den Wertungsrichter das Ergebnis einer Wettkampfübung erfasst wird, die Kontrolle des Players übernehmen. Hierzu gibt es folgende Funktionen, sofern eine Musikdatei hinterlegt wurde:
 
-- Laden der Musikdatei in den Player (diese ist nur möglich, wenn der Player frei ist) Nach dem Laden der Musikdatei ist der Player für die anderen belegt.
-- Ausschalten / Freigeben des Musikplayers, so dass andere den Player wieder verwenden können, resp. dass der Player für eine andere Wettkampfübung weider verwendet werden kann.
-- Abspielen der im Player geladenen Musik. Dies ist nur möglich, wenn es sich um die vorher geladene Musik handelt. Wenn jemand sonst für eine andere Übung den Player mit einer Musik geladen hat, kann diese nicht konrtolliert werden.
+- Laden der Musikdatei in den Player (diese ist nur möglich, wenn der Player frei ist). Nach dem Laden der Musikdatei ist der Player belegt (und kann keine andere Musik laden).
+- Ausschalten / Freigeben des Musikplayers, so dass andere Musikstücke geladen können, resp. dass der Player wieder für eine andere Wettkampfübung verwendet werden kann.
+- Abspielen der im Player geladenen Musik. Dies ist nur möglich, wenn es sich um die vorher geladene Musik handelt. Wenn sonst jemand für eine andere Übung den Player mit einer Musik geladen hat, kann diese nicht kontrolliert werden.
 
-Nach dem Abspielen der Musik wird der Player automatisch freigegeben.
+Nach dem Abspielen der Musik **wird der Player automatisch freigegeben**.
 
-Der Player in der Web-App ist nur dann sichtbar, wenn die Steuerung für die Wertungsrichter freigegeben wurde:
+Der Player in der Web-App **ist nur dann sichtbar, wenn die Steuerung für die Wertungsrichter freigegeben wurde**:
 
 ![Remote-Steuerung des Mediaplayers für die Wertungsrichter](/assets/mediaplayer-remotecontrol-enabled.png)
 ![Player-Fernsteuerung in der Web-App für die Resultaterfassung](/assets/mediaplayer-webapp.png)
 
-Die Buttons werden erst wählbar, wenn der Durchgang für die Resultaterfassung gestartet wurde:
+Die Buttons werden erst **wählbar, wenn der Durchgang für die Resultaterfassung gestartet wurde**:
 
 ![starte den Druchgang, um auch den Mediaplayer wählbar zu machen](/assets/mediaplayer-start-durchgang.png)
 
@@ -73,13 +73,17 @@ Jeder Turnerin kann eine eigene Boden-Musik hinterlegt werden. Die hinterlegten 
 
 In der Wettkampf-App wird die Bodenmusik in den jeweiligen Wertungs-Erfassungstabs einer Turnerin oder einem Turner zugewiesen.
 
-![Loak Musik zuweisen](/assets/mediaplayer-assign-local-music.png)
+![Lokal Musik zuweisen](/assets/mediaplayer-assign-local-music.png)
 
 1) In der Athlet-Spalte wird angezeigt, ob eine Bodenmusik hinterlegt ist (mit dem Noten-Symbol)
 2) Auf dem Bodenmusik-Button lässt sich ein Menu aufklappen.
-3) Mit dem Befehl Bodenmusik zuordnen ... lässt sich im lokalen Dateisystem eine Bodenmusik auswählen. Diese wird dann in den Wettkampf aufenommen und dem Athlet resp. der Athlethin hinterlegt.
+3) Mit dem Befehl `Bodenmusik zuordnen ...` lässt sich im lokalen Dateisystem eine Bodenmusik auswählen. Diese wird dann in den Wettkampf aufenommen und dem Athlet resp. der Athlethin hinterlegt.
 
-Wenn dies im offline-Modus gemacht wird, muss anschliessend der Wettkampf via Upload auf den Server hochgeladen werden. Dabei werden aber nur die Verknüpfungsinformationen und nicht die Musikdateien selbst übertragen. Die Musikdateien werden nie vom Server her abgespielt.
+#### Optionaler Katalog-Abgleich mit dem Wettkampf auf dem Server
+
+Wenn diese Zuweisungen durchgeführt werden, während die App mit dem Server verbunden ist, ist der Katalog automatisch auch auf dem Server nachgeführt.
+
+Wenn dies im offline-Modus gemacht wird und später die Fernsteuerung über die Web-App benutzt werden soll, muss der Wettkampf explizit manuell via Upload auf den Server hochgeladen werden.
 
 ### Musik über die Wettkampf-Anmeldung hochladen
 
@@ -87,7 +91,9 @@ Wenn Vereine die Online-Registrierung für Wettkampf-Teilnehmer/-Innen nutzen, i
 
 ![](/assets/mediaplayer-registration-empty.png)
 
-Der Wettkampf-Administrator lädt diese Dateien beim Synchronisieren der Anmeldedaten auf sein Gerät herunter, von wo die Dateien dann abgespielt werden können.
+Der Wettkampf-Administrator lädt diese Dateien beim **Synchronisieren der Anmeldedaten** auf sein Gerät herunter, von wo die Dateien dann abgespielt werden können.
+
+Der Katalog wird hiermit automatisch lokal und auf dem Server nachgeführt.
 
 ![](/assets/mediaplayer-registration-assigned.png)
 
