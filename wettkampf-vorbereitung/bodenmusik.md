@@ -79,7 +79,7 @@ In der Wettkampf-App wird die Bodenmusik in den jeweiligen Wertungs-Erfassungsta
 
 1) In der Athlet-Spalte wird angezeigt, ob eine Bodenmusik hinterlegt ist (mit dem Noten-Symbol)
 2) Auf dem Bodenmusik-Button lässt sich ein Menu aufklappen.
-3) Mit dem Befehl `Bodenmusik zuordnen ...` lässt sich im lokalen Dateisystem eine Bodenmusik auswählen. Diese wird dann in den Wettkampf aufenommen und dem Athlet resp. der Athlethin hinterlegt.
+3) Mit dem Befehl `Bodenmusik zuordnen ...` lässt sich im lokalen Dateisystem eine Bodenmusik auswählen. Diese wird dann in den Wettkampf aufgenommen und dem Athlet resp. der Athlethin hinterlegt.
 
 #### Optionaler Katalog-Abgleich mit dem Wettkampf auf dem Server
 
