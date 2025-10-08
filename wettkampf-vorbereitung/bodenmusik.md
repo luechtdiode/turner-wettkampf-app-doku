@@ -44,7 +44,7 @@ Folgende Funktionen sind im Player-Fenster der Wettkampf-App verfügbar:
 Der oder die Wertungsrichter/-In kann in der Online Web-App, da wo von den Wertungsrichter das Ergebnis einer Wettkampfübung erfasst wird, die Kontrolle des Players übernehmen. Hierzu gibt es folgende Funktionen, sofern eine Musikdatei hinterlegt wurde:
 
 - Laden der Musikdatei in den Player (diese ist nur möglich, wenn der Player frei ist). Nach dem Laden der Musikdatei ist der Player belegt (und kann keine andere Musik laden).
-- Ausschalten / Freigeben des Musikplayers, so dass andere Musikstücke geladen können, resp. dass der Player wieder für eine andere Wettkampfübung verwendet werden kann.
+- Ausschalten / Freigeben des Musikplayers, so dass andere Musikstücke geladen werden können, resp. dass der Player wieder für eine andere Wettkampfübung verwendet werden kann.
 - Abspielen der im Player geladenen Musik. Dies ist nur möglich, wenn es sich um die vorher geladene Musik handelt. Wenn sonst jemand für eine andere Übung den Player mit einer Musik geladen hat, kann diese nicht kontrolliert werden.
 
 Nach dem Abspielen der Musik **wird der Player automatisch freigegeben**.
