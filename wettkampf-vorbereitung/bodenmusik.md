@@ -5,11 +5,11 @@ integrierten Media-Player unterstützt.
 
 ## Player
 
-Der Musikplayer kann nur Musikdatein im `.mp3`-Format abspielen.
+Der Musikplayer kann Musikdateien im `.mp3`-Format abspielen.
 Er kann eine Liste von Musikdateien einlesen und dann Track für Track zum Abspielen laden.
 
 Die in der App pro Turnerin hinterlegten Musikdateien können mit dem Player geladen und abgespielt werden.
-Dies ist auch über die Web-App für die Erfassung der Resultate möglich.
+Dies ist auch über die Online Web-App für die Erfassung der Resultate möglich.
 
 Für die optimale Raumakustik können folgende Einstellungen justiert werden:
 
@@ -19,7 +19,7 @@ Für die optimale Raumakustik können folgende Einstellungen justiert werden:
 
 ![Mediaplayer](/assets/mediaplayer-skin.png)
 
-### Benutzung des Players
+## Benutzung des Players
 
 Der Player kann immer nur maximal eine Datei zum Abspielen geladen haben. Erst wenn die Datei fertig abgespielt wurde, oder der Player explizit ausgeschaltet wird, kann eine neue Datei geladen werden.
 
@@ -29,15 +29,17 @@ Die Benutzung des Players macht erst wirklich Sinn, wenn zuvor die Musikdateien 
 Dies lässt sich bei vielen Teilnehmerinnen schlecht erst am Wettkampf-Tag machen.
 Es wird empfohlen, die Katalogisierung vor dem Wettkampf vorzunehmen, so dass am Wettkampf die Dateien bereits bei den Turnerinnen hinterlegt sind und nur noch abgespielt werden müssen.
 
-#### Player in der Wettkampf-App (an Musikanlage angeschlossen)
+### Player in der Wettkampf-App (an Musikanlage angeschlossen)
 
-Folgende zusätzliche Funktionen sind nur im Player-Fenster der Wettkampf-App verfügbar:
+Der Player befindet sich in einem eigenen Fenster, welches minimiert, maximiert oder an eine beliebige Bildschirmposition plaziert werden kann.
+Auch wenn das Player-Fenster minimiert oder geschlossen wird, bleibt der Player einsatzfähig (im Hintergrund).
 
+Folgende Funktionen sind im Player-Fenster der Wettkampf-App verfügbar:
 - Mit den Skip-Buttons lässt sich von einem Track zum vorherigen oder nächsten springen. Wenn der aktuelle Track bereits gestartet wurde, wird er dabei wieder auf den Anfang positioniert.
 - Mit dem Power-Button lässt sich der Player ausschalten. Die Musik wird dann gestoppt und der Player steht wieder allen zur Verfügung.
 - Mit dem Eject-Button lassen sich individuelle Musikdateinen oder Dateilisten in den Player laden.
 
-#### Player-Fernsteuerung in der Web-App für die Resultaterfassung
+### Player-Fernsteuerung in der Web-App für die Resultaterfassung
 
 Der oder die Wertungsrichter/-In kann in der Online Web-App, da wo von den Wertungsrichter das Ergebnis einer Wettkampfübung erfasst wird, die Kontrolle des Players übernehmen. Hierzu gibt es folgende Funktionen, sofern eine Musikdatei hinterlegt wurde:
 
