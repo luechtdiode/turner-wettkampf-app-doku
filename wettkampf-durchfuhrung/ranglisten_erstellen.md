@@ -44,13 +44,28 @@ Wenn es z.B. zu wenige Team-Mitglieder in den höheren Leistungsklassen gibt, k�
 ![](../assets/rangliste-team-alle.png)
 
 
+## Rangliste drucken, exportieren
+
+### Drucken
+
 Am Ende, oder nach jeder gewünschter Ranglisten-Einstellung, lässt sich die Rangliste drucken:
 
 ![](<../assets/rangliste-drucken.png>)
 
 1. Je nach Papierformat und ausgewähltem Drucker müssen ev. die Anzahl Zeilen pro Seite justiert werden.
-2. Mit aktivierter Checkbox "`via Browser`" wird die Rangliste als HTML-Datei gespeichert und im Webbrowser geöffnet. In dieser Form lässt sie sich gut im Internet integrieren, aber auch mit jedem aktuellen Web-Browser ausdrucken.
+2. Mit aktivierter Checkbox "`via Browser`" wird die Rangliste als HTML-Datei gespeichert und im Webbrowser geöffnet. In dieser Form lässt sie sich gut im Internet integrieren, aber auch mit jedem aktuellen Web-Browser ausdrucken (Diese Option ist zu empfehlen, da der Browser in besserer Qualität druckt wie wenn direkt über ein Druckertreiber gedruckt wird).
 3. Mit deaktivierter Checkbox "`via Browser`" kann der gewünschte Drucker ausgewählt werden. Beim Drucken via Web-Browser sind jeweils die Seitenränder und die Orientierung so anzupassen, dass die Ranglisten mit dem Seitenumbruch an der richtigen Stelle funktionieren. Beim direkten Drucken sind keine individuellen Einstellungen möglich.
+
+### Export der Ranglistendaten in ein Excel-File
+
+Alle Ranglisten-Daten werden beim Export in ein Excel-File exportiert. Diese können nachgelagert für individuelle Aufbereitungen verwendet werden (zum Beispiel für das Drucken von Urkunden mit einer Serienfunktion basierend auf den exportierten Ranglistendaten aus dem Excelfile).
+
+![Rangliste in Excel exportieren](../assets/rangliste-in-excel-exportieren.png)
+
+Pro Rangliste wird ein eigenes Sheet im Excel angelegt.
+Die Funktion unterstützt sowohl Einzel- als auch Teamranglisten.
+
+![Exportierts Excel der Ranglistendaten](../assets/rangliste-excel.png)
 
 ## Rangliste Einstellungen speichern
 
