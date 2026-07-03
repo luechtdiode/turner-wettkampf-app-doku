@@ -64,6 +64,7 @@ Alle Ranglisten-Daten werden beim Export in ein Excel-File exportiert. Diese kö
 
 Pro Rangliste wird ein eigenes Sheet im Excel angelegt.
 Die Funktion unterstützt sowohl Einzel- als auch Teamranglisten.
+Nach dem Export wird die erstellte Excel-Datei automatisch im Betriebssystem geöffnet.
 
 ![Exportierts Excel der Ranglistendaten](../assets/rangliste-excel.png)
 

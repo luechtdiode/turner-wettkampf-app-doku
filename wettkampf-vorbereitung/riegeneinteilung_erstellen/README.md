@@ -64,7 +64,7 @@ Mit gruppierten Durchgängen ist darauf zu achten, dass beim Fallenlassen (drop)
 ![](../../assets/riegen-export-funktionen.png)
 
 1. `Riegen Einheiten export`: Das Resultat, welches die Riegen-Einteilenfunktion für sich zum Starten erstellt (die Riegen pro Geschlecht, Kategorie und Verein) kann in einer CSV-Datei zur weiteren Verarbeitung im Excel exportiert werden.
-2. `Durchgang-Planung export`: Mit dieser Funktion lässt sich die Durchgangsplanung in eine CSV-Datei exportieren. So lässt sich die Einteilung, die initial von der App gemacht wurde, ev. einfacher oder übersichtlicher im Excel nachbearbeiten.
+2. `Durchgang-Planung export`: Mit dieser Funktion lässt sich die Durchgangsplanung in eine Excel-Datei (.xlsx) exportieren. So lässt sich die Einteilung, die initial von der App gemacht wurde, einfacher oder übersichtlicher im Excel nachbearbeiten. Die Datei wird automatisch im Betriebssystem geöffnet.
 3. `Riegenblätter erstellen`: Mit dieser Funktion lassen sich alle Riegenblätter erstellen. Die Riegenblätter sind Notenblätter pro Geräte-Riege. Sie werden pro Gerät und Riege erstellt und beinhalten alle Turner-/Innen der Riege. Diese werden nach jedem Gerätewechsel von den Wertungsrichtern eingesammelt, so dass die Resultate schon frühzeitig im Rechnungsbüro erfasst werden können.
 
 ### Mustervorgehen

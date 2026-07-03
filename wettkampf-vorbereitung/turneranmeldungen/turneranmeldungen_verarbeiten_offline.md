@@ -20,6 +20,12 @@ Beim aufrufen dieser Funktion kann zunächst die gewünschte Datei ausgewählt w
 
 Es erscheint ein Dialog, in dem die notwendigen Spalten Mappings konfiguriert werden können. Es findet eine automatische Vorbelegung statt, sofern üblich Spaltenbezeichnungen verwendet werden.
 
+Neben den Pflichtfeldern (Name, Vorname, Jahrgang, Geschlecht, Kategorie) können optionale Felder gemappt werden:
+- **Verein** und **Verband** für die Vereinszuordnung
+- **Team** für die Team-Zugehörigkeit (Nummer)
+- **Reserve** für die Reserve-Reihenfolge (Zahl, optional). Turner mit einer Reserve-Reihenfolge > 0 werden alternativ in der definierten Reihenfolge im Team zugeteilt, wenn es dort Absenzen gibt.
+- **RLZ_TZ** / **VERBAND_RLZ** für regionale Leistungszentren
+
 ![Import Konfiguration](../../assets/csv-import-config.png)
 
 ### Importvorschlag
@@ -46,7 +52,9 @@ die App die Mustereinträge und überliest diese.
 
 ## Abgleich der Anmeldedaten mit externen Tools - Export der Anmeldedaten (4)
 
-Die Liste der Anmeldungen wird in ein Excel-File exportiert. Darüber lassen sich die Anmeldungsdaten mit anderen Tools austauschen.
+Die Liste der Anmeldungen wird in ein Excel-File exportiert. Darüber lassen sich die Anmeldungsdaten inkl. erfassten Wertungen mit anderen Tools austauschen.
+
+Der Export enthält pro Turner/-In neben den Stammdaten auch die Kategorie, Team-Nummer, Reserve-Reihenfolge sowie allfällig bereits erfasste Wertungen (Noten D, E, Endnote, Teilresultate) pro Gerät.
 
 ## Copy Paste über die Zwischenablage aus einem Excel Sheet (1)
 
