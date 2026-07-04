@@ -2,7 +2,7 @@
 
 Die Turneranmeldungen können mit Hilfe von CSV- oder Excelfiles importiert/exportiert werden.
 
-![Import/Export Funktionen](<../../assets/teilnehmer-import-export-menu.png>)                                                                         
+![Import/Export Funktionen](../../assets/teilnehmer-import-export-menu.png)
 
 ## Import aus CSV oder Excel File (2)
 
