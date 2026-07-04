@@ -87,7 +87,7 @@ Wenn am Ende der Formel das Dereferenzierungs-Zeichen `^` angehängt wird, werde
 
 ![Noten Teilwerte Darstellung in der Rangliste](/assets/wk-formular-rangliste-teilwertdarstellung.png)
 
-## Mehere Gesamtübungsbewertungen
+## Mehrere Gesamtübungsbewertungen
 
 Die drei Teilnoten können maximal 2-Mal (2-Übungen) erfasst werden.
 
