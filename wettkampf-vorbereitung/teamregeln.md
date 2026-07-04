@@ -28,8 +28,8 @@ Teams anhand der natürlichen Selektionskriterien in ein Team eingeteilt:
 * Kategorie/Programm
 
 ### Explizite Teamselektion
-Oft ist dies aber zu ungenau, oder es entschtehen zu kleine oder zu grosse Teams.
-Deshalb kann grundsätzlich bei jedem Teilehmer oder Teilnehmerin eine Teamnummer erfasst werden.
+Oft ist dies aber zu ungenau, oder es entstehen zu kleine oder zu grosse Teams.
+Deshalb kann grundsätzlich bei jedem Teilnehmer oder Teilnehmerin eine Teamnummer erfasst werden.
 
 Die Nummer kann als Teamnummer auf Vereins- oder Verbands-Ebene interpretiert werden.
 Zudem gilt sie normalerweise pro Programm/Kategorie und Geschlecht.
@@ -38,6 +38,13 @@ Wenn Altersklassen definiert wurden, wirken diese ebenfalls als Abgrenzungskrite
 Bei einer Turnerin im K3 wirkt sich dann die Teamnummer z.B. so aus, dass
 sie mit anderen Turnerinnen aus K3 und aus dem selben Verein mit der selben Teamnummer 
 zu einem Team zusammengestellt wird.
+
+#### Reserve
+
+Mit dem Reserve-Feld lassen sich nachrückende Teilnehmer/-Innen erfassen, falls es für ein Team unverhofft
+Abmeldungen fix zugeordneter Teilnehmer/-Innen gibt.
+
+#### Zu kleine Teams
 
 Wenn es zu wenige Telnehmer/-Innen für eine Teamzusammenstellung innerhalb der
 Geschlechts- und Programm/Kategorie/Altersklasse-Gruppierung ergeben, lassen sich die
@@ -61,10 +68,25 @@ Kombinationen erreichen.
 
 ## Berechnung der Teamwertung
 
-Es gibt aktuell folgende Formeln, die für die Team-Gesamtwertung verwendet werden können:
+Für die Team-Gesamtwertung gibt es zwei mögliche Ebenen, auf denen die Resultate ermittelt werden:
 
-1. Die besten n Gesamtwertungen werden zur Teamwertung zusammenaddiert.
-2. Die besten n Geräte Einzelwertungen werden zur Teamwertung zusammenaddiert.
+1. **Gesamtwertungen (Gesamt):** Die besten n Athleten pro Team werden anhand ihrer Gesamtpunktzahl
+   ermittelt; deren Einzelresultate fliessen in die Teamwertung ein.
+2. **Gerätewertungen (Gerät):** Pro Gerät werden die besten n Einzelwertungen eines Teams herangezogen.
+
+Auf beiden Ebenen kann optional eine Aggregatfunktion angegeben werden (standardmässig `sum`):
+
+| Funktion  | Beschreibung |
+|-----------|-------------|
+| `sum`     | Summe der zählenden Resultate (default) |
+| `avg`     | Durchschnittswert der zählenden Resultate |
+| `median`  | Median der zählenden Resultate |
+| `min`     | Niedrigster Wert der zählenden Resultate |
+| `max`     | Höchster Wert der zählenden Resultate |
+| `devmin`  | Standardabweichung (kleinere Abweichung gewinnt) |
+| `devmax`  | Standardabweichung (grössere Abweichung gewinnt) |
+
+Weitere Details zur Syntax im Abschnitt [Regel-Syntax](#regel-syntax).
 
 ### Besten n Gesamtwertungen
 
@@ -80,41 +102,37 @@ Aus einem Team werden die n besten Wertungen pro Gerät herangezogen, um das Tea
 
 ### Legende
 
-* `[]` in eckigen Klammern sind `optionale Bestandteile`. Wenn die eckigen Klammern selbst in der Formel zum Einsatz kommen, wird sie mit Ausrufezeichen eingefasst angegeben (`![]!`).
+* In der Syntax-Beschreibung kennzeichnen eckige Klammern `[]` optionale Bestandteile. In der Formel selbst (z.B. für Zusammenfassungen) werden eckige Klammern ohne Escape geschrieben, also z.B. `VereinGerät[K5+K6](3/*)`.
 * `|` Optionale `Alternativen`. Vor dem `|` Symbol ist z.B. Variante 1 und hinter dem Symbol ist Variante 2. Eine der beiden muss verwendet werden.
 * `<>` in spitzen Klammern sind variable Bestandteile. Der darin vermerkte Text entspricht dem `Variablennamen`. Die spitzen Klammern selbst kommen in der Formel nicht zum Einsatz.
-* `*` ein Stern bedeutet `unbegrenzt` und kann für die Maximalanzahl-Teammitglieder verwendet werden.
+* `*` ein Stern bedeutet `unbegrenzt` und kann sowohl für die Mindestanzahl- als auch für die Maximalanzahl-Teammitglieder verwendet werden.
 * `...` mit 3 Punkten wird die `Fortsetzung einer Reihe` angedeutet (verkettung von Elementen). Die Punkte werden in der konkreten Formel nicht verwendet.
 * `,` mit Komma werden weitere `Teamregeln` voneinander getrennt.
 * `+` mit Plus werden mehrere `mixed Teams` voneinander getrennt.
 
 ### Aufbau
 
-`[Verein|Verband][Gerät|Gesamt][![<Zusammenfassung1>[/<Zusammenfassung-n>]]!]([<Aggregat-Funktion>/]<Mindestanzahl-Teammitglieder>/[<Maximalanzahl-Teammitglieder>|*][/<Mixed Team1>[+<Mixed Team n>...]])[,...]`
+`Regelname[Gruppierung]([Aggregat/]Zählende[/Max][/MixedTeam1[+MixedTeam2...]])[,Regel2...]`
 
-1) Die Regel beginnt mit der **Abgrenzug** auf `Verein`s- oder `Verband`s-Ebene.
-2) Anschliessend folgt die **Berechnungsmethode**, ob die Punkte der besten `Gerät` oder der besten `Gesamtwertungen` addiert werden sollen.
-3) Anschliessend kann _optional_ angegeben werden, welche Kategorien, Programme oder Geschlechter **in einer Gruppe zusammengefasst** werden sollen.
-    * Eine Zusammenfassung enthält die Begriffe einer Kategorie (z.B. `K5`) oder die Abkürzung des Geschlechts (z.B. `W` oder `M`). 
-    * Diese Begriffe werden mit einem `+` miteinander zusammengefasst. Zum Beispiel bedeutet `K5+K6+K7`, dass sich ein Team aus Mitgliedern der drei Kategorien K5-K7 zusammensetzen kann. Alle nicht erwähnten Kategorien bleiben für sich separat in dedizierten Teams pro Kategorie.
-    * Es können mehrere Zusammenfassungsdefinitionen angegeben werden. Diese werden mit dem Slash `/` aneinander gereiht werden.
-4) Danach wird in der runden Klammerung angegeben,
-    * _optional_ die Aggregatfunktion, die für die Team-Gesamtwertung verwendet werden soll. Ohne Angabe wird `sum` verwendet. Folgende Aggregatfunktionen könnnen explizit angegeben werden:
-        * `sum` = Es wird die Summe der im Team zählenden Resultate berechnet.
-        * `avg` = Es wird der Durchschnittswert der im Team zählenden Resultate berechnet.
-        * `median` = Es wird der Medianwert der im Team zählenden Resultate berechnet.
-        * `min` = Es wird der niedrigste Wert der im Team zählenden Resultate ausgewählt.
-        * `max` = Es wird der höchste Wert der im Team zählenden Resultate ausgewählt.
-        * `devmin` = Es wird die Standardabweichung der im Team zählenden Resultate berechnet. Es gewinnt die kleinste Abweicung.
-        * `devmax` = Es wird die Standardabweichung der im Team zählenden Resultate berechnet. Es gewinnt die grösste Abweicung.
-    * wieviele `Teilnehmer mindestens` ein Team bestücken. Wenn dieser Wert offen bleiben soll, kann dies mit einem Stern `*` angegeben werden .
-    * _Optional_ kann auch eine `Obergrenze` definiert werden. Wenn dieser Wert offen bleiben soll, kann dies mit einem Stern `*` angegeben werden .
-    * _Optional_ können `Teamnamen aufgelistet` werden, die als mixed Teams (Vereinsübergreifend) benutzt werden können.
+1) **Regelname** (Pflicht): `VereinGerät`, `VereinGesamt`, `VerbandGerät` oder `VerbandGesamt`.
+    * Der Regelname beginnt mit der **Abgrenzug** auf `Verein`s- oder `Verband`s-Ebene.
+    * Anschliessend folgt die **Berechnungsmethode**, ob die Punkte der besten `Gerät` oder der besten `Gesamtwertungen` addiert werden sollen.
+
+2) **Gruppierung** (optional): In eckigen Klammern, z.B. `[K5+K6+K7]`. Damit lassen sich Kategorien, Programme oder Geschlechter zusammenfassen.
+    * Eine Zusammenfassung enthält Kategorie-Begriffe (z.B. `K5`) oder Geschlechts-Abkürzungen (`W`, `M`).
+    * Begriffe innerhalb einer Gruppe werden mit `+` verbunden. `K5+K6+K7` bedeutet, dass sich ein Team aus diesen drei Kategorien zusammensetzen kann. Nicht erwähnte Kategorien bleiben separat.
+    * Mehrere Gruppen werden mit `/` getrennt, z.B. `[K5+K6+K7/KH+KD]`.
+
+3) **Parameter** in runden Klammern `(...)`, getrennt voneinander mit `/`:
+    * _Optional_ die **Aggregatfunktion**: `sum`, `avg`, `median`, `min`, `max`, `devmin`, `devmax`. Ohne Angabe wird `sum` verwendet.
+    * **Zählende Resultate**: Anzahl der pro Gerät (`Gerät`) bzw. pro Athlet (`Gesamt`) gewerteten Resultate. `*` bedeutet, dass alle Resultate zählen. Dieser Wert dient zugleich als Mindestteamgrösse.
+    * _Optional_ die **Maximale Teamgrösse** (`Max`): `*` = unbegrenzt.
+    * _Optional_ **Mixed-Team-Namen** (vereinsübergreifend), mit `+` getrennt.
 
 ### Umgang mit explizit erfassten mixed Teams
 
 * Wenn in mehreren TeamRegeln Team-Namen aufgelistet werden, wird daraus eine Gesamtliste erstellt.
-* Die mixed Teams in der Gesamtliste bekommen einen Index, über den die Zuweisungen hergestellt werden. Es ist deshalb darauf zu achten, dass einmal aufgelistete Teams nicht mehr in ihrer Position in der Gesamtliste ändern. Wenn also vorne ein Team herausgelöscht wird, stimmen die nachfolgenden Indicies nicht mehr. Atkuell gibt es von der App noch 
+* Die mixed Teams in der Gesamtliste bekommen einen Index, über den die Zuweisungen hergestellt werden. Es ist deshalb darauf zu achten, dass einmal aufgelistete Teams nicht mehr in ihrer Position in der Gesamtliste ändern. Wenn also vorne ein Team herausgelöscht wird, stimmen die nachfolgenden Indicies nicht mehr. Aktuell gibt es von der App noch 
 keine Unterstützung für stabilere Team-Zuweisungen.
 * **Es gilt also grösste Vorsicht bei der nachträglichen Bearbeitung dieser mixed Teams Auflistung. Am sichersten ist es, wenn nur noch neue Teams am Ende einer Liste eingetragen werden**.
 
@@ -127,7 +145,7 @@ Wenn eine gemischte Liste von Teamregeln (auf Vereins-Ebend und auf Verbans-Eben
 _Team auf Vereins-Ebene mit den besten 3 Gerätenoten_
 `VereinGerät(3/*)`
 
-_Team auf Vereins-Ebene dem Medianwert der besten maximal 4 Gerätenoten (keine Mindestanzahl Teilnehmer definiert)_
+_Team auf Vereins-Ebene, Median der Gerätewertungen bei maximal 4 Teammitgliedern (alle Scores zählen)_
 `VereinGerät(median/*/4)`
 
 _Team auf Vereins-Ebene mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
@@ -136,10 +154,10 @@ _Team auf Vereins-Ebene mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehm
 _Team auf Vereins-Ebene, zusammengefasste Kategorien K6, K7, KD, KH mit den besten 3 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
 `VereinGerät[K6+K7+KD+KH](3/4)`
 
-_Team auf Vereins-Ebene mit den besten 3 Gersamtwertungen_
+_Team auf Vereins-Ebene mit den besten 3 Gesamtwertungen_
 `VereinGesamt(3/*)`
 
-_Team auf Vereins-Ebene mit dem Duchschnittswert aller Gersamtwertungen_
+_Team auf Vereins-Ebene mit dem Durchschnittswert aller Gesamtwertungen_
 `VereinGesamt(avg/*/*)`
 
 _Team auf Vereins-Ebene mit den besten 3 Gesamtwertungen mit maximal 4 Teamteilnehmer/-Innen_
@@ -151,7 +169,7 @@ _Team auf Verband-Ebene mit den besten 4 Gerätenoten_
 _Team auf Verband-Ebene mit den besten 2 Gerätenoten mit maximal 4 Teamteilnehmer/-Innen_
 `VerbandGerät(2/4)`
 
-_Team auf Verband-Ebene mit den besten 3 Gersamtwertungen_
+_Team auf Verband-Ebene mit den besten 3 Gesamtwertungen_
 `VerbandGesamt(3/*)`
 
 _Team auf Verband-Ebene mit den besten 3 Gesamtwertungen mit maximal 4 Teamteilnehmer/-Innen_
