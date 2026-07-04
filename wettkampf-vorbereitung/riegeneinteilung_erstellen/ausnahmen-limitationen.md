@@ -6,7 +6,7 @@
 Wenn in einem Durchgang nicht alle benötigten Geräte mit einer Riege als Startgerät verknüpft werden (weil es z.B. nicht genügend Riegen gibt), dann kann die App nicht erkennen, welche Geräte ausser den als Startgerät verknüpften im Durchgang wirklich geturnt werden sollen.\
 Es macht also ein Turnus mit allen als Startgerät verknüpften Geräten (grün) und die restlichen (rot) werden ignoriert:
 
-![](<../../assets/not-all-startgeraete-assigned-issue.png>)
+![](../../assets/not-all-startgeraete-assigned-issue.png)
 
 ### a) Lösung mit alternativer Durchgang-Riegeneinteilung
 
