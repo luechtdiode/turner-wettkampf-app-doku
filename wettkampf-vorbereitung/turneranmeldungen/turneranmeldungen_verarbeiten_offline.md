@@ -1,6 +1,6 @@
 # Turneranmeldungen offline verarbeiten
 
-Die Turneranmeldungen können mit Hilfe von CSV- oder Excelfiles importiert/exportiert werden.
+Die Turneranmeldungen können mit Hilfe von CSV- oder Excel-Dateien importiert/exportiert werden.
 
 ![Import/Export Funktionen](../../assets/teilnehmer-import-export-menu.png)
 

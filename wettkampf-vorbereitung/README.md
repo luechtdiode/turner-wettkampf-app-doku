@@ -18,7 +18,7 @@ In den folgenden Kapitel werden die dafür bereitgestellten Funktionen beschrieb
 10. Notenblätter/Riegenblätter erstellen.
 11. Rangliste-Einstellungen abspeichern.
 
-Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert eine [separate Beschreibung](offline-einfuehrung.md).
+Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert eine [separate Beschreibung](turneranmeldungen/offline-einfuehrung.md).
 
 ## Weiterführende Kapitel
 
