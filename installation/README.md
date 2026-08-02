@@ -1,5 +1,16 @@
 # Installation
 
+## Admin-Web-App (reine online Benutzung)
+
+Mit der Version v2r4 der Turner Wettkampf App wird neu eine Admin-Web-App bereitgestellt.
+Sie stellt die wichtigsten Funktionen für die Wettkampf-Vorbereitung und Durchführung bereit. 
+Sie ist über einen Web-Browser erreichbar und benötigt keine weitere lokale Installation.
+
+Aktuell ist die Admin-Web-App über folgenden Link erreichbar: [Admin-Web-App](https://kutuapp-test.sharevic.net/admin)
+Es ist auch möglich, von einem Wettkampf in der lokalen Desktop-App direkt auf die Admin-Web-App zu wechseln. 
+
+## Desktop-App (offline & online Benutzung)
+
 Die App lässt sich über Installer-Packages installieren.
 
 Diese lassen sich hier herunterladen:
@@ -8,7 +19,7 @@ Diese lassen sich hier herunterladen:
 
 Die Installation erfordert Administrator-Rechte. Danach kann jeder Benutzer die App bedienen.
 
-## Vertrauenswürdigkeit der App
+## Vertrauenswürdigkeit der Desktop App
 Die Installationsdatei ist nicht signiert und führt deshalb nach einem Download aus dem Internet bei der Installation zu Sicherheitswarnungen - oder die Installation bricht ab. Es gibt für die jeweiligen Betriebssysteme Workarounds, mit denen die Installation ordentlich ausgeführt werden kann.
 
 ### Windows 10
