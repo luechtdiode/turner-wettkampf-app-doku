@@ -1,3 +1,38 @@
+# Wettkampf Übersicht
+
+Die Wettkampf-Übersicht ist die zentrale Verwaltungsseite eines Wettkampfes in der [Admin-Web-App](webadmin.md). Sie wird geöffnet, indem in `Meine Wettkämpfe` auf den gewünschten Wettkampf geklickt wird:
+
+![](/assets/webadmin-overview.png)
+
+Im Kopf wird der Wettkampf mit Logo, Titel und Datum angezeigt. Darunter sind die Verwaltungsfunktionen gruppiert.
+
+## Verwaltung
+
+Über die Liste `Verwaltung` werden die einzelnen Bereiche des Wettkampfes geöffnet:
+
+* **Formulare (Notenerfassung)** – [Formular Templates für die Notenerfassung](formular_templates_fuer_notenerfassung.md)
+* **Anmeldungen** – [Turneranmeldungen online verarbeiten](turneranmeldungen/turneranmeldungen_verarbeiten_online.md)
+* **Riegeneinteilung** – [Riegeneinteilung erstellen](riegeneinteilung_erstellen/README.md)
+* **Wettkampf Drehbuch** – [Wettkampf Drehbuch](../wettkampf-durchfuhrung/drehbuch.md)
+* **Ranglisten** – [Ranglisten erstellen](../wettkampf-durchfuhrung/ranglisten_erstellen.md)
+
+## Links
+
+Unter `Links` werden die öffentlichen Links zum Wettkampf bereitgestellt, die z.B. auf der Wettkampf-Homepage hinterlegt werden können, so dass die Teilnehmenden online auf die aktuellsten Daten zugreifen können:
+
+* **Online-Anmeldung**: Öffnet die öffentliche Anmeldeseite. Zusätzlich wird ein QR-Code angezeigt, der auf dem Wettkampf-Platz ausgehängt werden kann.
+* **Live-Resultate**: Öffnet die Live-Ansicht mit den aktuell erfassten Resultaten. Auch hierfür wird ein QR-Code angezeigt.
+
+## Wettkampf
+
+* **Bearbeiten**: Öffnet die Anlegen-Maske mit den [Einstellungen zum Wettkampf](wettkampf_anlegen.md), die angepasst werden können.
+* **Backup als ZIP herunterladen**: Lädt eine Sicherung des Wettkampfes als ZIP-Datei herunter.
+* **Restore mit ZIP Backup hochladen**: Stellt einen Wettkampf aus einer ZIP-Datei wieder her.
+* **Wettkampf kopieren**: Legt eine Kopie des Wettkampfes mit derselben Parametrisierung an (siehe [Wettkampf kopieren](wettkampf_anlegen.md#wettkampf-kopieren)).
+* **Wettkampf löschen**: Entfernt den Wettkampf endgültig.
+
+# Übersicht in der Desktop-App
+
 # Übersicht der angemeldeten Vereine und Medallienbedarf
 
 Im Übersicht-Tab werden pro Verein, Programm/Kategorie und Geschlecht die Anmeldungen statistisch angezeigt. Hiermit lassen sich schnell Vollständigkeits-Kontrollen durchführen. Die Daten eignen sich auch als Basis für weitergehende Verarbeitungen wie z.B. für die Startgeld-Budgetierung.
@@ -51,7 +86,7 @@ Es werden weitere Links bereitgestellt, die z.B. auf der Wettkampf Homepage hint
 * Online Teilnehmerliste
 * Online Wettkampfresultate
 
-Die Links können nur verwendet werden, wenn der Wettkampf im Netz hochgeladen wurde. Die Teilnehmerliste ist nur dann befüllt, wenn bereits eine Riegeneinteilung mit Durchgängen erstellt wurde.
+Die Links können nur verwendet werden, wenn der Wettkampf im Netz bereitgestellt wurde (siehe [Wettkampf über das Internet bereitstellen](../wettkampf-durchfuhrung/wettkampf-netzwerk.md)).
 
 ## Darstellung exportieren
 

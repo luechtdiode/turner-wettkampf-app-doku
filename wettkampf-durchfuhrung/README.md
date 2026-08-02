@@ -4,6 +4,7 @@ Für die Durchführung eines Wettkampfes werden folgende Funktionsbereiche unter
 
 * [Wettkampf im Internet bereitstellen](wettkampf-netzwerk.md)
 * [Wettkampf im lokalen Netz bereitstellen](wettkampf-netzwerk-lokal.md)
+* [Wettkampf Drehbuch](drehbuch.md)
 * [Wettkampf-Modus einschalten](wettkampf-modus.md)
 * [Resultat-Erfassung mit Notenblätter](resultat-erfassung_mit_notenblatter.md)
 * [Resultat-Erfassung mit Riegen-Notenblätter](resultat-erfassung_mit_riegen-notenblatter.md)

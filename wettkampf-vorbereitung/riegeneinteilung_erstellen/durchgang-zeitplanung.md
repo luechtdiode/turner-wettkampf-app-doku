@@ -2,7 +2,13 @@
 
 Für die Planung der Durchgänge sind dessen Durchlaufzeiten entscheidend. Die App kann diese anhand vorgegebenen Zeit-Bestandteilen pro Programm/Kategorie und Gerät, sowie der momentan im Durchgang zugewiesenen Riegen-Grössen berechnen.
 
-Im `Planzeiten`-Tab \(1\) innerhalb der Riegeneinteilung lassen sich alle Zeitbestandteile auflisten, filtern \(6\) und bearbeiten \(7\):
+In der [Admin-Web-App](../webadmin.md) werden die berechneten Durchlaufzeiten (Einturnen, Gerät, Total) sowie die 
+einplanbaren Start-/Endzeiten direkt in der [Riegeneinteilung](README.md) angezeigt. Mit dem Zeit-Symbol lässt 
+sich die Startzeit eines Durchganges setzen (siehe [Setzen eines Durchgang Start-Zeitpunkts](#set-starttime)).
+Diese dort gesetzte Zeit kann zurückgesetzt werden, wenn zum Beispiel die Durchgänge neu generiert werden.
+
+Die Bearbeitung der Zeit-Bestandteile selber erfolgt in der Desktop-App im `Planzeiten`-Tab \(1\) innerhalb der 
+Riegeneinteilung. Dort lassen sich alle Zeitbestandteile auflisten, filtern \(6\) und bearbeiten \(7\):
 
 ![](/assets/planzeiten.png)
 

@@ -1,6 +1,11 @@
 # Wettkampf anlegen
 
-Ein Wettkampf wird mittels rechter Maustaste auf dem linken Menu "`Wettkämpfe`" und dem Befehl "`Wettkampf anlegen`" angelegt:
+In der [Admin-Web-App](../wettkampf-vorbereitung/webadmin.md) wird ein neuer Wettkampf unter `Meine Wettkämpfe` über 
+den Plus-Button angelegt. Die dabei erfassten Felder werden 
+in [Wettkampf anlegen](../wettkampf-vorbereitung/wettkampf_anlegen.md) beschrieben.
+
+In der Desktop-App wird ein Wettkampf mittels rechter Maustaste auf dem linken Menu "`Wettkämpfe`" und dem 
+Befehl "`Wettkampf anlegen`" angelegt:
 
 ![](/assets/wettkampf-anlegen.png)
 

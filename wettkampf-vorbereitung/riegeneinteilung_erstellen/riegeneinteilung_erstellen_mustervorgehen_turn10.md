@@ -9,8 +9,8 @@ Der Wettkampf muss vorgängig mit einem der Turn10-Programme angelegt worden sei
 ## Teilnehmer/-Innen in die Programme BS oder OS einteilen
 
 Es können die bereits dokumentierten Vorgehen gewählt werden, um Teilnehmer/-Innen in die Programme aufzunehmen:
-* [Turneranmeldungen offline verarbeiten](../wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
-* [Turneranmeldungen online verarbeiten](../wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
+* [Turneranmeldungen offline verarbeiten](../turneranmeldungen/turneranmeldungen_verarbeiten_offline.md)
+* [Turneranmeldungen online verarbeiten](../turneranmeldungen/turneranmeldungen_verarbeiten_online.md)
 
 
 ## Riegeneinteilung

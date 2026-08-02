@@ -1,8 +1,31 @@
 # Wettkampf über das Internet bereitstellen
 
-Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die darüber erfassten Resultate werden zunächst auf einem zentralen Server gespeichert und dann an die übrigen beteiligten Rechner aus dem Rechnungsbüro weiterverteilt. Auf den Rechner im Rechnungsbüro kann dann die Erfassung gesteuert, kontrolliert und korrigiert werden.
+Die Wettkampf-Resultate lassen sich via der Mobile-Browserapp erfassen. Die darüber erfassten Resultate werden zunächst
+auf einem zentralen Server gespeichert.
 
-## Schmatische Darstellung:
+Die neuen Resultate werden an alle online angeschlossenen Teilnehmer weiterverteilt. Dies sind mobile Web-Clients, aber
+auch die Desktop-App, die z.B. im Rechnungsbüro betrieben wird.
+
+## Wettkampf wurde über Desktop-App erstellt
+
+Der Wettkampf wird über das Internet bereitgestellt, sobald er in 
+der [Wettkampf-Übersicht](../wettkampf-vorbereitung/wettkampf_uebersicht.md) publiziert wurde.
+
+Auf den Rechner im Rechnungsbüro kann dann die Erfassung gesteuert, kontrolliert und korrigiert werden. Wenn die App
+mit dem Server online verbunden ist, werden alle Resultate auch in die Desktop-App repliziert.
+
+## Wettkampf wurde über Admin-Web-App erstellt
+
+Mit der Admin-Web-App wird der Wettkampf von Beginn weg im Server online gespeichert.
+
+Die Resultat-Erfassung über die Mobile-Browserapp wird über das [Drehbuch](drehbuch.md) mit dem QR-Code für 
+die Wertungs-Erfassung und über die Live-Resultate freigegeben. 
+
+Ein separater `Netzwerk-Dashboard` zum Bereitstellen und Stoppen des Wettkampfes ist dafür nicht nötig.
+
+Die folgenden Abschnitte beschreiben den **Netzwerk-Modus der Desktop-App**
+
+## Schmatische Darstellung
 
 ![](<../assets/network-usecase.png>)
 
@@ -140,7 +163,7 @@ Stoppt die Verbindung zum Netzwerk. Bei gestoppter Verbindung werden keine Resul
 
 ![](../assets/network-disconnect.png)
 
-## Wettkampf im Netzwerk entfernen <a href="#wettkampfnetzwerk-entfernen" id="wettkampfnetzwerk-entfernen"></a>
+## Wettkampf im Netzwerk entfernen <a href="#wettkampfnetzwerk-entfernen2" id="wettkampfnetzwerk-entfernen2"></a>
 
 Mit dieser Funktion wird der Wettkampf im Netzwerk entfernt und steht danach nicht mehr online zur Verfügung.
 

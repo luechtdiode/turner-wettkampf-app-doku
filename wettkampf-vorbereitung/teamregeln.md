@@ -2,11 +2,23 @@
 
 ## Erfassung der Team-Regel(n)
 
-Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf 
+Mit den Teamregeln lassen sich Regeln aufstellen, wie sich die Teams im Wettkampf
 zusammenstellen.
 
+###  Erfassung der Team-Regel(n) in der Admin-Web-App
+
+Die Regeln für die Teamzusammenstellung werden in der [Admin-Web-App](webadmin.md) in 
+der [Anlegen-/Bearbeiten-Maske](wettkampf_anlegen.md) unter `Team-Regel` erfasst oder bearbeitet. 
+Über den Editor-Button kann die Regel aus einer Liste von Vorgaben ausgewählt oder individuell zusammengestellt werden:
+
+![](/assets/webadmin-editor-teamregel.png)
+
+»Siehe auch: [Regel Syntax](#regel-syntax) für die individuelle Teamregel Definition
+
+###  Erfassung der Team-Regel(n) in der Desktop-App
+
 Die Regeln für die Teamzusammenstellung müssen im Wettkampf-Bearbeiten Dialog erfasst oder bearbeitet werden.
-»Siehe auch: [Wettkampf anlegen](../../stammdatenpflege/wettkampf_anlegen.md)
+»Siehe auch: [Wettkampf anlegen](../stammdatenpflege/wettkampf_anlegen.md)
 
 ![](/assets/team-define.png)
 

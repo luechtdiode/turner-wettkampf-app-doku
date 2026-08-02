@@ -22,6 +22,7 @@ Für den Workflow ohne Netzwerk \(herkömmlich via EMail, Excel etc.\) existiert
 
 ## Weiterführende Kapitel
 
+* [Admin-Web-App](webadmin.md)
 * [Wettkampf anlegen](wettkampf_anlegen.md)
   * [Startreihenfolge in den Geräte-Riegen](riegenrotation.md)
   * [Rangierung bei Punktegleichstand](punktgleichstand.md)

@@ -1,8 +1,14 @@
 # Details zu Durchgang neu einteilen
 
-|  |  |
-| :--- | :--- |
-| Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. Die nicht selektierten Durchgänge werden dabei nicht verändert. Im Dialog werden die neuen Parameter angegeben. Bisherige Geräte-Zuweisungen werden vorbelegt. | ![](/assets/getu-durchgang-partial-replanning-options.png) |
+Die selektierten Durchgänge können mit angepassten Parameter neu eingeteilt werden. Die nicht selektierten Durchgänge
+werden dabei nicht verändert. Bisherige Geräte-Zuweisungen werden vorbelegt.
+
+In der [Admin-Web-App](../webadmin.md) werden dazu in der [Riegeneinteilung](README.md) die gewünschten Durchgänge 
+selektiert und `Neu generieren` gewählt. Die Parameter entsprechen den Optionen der Einteilungs-Funktion.
+
+In der Desktop-App erscheint dazu folgender Dialog:
+
+![](/assets/getu-durchgang-partial-replanning-options.png)
 
 | Funktion | Beschreibung |
 | :--- | :--- |

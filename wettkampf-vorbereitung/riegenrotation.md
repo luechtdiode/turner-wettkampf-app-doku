@@ -6,6 +6,14 @@ Innerhalb des Wettkampfes ist eine Standard-Rotation sichergestellt, so dass von
 
 Bei mehreren Wettkämpfen, die in einer Saison geturnt werden, kann mit sogenannten Riegen Rotationsregeln sichergestellt werden, dass auch wettkampf-übergreifend eine Rotation stattfindet.
 
+Die Rotationsregel wird in der [Admin-Web-App](webadmin.md) in der [Anlegen-/Bearbeiten-Maske](wettkampf_anlegen.md) 
+unter `Riegen-Rotations-Regel` erfasst. Über den Editor-Button kann die Regel aus einer Liste von Vorgaben ausgewählt 
+oder individuell zusammengestellt werden:
+
+![](/assets/webadmin-editor-riegenrotationsregel.png)
+
+Der folgende Abschnitt beschreibt das Regelset und die Syntax der Rotationsregel.
+
 ## Bisherige Überlegungen
 
 Traditionell werden sogenannte Startnummern bei der Anmeldung vergeben. Diese können dann vom Organisator auf Wunsch oder im eigenen Ermessen ausgetauscht werden. Über die Startnummer wird dann die initiale Reihenfolge festgelegt. Dieser Ansatz kann sehr gut ohne EDV angewendet werden, ist jedoch nicht agil, wenn kurz vor dem Wettkampf Abmeldungen, Umteilungswünsche, Neuanmeldungen etc. berücksichtigt werden sollen. Bereits ausgedruckte Listen müssen von Hand korrigiert oder neu ausgedruckt werden.

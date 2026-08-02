@@ -10,8 +10,8 @@ Der Wettkampf muss vorgängig mit einem der TG Allgäu-Programme angelegt worden
 ## Teilnehmer/-Innen in die Programme von Pflicht und oder Kür einteilen
 
 Es können die bereits dokumentierten Vorgehen gewählt werden, um Teilnehmer/-Innen in die Programme aufzunehmen:
-* [Turneranmeldungen offline verarbeiten](../wettkampf_uebersicht/turneranmeldungen_verarbeiten_offline.md)
-* [Turneranmeldungen online verarbeiten](../wettkampf_uebersicht/turneranmeldungen_verarbeiten_online.md)
+* [Turneranmeldungen offline verarbeiten](../turneranmeldungen/turneranmeldungen_verarbeiten_offline.md)
+* [Turneranmeldungen online verarbeiten](../turneranmeldungen/turneranmeldungen_verarbeiten_online.md)
 
 
 ## Riegeneinteilung

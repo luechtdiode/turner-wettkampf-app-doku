@@ -2,6 +2,14 @@
 
 Wenn zwei mit dem gleichen End-Punktstand in der Rangliste aufgeführt werden, kann mittels Regeln definiert werden, wer in dem Fall vor dem anderen rangiert wird.
 
+Die Punktegleichstands-Regel wird in der [Admin-Web-App](webadmin.md) in 
+der [Anlegen-/Bearbeiten-Maske](wettkampf_anlegen.md) unter `Punktegleichstands-Regel` erfasst. 
+Über den Editor-Button kann die Regel aus einer Liste von Vorgaben ausgewählt oder individuell zusammengestellt werden:
+
+![](/assets/webadmin-editor-punktegleichstandsregel.png)
+
+Der folgende Abschnitt beschreibt das Regelset und die Syntax der Punktegleichstandsregel.
+
 ## Regelset
 
 ### Ohne (Punktegleichstand ist gleicher Rang)

@@ -3,6 +3,27 @@
 Wenn die normale Notenerfassung mit den möglichen Teilwerten A/D-Wert und B/E-Wert nicht ausreichen, können mit Hilfe von Templates
 Formulare für die Notenerfassung hinterlegt werden.
 
+## Bereitstellung in der Admin-Web-App
+
+Die Formulare werden in der [Admin-Web-App](webadmin.md) verwaltet. In der [Wettkampf-Übersicht](wettkampf_uebersicht.md) 
+unter `Verwaltung` → `Formulare (Notenerfassung)` werden die verfügbaren Formulare aufgelistet:
+
+![](/assets/webadmin-formulare.png)
+
+Mit `Neues Formular` wird ein neues Formular angelegt, mit dem Stift-Button ein bestehendes bearbeitet. Die Liste kann mit dem Suchfeld gefiltert werden. Formulare sind entweder `Global` (wettkampfübergreifend bereitgestellt) oder `Wettkampf`-spezifisch.
+
+Im Formular-Editor werden die drei Formeln für den A/D-Wert, den B/E-Wert und den Penalty-Wert erfasst. Die eingegebenen Formeln werden sofort validiert und in einem Vorschau-Formular zum Ausprobieren angezeigt:
+
+![](/assets/webadmin-formular-editor.png)
+
+### Hinweise
+
+1) Die in der Admin-Web-App gemachten Anpassungen werden nicht automatisch in die Datenbank der lokalen Desktop-App synchronisiert.
+Hierzu muss der Benutzer den Wettkampf vom Server herunterladen (via Netzwerk Dashboard der Desktop-App, oder via Backup download aus der 
+Admin-Web-App mit anschliessendem Import in der Desktop-App).
+2) Sollten bereits Wertungen zu einer Disziplin erfasst sein, zu welcher ein Formular gespeichert wurde, werden diese Wertungen
+zurückgesetzt. Diese Aktion sollte also nur in der Wettkampf-Vorbereitung genutzt werden.
+
 ## Notenerfassung in der lokalen Wettkampf-App
 
 ![](/assets/wk-formular-noteneingabe.png)

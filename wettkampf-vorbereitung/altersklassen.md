@@ -2,6 +2,14 @@
 
 Altersklassen sind ein Gruppierungs-Hilfsmittel sowohl für die Riegen-Zusammenstellung, als auch für die Ranglistenerstellung.
 
+Die Altersklassen-Regel und die Jahrgangs-Altersklassen-Regel werden in der [Admin-Web-App](webadmin.md) in 
+der [Anlegen-/Bearbeiten-Maske](wettkampf_anlegen.md) erfasst. Über den Editor-Button kann die Regel aus einer 
+Liste von Vorgaben (Presets) ausgewählt oder individuell zusammengestellt werden:
+
+![](/assets/webadmin-editor-altersklassen.png)
+
+Der folgende Abschnitt beschreibt die Verwendung und die Syntax der Altersklassen.
+
 ## Einteilung in Riege für die Durchgangsplanung
 
 Es können damit alle Teilnemher/-Innen einer Altersklasse in einer Riege im Durchgang eingeteilt werden. Dies ermöglicht die Planung, wie die Wertungs-/Kampfrichter aufgestellt werden müssen. Diese müssen dann jeweils alle einer Altersklasse bewerten, so dass es konsistente Bewertungungen geben kann.

@@ -2,7 +2,7 @@
 
 ## Benutzeranleitung
 
-_für die Version 2.3 der Turner Wettkampf App_
+_für die Version 2.4 der Turner Wettkampf App_
 
 ### Gitbook Link
 
