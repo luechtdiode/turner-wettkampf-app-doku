@@ -12,14 +12,13 @@ Befehl "`Wettkampf anlegen`" angelegt:
 Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
 
 ![](/assets/wettkampf-anlegen-dlg.png)
-
 1. Wettkampf-Datum, an dem der Wettkampf durchgeführt wird.
 2. Titel des Wettkampfs, ohne Datum, ev. mit Ortsangabe (z.B. GeTu-Regionalmeisterschaft Basel-Stadt)
 3. Art des Wettkampfs \(Programm\). Dies können folgende Wettkampfarten sein:
    * Geräteturn-Wettkampf (plus eine Variante BLTV mit Altersabgrenzungen in den Kategorien)
-   * [Turn10® Programme BS/OS](https://www.turn10.at/de/das-ist-turn10)
-      * Turn10®-Verein [Abbildung Turn10® Verein](https://www.turn10.at/de/vereine/regeln) für bis zu 7 Geräte (Geräte mit ausschliesslich M/W oder gemischt M+W Belegungsregeln)
-      * Turn10®-Schule [Abbildung Turn10® Schule](https://www.turn10.at/de/schulen/regeln2) für bis zu 5 Geräte (Barren/Balken mit ausschliesslicher M/W, Rest mit gemischt M+W Belegungungsregel)
+   * [Turn10® Programme BS/OS](https://www.turn10.eu)
+      * Turn10®-Verein für bis zu 7 Geräte (Geräte mit ausschliesslich M/W oder gemischt M+W Belegungsregeln)
+      * Turn10®-Schule für bis zu 5 Geräte (Barren/Balken mit ausschliesslicher M/W, Rest mit gemischt M+W Belegungungsregel)
    * Kunstturn-Wettkampf
       * KuTu-Wettakmpf für männliche Gerätebelegung
       * KuTuRi-Wettkampf für die weibliche Gerätebelegung
@@ -36,7 +35,7 @@ Dabei öffnet sich ein Dialog, in dem folgende Werte angegeben werden müssen:
      eines Mindest-Gerätedurchschnitts vergeben werden. 
    * Bei Geräte-Tests wird oft eine Auszeichnung vergeben, wenn mind. 7.5 Punkte im Gerätedurchschnitt erreicht werden.
 8. (optional) Altersklassen (Alter am Wettkampftag):
-   * [Turn10® (AK7-18,AK24,AK30-100/5)](https://www.turn10.at/de/vereine/regeln/docdown-4-NAw02AlwnzzQ)
+   * [Turn10®](https://www.turn10.eu)
    * [DTB Allgemein (AK6,AK18,AK22,AK25)](https://www.dtb.de/fileadmin/user_upload/dtb.de/Passwesen/Wettkampfordnung_DTB_2021.pdf)
    * [DTB Pflicht (AK8-9,AK11-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)
    * [DTB Kür (AK13-19/2)](https://www.dtb.de/fileadmin/user_upload/dtb.de/TURNEN/Standards/PDFs/Rahmentrainingskonzeption-GTm_inklAnlagen_19.11.2020.pdf)

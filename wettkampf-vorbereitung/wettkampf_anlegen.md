@@ -14,7 +14,7 @@ Folgende Werte werden dabei erfasst:
 3. **Logo** (optional): Es kann eine Bilddatei ausgewählt und wieder entfernt werden. Bevorzugt werden `svg`-Dateien, weil diese besser auf hochauflösenden Druckern dargestellt werden. Zu kleine Bilder können dadurch verpixelt dargestellt werden.
 4. **Programm** (Art des Wettkampfs):
    * Geräteturn-Wettkampf (plus eine Variante BLTV mit Altersabgrenzungen in den Kategorien)
-   * [Turn10® Programme BS/OS](https://www.turn10.at/de/das-ist-turn10)
+   * [Turn10® Programme BS/OS](https://www.turn10.eu)
      * Turn10®-Verein für bis zu 7 Geräte
      * Turn10®-Schule für bis zu 5 Geräte
    * Kunstturn-Wettkampf
