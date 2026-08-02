@@ -52,9 +52,11 @@ Pro Wettkampf werden Titel, Datum und die Wettkampf-UUID angezeigt. Mit dem Papi
 Die Admin-Web-App deckt die zentralen Verwaltungsaufgaben ab. Folgende Funktionen stehen weiterhin **nur in der Desktop-App** zur Verfügung:
 
 * Pflege der Stammdaten (Vereine, Turner/-Innen) – siehe [Stammdatenpflege](../stammdatenpflege/README.md)
+* Individuelle Riegen- Riege2- und Teamzuteilungen
+* Individuelle Zeiten pro Kategorie und Disziplin
 * [Notenblätter / Riegennotenblätter erstellen](notenblatter_riegennotenblatter_erstellen.md) (Druck)
 * [Wettkampf-Modus einschalten](../wettkampf-durchfuhrung/wettkampf-modus.md) und [Wettkampf im Netz bereitstellen](../wettkampf-durchfuhrung/wettkampf-netzwerk.md)
-* [Besten-Listen für die Durchsage nach Gerätewechsel](../wettkampf-durchfuhrung/besten-listen_fur_die_durchsage_nach_geratewechsel.md)
+* explizites Auslösten für die Erstellung der [Besten-Listen für die Durchsage nach Gerätewechsel](../wettkampf-durchfuhrung/besten-listen_fur_die_durchsage_nach_geratewechsel.md) (ist implizit in der Drehbuch-Ansicht implementiert, beim Gerätewechsel)
 * [Resultat-Analysen](../resultatanalysen/README.md)
 * [Bodenmusik katalogisieren](bodenmusik.md) und Bodenmusik-Player
 * CSV-/Excel-Import von Anmeldungen
