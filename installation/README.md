@@ -6,7 +6,7 @@ Mit der Version v2r4 der Turner Wettkampf App wird neu eine Admin-Web-App bereit
 Sie stellt die wichtigsten Funktionen für die Wettkampf-Vorbereitung und Durchführung bereit. 
 Sie ist über einen Web-Browser erreichbar und benötigt keine weitere lokale Installation.
 
-Aktuell ist die Admin-Web-App über folgenden Link erreichbar: [Admin-Web-App](https://kutuapp-test.sharevic.net/admin)
+Aktuell ist die Admin-Web-App über folgenden Link erreichbar: [Admin-Web-App](https://test-kutuapp.sharevic.net/admin)
 Es ist auch möglich, von einem Wettkampf in der lokalen Desktop-App direkt auf die Admin-Web-App zu wechseln. 
 
 ## Desktop-App (offline & online Benutzung)

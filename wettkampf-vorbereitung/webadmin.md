@@ -8,26 +8,21 @@ Für Funktionen, welche die Admin-Web-App nicht abdeckt, kommt die [Desktop-App]
 
 Die Admin-Web-App wird über die Web-Adresse des zentralen Servers aufgerufen, zum Beispiel:
 
-* Test-Umgebung: `https://kutuapp-test.sharevic.net`
-* Produktions-Umgebung: `https://kutuapp.sharevic.net`
+* Test-Umgebung: `https://test-kutuapp.sharevic.net`
+* Produktions-Umgebung: `https://kutuapp.sharevic.net` (noch nicht installiert)
 
 Der Admin-Bereich wird über den URL-Pfad `admin` aktiviert. Die Adresse lautet damit:
 
 ```
-https://kutuapp-test.sharevic.net/admin
+https://test-kutuapp.sharevic.net/admin
 ```
 
 Der Admin-Modus kann zusätzlich mit dem Abfrage-Parameter `?admin=true` erzwungen werden. Solange der Admin-Modus aktiv ist, erscheinen im Menu die Einträge `Meine Wettkämpfe`, `Neuer Wettkampf` und `Sicherheit`.
 
 ## Anmelden mit einem Admin-Secret
 
-Der Zugriff auf einen Wettkampf als Administrator/-In erfolgt über ein **Admin-Secret**. Dieses Secret erhält man von dem Gerät, auf dem der Wettkampf ursprünglich angelegt wurde, oder aus einer Sicherung des Wettkampfes. Es wird über eine URL, einen QR-Code oder per E-Mail weitergegeben.
-
-Der tief verlinkte Admin-Zugang ist als base64-codierter Query-Parameter aufgebaut:
-
-```
-https://kutuapp-test.sharevic.net/?<base64("admin&uuid=<Wettkampf-UUID>&secret=<Admin-Secret>")>
-```
+Der Zugriff auf einen bereits existierenden Wettkampf als Administrator/-In erfolgt über ein **Admin-Secret**. Dieses Secret erhält man von dem Gerät, 
+auf dem der Wettkampf ursprünglich angelegt wurde, oder aus einer Sicherung des Wettkampfes.
 
 Beim ersten Aufruf wird das Secret im Browser gespeichert (`localStorage`). Danach erscheint der Wettkampf unter `Meine Wettkämpfe` in der Admin-Web-App, ohne dass der Link erneut aufgerufen werden muss.
 
