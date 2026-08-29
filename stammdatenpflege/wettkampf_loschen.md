@@ -1,7 +1,6 @@
 # Wettkampf löschen
 
-In der [Admin-Web-App](../wettkampf-vorbereitung/webadmin.md) wird der Wettkampf über die [Wettkampf-Übersicht](../wettkampf-vorbereitung/wettkampf_uebersicht.md) unter `Wettkampf` → `Wettkampf löschen` entfernt. 
-Der Wettkampf wird erst nach einer Sicherheits-Abfrage mit all seinen Resultaten gelöscht.
+In der [Admin-Web-App](../wettkampf-vorbereitung/webadmin.md) wird der Wettkampf über die [Wettkampf-Übersicht](../wettkampf-vorbereitung/wettkampf_uebersicht.md) unter `Wettkampf` → `Wettkampf löschen` entfernt. Dort kann gewählt werden, ob der Eintrag **nur aus der Liste entfernt** oder **auch mit allen Daten unwiderruflich vom Server gelöscht** werden soll – siehe [Wettkampf löschen](../wettkampf-vorbereitung/wettkampf_uebersicht.md#wettkampf-löschen).
 
 In der Desktop-App wird mit der rechten Maustaste auf den Wettkampf geklickt, der gelöscht werden soll. 
 Danach im PopUp-Menu den Befehl "`Wettkampf löschen`" wählen:

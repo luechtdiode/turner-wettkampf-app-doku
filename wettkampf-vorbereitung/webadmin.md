@@ -17,7 +17,7 @@ Der Admin-Bereich wird über den URL-Pfad `admin` aktiviert. Die Adresse lautet 
 https://test-kutuapp.sharevic.net/admin
 ```
 
-Der Admin-Modus kann zusätzlich mit dem Abfrage-Parameter `?admin=true` erzwungen werden. Solange der Admin-Modus aktiv ist, erscheinen im Menu die Einträge `Meine Wettkämpfe`, `Neuer Wettkampf` und `Sicherheit`.
+Der Admin-Modus kann zusätzlich mit dem Abfrage-Parameter `?admin=true` erzwungen werden. Solange der Admin-Modus aktiv ist, erscheinen im Menu die Einträge `Meine Wettkämpfe` und `Neuer Wettkampf`.
 
 ## Anmelden mit einem Admin-Secret
 
@@ -25,6 +25,8 @@ Der Zugriff auf einen bereits existierenden Wettkampf als Administrator/-In erfo
 auf dem der Wettkampf ursprünglich angelegt wurde, oder aus einer Sicherung des Wettkampfes.
 
 Beim ersten Aufruf wird das Secret im Browser gespeichert (`localStorage`). Danach erscheint der Wettkampf unter `Meine Wettkämpfe` in der Admin-Web-App, ohne dass der Link erneut aufgerufen werden muss.
+
+Ein somit initial angelegtes Admin-Secret z.B. bei der Neuanlage eines Wettkampfes ist **zeitlich unbegrenzt gültig**. Beim [Übertragen des Admin-Zugangs](wettkampf_uebersicht.md#admin-zugang-übertragen) kann die Gültigkeitsdauer des ausgegebenen Links festgelegt werden. Abgelaufene Secrets (bzw. die zugehörigen Wettkämpfe) werden automatisch aus `Meine Wettkämpfe` entfernt, sobald sie geladen werden. Ein betroffener Wettkampf kann jederzeit über einen neu ausgestellten admin-access Link wieder hinzugefügt werden.
 
 ## Meine Wettkämpfe
 
@@ -34,13 +36,7 @@ Unter `Meine Wettkämpfe` werden alle Wettkämpfe aufgelistet, für die ein Admi
 
 Mit dem Plus-Button unten rechts wird ein [neuer Wettkampf angelegt](wettkampf_anlegen.md). Mit dem Upload-Button in der Kopfzeile kann ein ZIP-Backup importiert werden. Ein Klick auf einen Wettkampf öffnet die [Wettkampf-Übersicht](wettkampf_uebersicht.md) mit den Verwaltungsfunktionen.
 
-## Sicherheit
-
-Auf der Seite `Sicherheit` werden alle im Browser gespeicherten Wettkampf-Secrets aufgelistet:
-
-![](/assets/webadmin-sicherheit.png)
-
-Pro Wettkampf werden Titel, Datum und die Wettkampf-UUID angezeigt. Mit dem Papierkorb-Button wird das Secret aus dem Browser entfernt. Damit wird der Zugriff auf den betreffenden Wettkampf in der Admin-Web-App auf diesem Gerät beendet.
+Über `Wettkampf` → `Wettkampf löschen` in der [Wettkampf-Übersicht](wettkampf_uebersicht.md) kann ein Wettkampf aus der Liste entfernt oder vollständig vom Server gelöscht werden – siehe [Wettkampf löschen](wettkampf_uebersicht.md#wettkampf-löschen).
 
 ## Wann braucht es die Desktop-App?
 
