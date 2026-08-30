@@ -95,10 +95,23 @@ _Syntax_: `<Regel1>[/<Regel2>/ ...]`.
 
 Formel: `Disziplin(Schaukelringe,Sprung,Reck)`
 
-#### KuTu Standardregel
+#### KuTu regionale Standardregel
 
 Formel: `E-Note-Summe/D-Note-Summe/JugendVorAlter`
 
-#### KuTu STV Standardregel
+#### KuTu STV resp. FIG Standardregel
 
-* `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)` Diese Kombination entspricht der [Ex-aequo Regelung des STV](https://www.stv-fsg.ch/fileadmin/user_upload/stvfsgch/Sportarten/Kunstturnen/Weisungen_und_Reglemente/si_Reglement_ex-aequo_kutu_CD_2019_08_df.pdf)
+Formel: `StreichWertungen(Endnote,Min)/StreichWertungen(E-Note,Min)/StreichWertungen(D-Note,Min)`
+
+Auf nationaler Ebene greift das **Ex-aequo Reglement Kunstturnen** des Schweizerischen Turnverbandes (STV). Dieses Reglement ist rechtlich eng an die offiziellen Wettkampfvorschriften gebunden.
+
+* **Rechtliche Verankerung:** Gemäss den [STV-Wettkampfvorschriften Kunstturnen (Art. 2.8)](https://stv-fsg.ch) gilt das separate Ex-aequo-Spezialreglement für alle Klassierungen an nationalen Wettkämpfen.
+* **Verfügbarkeit:** Das eigenständige *Ex-aequo Reglement Kunstturnen* wird vom Verband im geschützten Downloadbereich verwaltet. Die jeweils aktuellen übergeordneten Bestimmungen und Selektionskonzepte sind permanent über die öffentliche Landingpage [STV Reglemente & Selektionskonzepte Kunstturnen](https://stv-fsg.ch) einsehbar.
+
+##### Internationale Regelung (FIG)
+Für die mathematische Auflösung von Gleichständen (Tie-Breaking) bei Elite-Wettkämpfen und übergeordneten Qualifikationen orientiert sich der STV an den offiziellen, öffentlich zugänglichen Vorgaben des Weltverbandes.
+
+* **Grundlage:** Die exakten Kriterien zur Bereinigung von Punktegleichheiten im Mehrkampf, an Einzelgeräten sowie im Teamfinale sind in den **Technical Regulations der FIG (Section 2, Art. 7: Tie-Breaking Rules)** definiert.
+* **Hierarchie (Kurzform):** In der Regel entscheidet bei Einzelgeräten die höhere Ausführungsnote (E-Score) vor der Schwierigkeitsnote (D-Score). Im Mehrkampf werden kaskadierende Streichresultate der schlechtesten Geräte-Endnoten angewendet.
+* **Referenz:** Das jeweils aktuell gültige, vollständige Regelwerk des Weltverbandes ist barrierefrei über das [FIG Rules Portal](https://gymnastics.sport) (Dokument: *Technical Regulations*) abrufbar.
+
