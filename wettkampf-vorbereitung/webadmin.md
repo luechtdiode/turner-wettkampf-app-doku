@@ -15,6 +15,7 @@ Der Admin-Bereich wird über den URL-Pfad `admin` aktiviert. Die Adresse lautet 
 
 ```
 https://test-kutuapp.sharevic.net/admin
+https://kutuapp.sharevic.net/admin
 ```
 
 Der Admin-Modus kann zusätzlich mit dem Abfrage-Parameter `?admin=true` erzwungen werden. Solange der Admin-Modus aktiv ist, erscheinen im Menu die Einträge `Meine Wettkämpfe` und `Neuer Wettkampf`.
